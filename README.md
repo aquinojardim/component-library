@@ -95,7 +95,7 @@ Don't forget to add the component to your `index.ts` exports if you want the lib
 ### Installing Component Library Locally
 
 ```
-npm i --save ../component-library
+npm i --save ../@gabrielajardimaquino/component-library
 ```
 Should show:
 

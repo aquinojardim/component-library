@@ -1,4 +1,6 @@
 # Component Library
+
+## Description
 This project features:
 
 - [Rollup](https://github.com/rollup/rollup)
@@ -7,21 +9,48 @@ This project features:
 - [Storybook](https://storybook.js.org/) to help you create and show off your components
 - [Jest](https://jestjs.io/) and [React Testing Library](https://github.com/testing-library/react-testing-library) enabling testing of the components
 
-## Development
-
-### Testing
-
-```
-npm run test
+## First time setup
+- #### Clone the repo
+```bash
+git clone https://github.com/fashionphile/cc-web-checkout.git
 ```
 
-### Building
+- #### Install NVM 
+```bash
+curl -o- 
+https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+```
+
+###### To test if nvm is install
+```bash
+command -v nvm
+# Should answer: nvm
+```
+
+###### Switch your node version to 14.13.0
+```bash
+nvm install 14.13.0
+```
+
+- #### Install Dependences 
+```bash
+npm install
+```
+
+## Running
+- #### Change node to v14.13.0
+```bash
+nvm use 14.13.0
+# Should answer: Now using node v14.13.0 (npm v6.14.8)
+```
+
+- #### Building
 
 ```
 npm run build
 ```
 
-### Storybook
+- #### Storybook
 
 To run a live-reload Storybook server on your local machine:
 
@@ -34,7 +63,11 @@ To export your Storybook as static files:
 ```
 npm run storybook:export
 ```
+- #### Testing
 
+```
+npm run test
+```
 ### Generating New Components
 
 This project included a handy NodeJS util file under `util` called `create-component.js`. Instead of copy pasting components to create a new component, you can instead run this command to generate all the files you need to start building out a new component. To use it:
@@ -108,15 +141,15 @@ export default App;
 
 It's helpful to export SASS variables to projects consuming the library. As such, I've added the `rollup-plugin-copy` NPM package and used it to copy the `typography.scss` and `variables.scss` into the `build` directory as part of the Rollup bundle process. This allows you to use these variables in your projects consuming the component library.
 
-For example, let's say you installed `harvey-component-library` into your project. To use the exported variables/mixins, in a SASS file you would do the following:
+For example, let's say you installed `omponent-library` into your project. To use the exported variables/mixins, in a SASS file you would do the following:
 
 ```Sass
-@import '~harvey-component-library/build/typography';
+@import '~@gabrielajardimaquino/component-library/build/typography';
 
 .example-container {
-    @include heading;
+    font-family: 'MetropolisBold';
 
-    color: $harvey-white;
+    color: $color-white;
 }
 ```
 
@@ -143,10 +176,6 @@ postcss({
 })
 ```
 
-#### Styled Components
-
-If you want to use [`styled-components`](https://styled-components.com/), the changes required are a bit more involved. As such, I've created a branch where I've got `styled-components` working in this component library, [check it out here](https://github.com/HarveyD/react-component-library/tree/styled-components).
-
 ### Component Code Splitting
 
 Code splitting of your components is not supported by default.
@@ -154,7 +183,7 @@ Code splitting of your components is not supported by default.
 [Read this section of my blog post](https://blog.harveydelaney.com/creating-your-own-react-component-library/#introducing-code-splitting-optional-) to find out how and why you would enable code splitting of your components. In summary, code splitting enables users to import components in isolation like:
 
 ```
-import TestComponent from 'harvey-component-library/build/TestComponent';
+import Button from '~@gabrielajardimaquinocomponent-library/build/Button';
 ```
 
 This can reduce the bundle size for projects using older (CJS) module formats.

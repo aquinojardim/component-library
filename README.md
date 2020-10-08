@@ -12,7 +12,7 @@ This project features:
 ## First time setup
 - #### Clone the repo
 ```bash
-git clone https://github.com/fashionphile/cc-web-checkout.git
+git clone https://github.com/fashionphile/ComponentLibrary.git
 ```
 
 - #### Install NVM 

@@ -108,15 +108,15 @@ export default App;
 
 It's helpful to export SASS variables to projects consuming the library. As such, I've added the `rollup-plugin-copy` NPM package and used it to copy the `typography.scss` and `variables.scss` into the `build` directory as part of the Rollup bundle process. This allows you to use these variables in your projects consuming the component library.
 
-For example, let's say you installed `harvey-component-library` into your project. To use the exported variables/mixins, in a SASS file you would do the following:
+For example, let's say you installed `omponent-library` into your project. To use the exported variables/mixins, in a SASS file you would do the following:
 
 ```Sass
-@import '~harvey-component-library/build/typography';
+@import '~@gabrielajardimaquino/component-library/build/typography';
 
 .example-container {
-    @include heading;
+    font-family: 'MetropolisBold';
 
-    color: $harvey-white;
+    color: $color-white;
 }
 ```
 
@@ -143,10 +143,6 @@ postcss({
 })
 ```
 
-#### Styled Components
-
-If you want to use [`styled-components`](https://styled-components.com/), the changes required are a bit more involved. As such, I've created a branch where I've got `styled-components` working in this component library, [check it out here](https://github.com/HarveyD/react-component-library/tree/styled-components).
-
 ### Component Code Splitting
 
 Code splitting of your components is not supported by default.
@@ -154,7 +150,7 @@ Code splitting of your components is not supported by default.
 [Read this section of my blog post](https://blog.harveydelaney.com/creating-your-own-react-component-library/#introducing-code-splitting-optional-) to find out how and why you would enable code splitting of your components. In summary, code splitting enables users to import components in isolation like:
 
 ```
-import TestComponent from 'harvey-component-library/build/TestComponent';
+import Button from '~@gabrielajardimaquinocomponent-library/build/Button';
 ```
 
 This can reduce the bundle size for projects using older (CJS) module formats.

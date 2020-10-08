@@ -103,7 +103,7 @@ Should show:
   ...
   "dependencies": {
     ...
-    "component-library": "file:../component-library",
+    "component-library": "file:../@gabrielajardimaquino/component-library",
     ...
   },
   ...
@@ -125,7 +125,7 @@ Usage of the component (after the library installed as a dependency into another
 
 ```TSX
 import React from "react";
-import { Button } from "component-library";
+import { Button } from "@gabrielajardimaquino/component-library";
 
 const App = () => (
   <div className="app-container">
@@ -183,7 +183,7 @@ Code splitting of your components is not supported by default.
 [Read this section of my blog post](https://blog.harveydelaney.com/creating-your-own-react-component-library/#introducing-code-splitting-optional-) to find out how and why you would enable code splitting of your components. In summary, code splitting enables users to import components in isolation like:
 
 ```
-import Button from '~@gabrielajardimaquinocomponent-library/build/Button';
+import Button from '~@gabrielajardimaquino/component-library/build/Button';
 ```
 
 This can reduce the bundle size for projects using older (CJS) module formats.

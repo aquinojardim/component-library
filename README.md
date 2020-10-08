@@ -1,4 +1,6 @@
 # Component Library
+
+## Description
 This project features:
 
 - [Rollup](https://github.com/rollup/rollup)
@@ -7,21 +9,48 @@ This project features:
 - [Storybook](https://storybook.js.org/) to help you create and show off your components
 - [Jest](https://jestjs.io/) and [React Testing Library](https://github.com/testing-library/react-testing-library) enabling testing of the components
 
-## Development
-
-### Testing
-
-```
-npm run test
+## First time setup
+- #### Clone the repo
+```bash
+git clone https://github.com/fashionphile/cc-web-checkout.git
 ```
 
-### Building
+- #### Install NVM 
+```bash
+curl -o- 
+https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+```
+
+###### To test if nvm is install
+```bash
+command -v nvm
+# Should answer: nvm
+```
+
+###### Switch your node version to 14.13.0
+```bash
+nvm install 14.13.0
+```
+
+- #### Install Dependences 
+```bash
+npm install
+```
+
+## Running
+- #### Change node to v14.13.0
+```bash
+nvm use 14.13.0
+# Should answer: Now using node v14.13.0 (npm v6.14.8)
+```
+
+- #### Building
 
 ```
 npm run build
 ```
 
-### Storybook
+- #### Storybook
 
 To run a live-reload Storybook server on your local machine:
 
@@ -34,7 +63,11 @@ To export your Storybook as static files:
 ```
 npm run storybook:export
 ```
+- #### Testing
 
+```
+npm run test
+```
 ### Generating New Components
 
 This project included a handy NodeJS util file under `util` called `create-component.js`. Instead of copy pasting components to create a new component, you can instead run this command to generate all the files you need to start building out a new component. To use it:

@@ -1,0 +1,112 @@
+@import "../../colors.scss";
+@import "../../typography.scss";
+@import "../../padding.scss";
+
+.button {
+  font-family: 'MetropolisSemiBold';
+  min-width: fit-content;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.8681rem;
+  line-height: 1.1875rem;
+  letter-spacing: 0.2168rem;
+  text-transform: uppercase;
+  align-content: center;
+  margin: $padding-sm;
+
+  &:focus { outline:0 }
+  
+  &.lg {
+    padding: $padding-sm $padding-lg;
+  }
+
+  &.sm {
+    padding: $padding-xs $padding-sm;
+  }
+
+  &.primary-on {
+    background-color: $color-black;
+    border: 0.0625rem solid $color-black;
+    color: $color-white;
+    &:hover {
+      background-color: $color-grey-7;
+      border: 0.0625rem solid $color-grey-7;
+      text-decoration-line: underline;
+    }
+  }
+
+  &.primary-off {
+    background-color: $color-grey-7;
+    border: 0.0625rem solid $color-grey-7;
+    color: $color-grey-5;
+    cursor: not-allowed;
+  }
+
+  &.secondary-on {
+    background-color: none;
+    border: none;
+    color: $color-black;
+    &:hover {
+      background-color: $color-blue;
+      text-decoration-line: underline;
+    }
+  }
+
+  &.secondary-off {
+    background-color: none;
+    border: none;
+    color: $color-grey-5;
+    cursor: not-allowed;
+  }
+
+  &.pink-on {
+    background-color: $color-pink;
+    border: 0.0625rem solid $color-pink;
+    color: $color-white;
+    &:hover {
+      text-decoration-line: underline;
+    }
+  }
+
+  &.pink-off {
+    background-color: $color-pink-light;
+    border: 0.0625rem solid $color-pink-light;
+    color: $color-grey-7;
+    cursor: not-allowed;
+  }
+
+  &.ghost-black-on {
+    background-color: none;
+    border: 0.0625rem solid $color-black;
+    color: $color-black;
+    &:hover {
+      background-color: $color-black;
+      color: $color-white;
+      text-decoration-line: underline;
+    }
+  }
+
+  &.ghost-black-off {
+    background-color: none;
+    border: 0.0625rem solid $color-grey-7;
+    color: $color-grey-7;
+    cursor: not-allowed;
+  }
+
+  &.ghost-white-on {
+    background-color: none;
+    border: 0.0625rem solid $color-white;
+    color: $color-white;
+    &:hover {
+      color: $color-black;
+      text-decoration-line: underline;
+    }
+  }
+
+  &.ghost-white-off {
+    background-color: none;
+    border: 0.0625rem solid $color-grey-7;
+    color: $color-grey-7;
+    cursor: not-allowed;
+  }
+}

@@ -1,4 +1,3 @@
-import "fontsource-metropolis/latin-ext.css";
-import TestComponent from "./TestComponent/TestComponent";
+import Button from "./button/Button";
 
-export { TestComponent };
+export { Button };

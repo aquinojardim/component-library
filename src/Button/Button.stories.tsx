@@ -37,10 +37,10 @@ export const GhostBlackSmall = () => <Button theme="ghost-black" size="sm"/>;
 
 export const GhostBlackSmallDisable = () => <Button theme="ghost-black" size="sm" status="off"/>;
 
-export const GhostWhiteLarge = () => <Button theme="ghost-white" />;
+export const GhostWhiteLarge = () => <div style={{backgroundColor:"black", height:"1000px", margin:'-10px', padding:'10px'}} ><Button theme="ghost-white" /></div>;
 
-export const GhostWhiteLargeDisable = () => <Button theme="ghost-white" status="off"/>;
+export const GhostWhiteLargeDisable = () => <div style={{backgroundColor:"black", height:"1000px", margin:'-10px', padding:'10px'}} ><Button theme="ghost-white" status="off"/></div>;
 
-export const GhostWhiteSmall = () => <Button theme="ghost-white" size="sm"/>;
+export const GhostWhiteSmall = () => <div style={{backgroundColor:"black", height:"1000px", margin:'-10px', padding:'10px'}} ><Button theme="ghost-white" size="sm"/></div>;
 
-export const GhostWhiteSmallDisable = () => <Button theme="ghost-white" size="sm" status="off"/>;
+export const GhostWhiteSmallDisable = () => <div style={{backgroundColor:"black", height:"1000px", margin:'-10px', padding:'10px'}} ><Button theme="ghost-white" size="sm" status="off"/></div>;

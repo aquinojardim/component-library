@@ -22,7 +22,11 @@
 
 ## Usage
 
-Usage of the component (after the library installed as a dependency into another project) will be:
+```
+npm install @gabrielajardimaquino/component-library
+```
+
+Using a component (after the library installed as a dependency):
 
 ```TSX
 import React from "react";

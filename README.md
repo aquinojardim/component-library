@@ -1,24 +1,24 @@
 # Component Library
 ## Components
 - ## Button
-###### Optional Props
-######   - aria = 'any string'
-######   - content = 'any string'
-######   - onPress = any function ( for best performance: useCallback )
-######   - size = 'lg' | 'sm'
-######   - status = 'on' | 'off'
-######   - theme = 'primary' | 'secondary' | 'pink' | 'ghost-black' | 'ghost-white'
-######   - width = 'any unit in string format'
+###### Optional Props:
+######   aria = 'any string'
+######   content = 'any string'
+######   onPress = any function ( for best performance: useCallback )
+######   size = 'lg' | 'sm'
+######   status = 'on' | 'off'
+######   theme = 'primary' | 'secondary' | 'pink' | 'ghost-black' | 'ghost-white'
+######   width = 'any unit in string format'
 - ## Icon
-###### Optional Props
-######   - size = 57 | 72 | 76 | 114 | 120 | 144 | 152 | 180
-######   - theme = 'primary' | 'secondary' | 'pink' | 'black'
-######   - precomposed = boolean ( true | false )
+###### Optional Props:
+######   size = 57 | 72 | 76 | 114 | 120 | 144 | 152 | 180
+######   theme = 'primary' | 'secondary' | 'pink' | 'black'
+######   precomposed = boolean ( true | false )
 ###### ( favicon.ico is also avaliable in the icon folder )
 - ## Logo
-###### Optional Props
-######   - theme = 'primary' | 'secondary' | 'pink' | 'black'
-######   - width = 'any unit in string format'
+###### Optional Props:
+######   theme = 'primary' | 'secondary' | 'pink' | 'black'
+######   width = 'any unit in string format'
 
 ## Description
 This project features:

@@ -1,6 +1,6 @@
 {
   "name": "@gabrielajardimaquino/component-library",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "build/index.js",
   "module": "build/index.esm.js",
@@ -36,6 +36,7 @@
     "@rollup/plugin-commonjs": "^11.1.0",
     "@rollup/plugin-node-resolve": "^7.1.3",
     "@storybook/react": "^5.3.19",
+    "@svgr/rollup": "^5.4.0",
     "@testing-library/jest-dom": "^5.5.0",
     "@testing-library/react": "^10.0.2",
     "@types/jest": "^24.0.24",

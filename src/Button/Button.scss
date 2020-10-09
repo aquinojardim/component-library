@@ -3,10 +3,9 @@
 @import "../padding.scss";
 
 .button {
-  font-family: 'MetropolisSemiBold';
+  @include MetropolisSemiBold;
   min-width: fit-content;
   text-align: center;
-  font-weight: 600;
   font-size: 0.8681rem;
   line-height: 1.1875rem;
   letter-spacing: 0.2168rem;

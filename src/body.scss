@@ -1,37 +1,37 @@
-@import "./typography.scss";
+@import "./font.scss";
 
 .body-xxl {
-  font-family: MetropolisLight;
+  @include MetropolisLight;
   font-size: 1.35rem;
   line-height: 2.3125rem;
 }
 
 .body-xl {
-  font-family: MetropolisLight;
+  @include MetropolisLight;
   font-size: 1.125rem;
   line-height: 1.9375rem;
 }
 
 .body-lg {
-  font-family: MetropolisLight;
+  @include MetropolisLight;
   font-size: 0.9375rem;
   line-height: 1.5625rem;
 }
 
 .body-md {
-  font-family: MetropolisLight;
+  @include MetropolisLight;
   font-size: 0.78125rem;
   line-height: 1.3125rem;
 }
 
 .body-sm {
-  font-family: MetropolisLight;
+  @include MetropolisLight;
   font-size: 0.64125rem;
   line-height: 1.125rem;
 }
 
 .body-xs {
-  font-family: MetropolisLight;
+  @include MetropolisLight;
   font-size: 0.5425rem;
   line-height: 0.9375rem;
 }

@@ -1,36 +1,36 @@
-@import "./font.scss";
+@import "./typography.scss";
 
-.body-xxl {
+@mixin body-xxl {
   @include MetropolisLight;
   font-size: 1.35rem;
   line-height: 2.3125rem;
 }
 
-.body-xl {
+@mixin body-xl {
   @include MetropolisLight;
   font-size: 1.125rem;
   line-height: 1.9375rem;
 }
 
-.body-lg {
+@mixin body-lg {
   @include MetropolisLight;
   font-size: 0.9375rem;
   line-height: 1.5625rem;
 }
 
-.body-md {
+@mixin body-md {
   @include MetropolisLight;
   font-size: 0.78125rem;
   line-height: 1.3125rem;
 }
 
-.body-sm {
+@mixin body-sm {
   @include MetropolisLight;
   font-size: 0.64125rem;
   line-height: 1.125rem;
 }
 
-.body-xs {
+@mixin body-xs {
   @include MetropolisLight;
   font-size: 0.5425rem;
   line-height: 0.9375rem;

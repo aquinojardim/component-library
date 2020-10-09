@@ -20,6 +20,24 @@
 ######   theme = 'primary' | 'secondary' | 'pink' | 'black'
 ######   width = 'any unit in string format'
 
+## Usage
+
+Usage of the component (after the library installed as a dependency into another project) will be:
+
+```TSX
+import React from "react";
+import { Button } from "@gabrielajardimaquino/component-library";
+
+const App = () => (
+  <div className="app-container">
+    <h1>Hello I'm consuming the component library</h1>
+    <Button theme="primary" />
+  </div>
+);
+
+export default App;
+```
+# Development
 ## Description
 This project features:
 
@@ -138,21 +156,3 @@ npm publish
 ```
 
 The `"prepublishOnly": "npm run build"` script in `package.json` will execute before publish occurs, ensuring the `build/` directory and the compiled component library exist.
-
-## Usage
-
-Usage of the component (after the library installed as a dependency into another project) will be:
-
-```TSX
-import React from "react";
-import { Button } from "@gabrielajardimaquino/component-library";
-
-const App = () => (
-  <div className="app-container">
-    <h1>Hello I'm consuming the component library</h1>
-    <Button theme="primary" />
-  </div>
-);
-
-export default App;
-```

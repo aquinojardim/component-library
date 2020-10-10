@@ -30,9 +30,24 @@ export default {
     copy({
       targets: [
         {
+          src: "src/body.scss",
+          dest: "build",
+          rename: "body.scss"
+        },
+        {
+          src: "src/classes.scss",
+          dest: "build",
+          rename: "classes.scss"
+        },
+        {
           src: "src/colors.scss",
           dest: "build",
           rename: "colors.scss"
+        },
+        {
+          src: "src/header.scss",
+          dest: "build",
+          rename: "header.scss"
         },
         {
           src: "src/padding.scss",
@@ -40,19 +55,14 @@ export default {
           rename: "padding.scss"
         },
         {
+          src: "src/tags.scss",
+          dest: "build",
+          rename: "tags.scss"
+        },
+        {
           src: "src/typography.scss",
           dest: "build",
           rename: "typography.scss"
-        },
-        {
-          src: "src/body.scss",
-          dest: "build",
-          rename: "body.scss"
-        },
-        {
-          src: "src/header.scss",
-          dest: "build",
-          rename: "header.scss"
         }
       ]
     })

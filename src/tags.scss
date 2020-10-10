@@ -1,0 +1,60 @@
+@import "./colors.scss";
+@import "./padding.scss";
+@import "./header.scss";
+
+html,
+body {
+  @include body-lg;
+  padding: $padding-sm;
+}
+
+h1 {
+  @include h1-desktop;
+  @media (max-width: 576px) {
+    @include h1-mobile;
+  }
+}
+
+h2 {
+  @include h2-desktop;
+  @media (max-width: 576px) {
+    @include h2-mobile;
+  }
+}
+
+h3 {
+  @include h3-desktop;
+  @media (max-width: 576px) {
+    @include h3-mobile;
+  }
+}
+
+h4 {
+  @include h4-desktop;
+  @media (max-width: 576px) {
+    @include h4-mobile;
+  }
+}
+
+h5 {
+  @include h5-desktop;
+  @media (max-width: 576px) {
+    @include h5-mobile;
+  }
+}
+
+h6 {
+  @include h6-desktop;
+  @media (max-width: 576px) {
+    @include h6-mobile;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  a:hover {
+    text-decoration: none;
+    color: $color-pink;
+  }
+}

@@ -1,0 +1,52 @@
+@import "./body.scss";
+@import "./header.scss";
+
+
+.h1-largest {
+  @include h1-largest;
+  @media (max-width: 576px) {
+    @include h1-mobile;
+  }
+}
+.h6-mobile {
+  @include h6-mobile;
+}
+
+.body-xxl {
+  @include body-xxl;
+  @media (max-width: 576px) {
+    @include body-xl;
+  }
+}
+
+.body-xl {
+  @include body-xl;
+  @media (max-width: 576px) {
+    @include body-lg;
+  }
+}
+
+.body-lg {
+  @include body-lg;
+  @media (max-width: 576px) {
+    @include body-md;
+  }
+}
+
+.body-md {
+  @include body-md;
+  @media (max-width: 576px) {
+    @include body-sm;
+  }
+}
+
+.body-sm {
+  @include body-sm;
+  @media (max-width: 576px) {
+    @include body-xs;
+  }
+}
+
+.body-xs {
+  @include body-xs;
+}

@@ -1,69 +1,69 @@
 @import "~fontsource-metropolis/all.css";
 
 @mixin MetropolisBold {
-  font-family: 'Metropolis';
+  font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: normal;
   font-display: swap;
   font-weight: 700;
 }
 
 @mixin MetropolisBoldItalic {
-  font-family: 'Metropolis';
+  font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: italic;
   font-display: swap;
   font-weight: 700;
 }
 
 @mixin MetropolisSemiBold {
-  font-family: 'Metropolis';
+  font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: normal;
   font-display: swap;
   font-weight: 600;
 }
 @mixin MetropolisSemiBoldItalic {
-  font-family: 'Metropolis';
+  font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: italic;
   font-display: swap;
   font-weight: 600;
 }
 
 @mixin MetropolisMedium {
-  font-family: 'Metropolis';
+  font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: normal;
   font-display: swap;
   font-weight: 500;
 }
 
 @mixin MetropolisMediumItalic {
-  font-family: 'Metropolis';
+  font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: italic;
   font-display: swap;
   font-weight: 500;
 }
 
 @mixin Metropolis {
-  font-family: 'Metropolis';
+  font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: normal;
   font-display: swap;
   font-weight: 400;
 }
 
 @mixin MetropolisItalic {
-  font-family: 'Metropolis';
+  font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: italic;
   font-display: swap;
   font-weight: 400;
 }
 
 @mixin MetropolisLight {
-  font-family: 'Metropolis';
+  font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: normal;
   font-display: swap;
   font-weight: 300;
 }
 
 @mixin MetropolisLightItalic {
-  font-family: 'Metropolis';
+  font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: italic;
   font-display: swap;
   font-weight: 300;

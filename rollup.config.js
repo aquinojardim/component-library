@@ -35,6 +35,11 @@ export default {
           rename: "body.scss"
         },
         {
+          src: "src/breakpoint.scss",
+          dest: "build",
+          rename: "breakpoint.scss"
+        },
+        {
           src: "src/classes.scss",
           dest: "build",
           rename: "classes.scss"

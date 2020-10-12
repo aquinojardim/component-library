@@ -1,6 +1,7 @@
 @import "./colors.scss";
 @import "./padding.scss";
 @import "./header.scss";
+@import "./breakpoint.scss";
 
 html,
 body {
@@ -10,42 +11,42 @@ body {
 
 h1 {
   @include h1-desktop;
-  @media (max-width: 576px) {
+  @media (max-width: $media-breakpoint-xs) {
     @include h1-mobile;
   }
 }
 
 h2 {
   @include h2-desktop;
-  @media (max-width: 576px) {
+  @media (max-width: $media-breakpoint-xs) {
     @include h2-mobile;
   }
 }
 
 h3 {
   @include h3-desktop;
-  @media (max-width: 576px) {
+  @media (max-width: $media-breakpoint-xs) {
     @include h3-mobile;
   }
 }
 
 h4 {
   @include h4-desktop;
-  @media (max-width: 576px) {
+  @media (max-width: $media-breakpoint-xs) {
     @include h4-mobile;
   }
 }
 
 h5 {
   @include h5-desktop;
-  @media (max-width: 576px) {
+  @media (max-width: $media-breakpoint-xs) {
     @include h5-mobile;
   }
 }
 
 h6 {
   @include h6-desktop;
-  @media (max-width: 576px) {
+  @media (max-width: $media-breakpoint-xs) {
     @include h6-mobile;
   }
 }

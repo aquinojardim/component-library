@@ -61,6 +61,7 @@
     "typescript": "^3.7.2"
   },
   "dependencies": {
+    "@gabrielajardimaquino/global-styles": "^1.0.10",
     "fontsource-metropolis": "^3.0.1"
   }
 }

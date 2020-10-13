@@ -1,9 +1,8 @@
 module.exports = (componentName) => ({
   content: `// Generated with util/create-component.js
 import React from "react";
-
 import { ${componentName}Props } from "./${componentName}.types";
-
+import "fontsource-metropolis/all.css";
 import "./${componentName}.scss";
 
 const ${componentName}: React.FC<${componentName}Props> = ({ foo }) => (

@@ -1,6 +1,5 @@
-@import "./breakpoint.scss";
-@import "./colors.scss";
-@import "./padding.scss";
+@import "~fontsource-metropolis/all.css";
+@import '~@gabrielajardimaquino/global-styles/theme.scss';
 
 .style-guide {
   background-color:#F2F2F2;
@@ -153,3 +152,43 @@
   width: $padding-max;
 }
 
+
+.metropolisBold {
+  @include MetropolisBold
+}
+
+.metropolisBoldItalic {
+  @include MetropolisBoldItalic
+}
+
+.metropolisSemiBold {
+  @include MetropolisSemiBold
+}
+
+.metropolisSemiBoldItalic {
+  @include MetropolisSemiBoldItalic
+}
+
+.metropolisMedium {
+  @include MetropolisMedium
+}
+
+.metropolisMediumItalic {
+  @include MetropolisMediumItalic
+}
+
+.metropolis {
+  @include Metropolis
+}
+
+.metropolisItalic {
+  @include MetropolisItalic
+}
+
+.metropolisLight {
+  @include MetropolisLight
+}
+
+.metropolisLightItalic {
+  @include MetropolisLightItalic
+}

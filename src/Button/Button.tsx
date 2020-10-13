@@ -1,6 +1,7 @@
 import React from 'react';
 import { ButtonProps } from './Button.types';
 import './Button.scss';
+import "fontsource-metropolis/all.css";
 
 const Button = (props: ButtonProps) => {
   const {

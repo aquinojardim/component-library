@@ -1,11 +1,6 @@
 import React from "react";
-import './../storybook.scss';
-import './../body.scss';
-import './../header.scss';
-import './../tags.scss';
-import './../typography.scss';
-import './../tooltip.scss';
-import './../grid.scss';
+import "fontsource-metropolis/all.css";
+import '@gabrielajardimaquino/global-styles/theme.scss';
 
 export default {
   title: "Global Styles"

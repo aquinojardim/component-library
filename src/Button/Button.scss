@@ -1,6 +1,5 @@
-@import "../colors.scss";
-@import "../typography.scss";
-@import "../padding.scss";
+@import '~@gabrielajardimaquino/global-styles/theme.scss';
+@import "~fontsource-metropolis/all.css";
 
 .button {
   @include MetropolisSemiBold;

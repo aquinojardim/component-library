@@ -1,6 +1,7 @@
 @import "./colors.scss";
 @import "./padding.scss";
 @import "./header.scss";
+@import "./body.scss";
 @import "./breakpoint.scss";
 
 html,
@@ -54,8 +55,8 @@ h6 {
 a {
   color: inherit;
   text-decoration: underline;
-  a:hover {
-    text-decoration: none;
-    color: $color-pink;
-  }
+}
+
+a:hover {
+  text-decoration: none;
 }

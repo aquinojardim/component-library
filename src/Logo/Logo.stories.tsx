@@ -1,14 +1,15 @@
 import React from "react";
 import Logo from "./Logo";
+import './../storybook.scss';
 
 export default {
   title: "Logo"
 };
 
-export const LogoPrimary = () => <Logo theme="primary"/>;
+export const LogoPrimary = () => <div className="style-guide"><Logo theme="primary"/></div>;
 
-export const LogoSecondary = () => <div style={{backgroundColor:"black", height:"1000px", margin:'-10px', padding:'10px'}} ><Logo theme="secondary"/></div>;
+export const LogoSecondary = () => <div className="style-guide"><Logo theme="secondary"/></div>;
 
-export const LogoPink = () => <Logo theme="pink"/>;
+export const LogoPink = () => <div className="style-guide"><Logo theme="pink"/></div>;
 
-export const LogoBlack = () => <Logo theme="black"/>;
+export const LogoBlack = () => <div className="style-guide"><Logo theme="black"/></div>;

@@ -42,8 +42,8 @@
   }
 
   &.secondary-on {
-    background-color: none;
-    border: none;
+    background-color: $color-white;
+    border: $color-white;
     color: $color-black;
     &:hover {
       background-color: $color-blue;
@@ -52,8 +52,8 @@
   }
 
   &.secondary-off {
-    background-color: none;
-    border: none;
+    background-color: $color-white;
+    border: $color-white;
     color: $color-grey-5;
     cursor: not-allowed;
   }
@@ -97,6 +97,7 @@
     border: 0.0625rem solid $color-white;
     color: $color-white;
     &:hover {
+      background-color: $color-white;
       color: $color-black;
       text-decoration-line: underline;
     }

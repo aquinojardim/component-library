@@ -1,0 +1,155 @@
+@import "./breakpoint.scss";
+@import "./colors.scss";
+@import "./padding.scss";
+
+.style-guide {
+  background-color:#F2F2F2;
+  height: 1000px; 
+  margin: -100px; 
+  padding: 100px;
+}
+
+.media-breakpoint-xs {
+  visibility: hidden;
+  @media (max-width: $media-breakpoint-xs) {
+    visibility: visible;
+    background-color: $color-pink-light;
+  }
+}
+
+.media-breakpoint-sm {
+  visibility: hidden;
+  @media (max-width: $media-breakpoint-sm) {
+    visibility: visible;
+    background-color: $color-pink;
+  }
+}
+
+.media-breakpoint-md {
+  visibility: hidden;
+  @media (max-width: $media-breakpoint-md) {
+    visibility: visible;
+    background-color: $color-orange;
+  }
+}
+
+.media-breakpoint-lg {
+  visibility: hidden;
+  @media (max-width: $media-breakpoint-lg) {
+    visibility: visible;
+    background-color: $color-yellow;
+  }
+}
+
+.media-breakpoint-xl {
+  visibility: hidden;
+  @media (max-width: $media-breakpoint-xl) {
+    visibility: visible;
+    background-color: $color-green;
+  }
+}
+
+.color-story {
+  width: 100px;
+}
+
+.color-white {
+  background-color: $color-white;
+}
+
+.color-grey-1 {
+  background-color: $color-grey-1;
+}
+
+.color-grey-2 {
+  background-color: $color-grey-2;
+}
+
+.color-grey-3 {
+  background-color: $color-grey-3;
+}
+
+.color-grey-4 {
+  background-color: $color-grey-4;
+}
+
+.color-grey-5 {
+  background-color: $color-grey-5;
+}
+
+.color-grey-6 {
+  background-color: $color-grey-6;
+  color: $color-grey-4;
+}
+
+.color-grey-7 {
+  background-color: $color-grey-7;
+  color: $color-grey-4;
+}
+
+.color-grey-8 {
+  background-color: $color-grey-8;
+  color: $color-grey-4;
+}
+
+.color-black {
+  background-color: $color-black;
+  color: $color-grey-4;
+}
+
+.color-blue {
+  background-color: $color-blue;
+}
+
+.color-pink {
+  background-color: $color-pink;
+}
+
+.color-pink-light {
+  background-color: $color-pink-light;
+}
+
+.color-yellow {
+  background-color: $color-yellow;
+}
+
+.color-orange {
+  background-color: $color-orange;
+}
+
+.color-green {
+  background-color: $color-green;
+}
+
+.padding-xxs {
+  width: $padding-xxs;
+}
+
+.padding-xs {
+  width: $padding-xs;
+}
+
+.padding-sm {
+  width: $padding-sm;
+}
+
+.padding-md {
+  width: $padding-md;
+}
+
+.padding-lg {
+  width: $padding-lg;
+}
+
+.padding-xl {
+  width: $padding-xl;
+}
+
+.padding-xxl {
+  width: $padding-xxl;
+}
+
+.padding-max {
+  width: $padding-max;
+}
+

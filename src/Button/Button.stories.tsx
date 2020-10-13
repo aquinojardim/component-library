@@ -1,46 +1,47 @@
 import React from "react";
 import Button from "./Button";
+import './../storybook.scss';
 
 export default {
   title: "Button"
 };
 
-export const PrimaryLarge = () => <Button theme="primary" />;
+export const PrimaryLarge = () => <div className="style-guide"><Button theme="primary"/></div>;
 
-export const PrimaryLargeDisable = () => <Button theme="primary" status="off" />;
+export const PrimaryLargeDisable = () => <div className="style-guide"><Button theme="primary" status="off"/></div>;
 
-export const PrimarySmall = () => <Button theme="primary" size="sm"/>;
+export const PrimarySmall = () => <div className="style-guide"><Button theme="primary" size="sm"/></div>;
 
-export const PrimarySmallDisable = () => <Button theme="primary" size="sm" status="off"/>;
+export const PrimarySmallDisable = () => <div className="style-guide"><Button theme="primary" size="sm" status="off"/></div>;
 
-export const SecondaryLarge = () => <Button theme="secondary" />;
+export const SecondaryLarge = () => <div className="style-guide"><Button theme="secondary"/></div>;
 
-export const SecondaryLargeDisable = () => <Button theme="secondary" status="off"/>;
+export const SecondaryLargeDisable = () => <div className="style-guide"><Button theme="secondary" status="off"/></div>;
 
-export const SecondarySmall = () => <Button theme="secondary" size="sm"/>;
+export const SecondarySmall = () => <div className="style-guide"><Button theme="secondary" size="sm"/></div>;
 
-export const SecondarySmallDisable = () => <Button theme="secondary" size="sm" status="off"/>;
+export const SecondarySmallDisable = () => <div className="style-guide"><Button theme="secondary" size="sm" status="off"/></div>;
 
-export const PinkLarge = () => <Button theme="pink" />;
+export const PinkLarge = () => <div className="style-guide"><Button theme="pink"/></div>;
 
-export const PinkLargeDisable = () => <Button theme="pink" status="off"/>;
+export const PinkLargeDisable = () => <div className="style-guide"><Button theme="pink" status="off"/></div>;
 
-export const PinkSmall = () => <Button theme="pink" size="sm"/>;
+export const PinkSmall = () => <div className="style-guide"><Button theme="pink" size="sm"/></div>;
 
-export const PinkSmallDisable = () => <Button theme="pink" size="sm" status="off"/>;
+export const PinkSmallDisable = () => <div className="style-guide"><Button theme="pink" size="sm" status="off"/></div>;
 
-export const GhostBlackLarge = () => <Button theme="ghost-black" />;
+export const GhostBlackLarge = () => <div className="style-guide"><Button theme="ghost-black"/></div>;
 
-export const GhostBlackLargeDisable = () => <Button theme="ghost-black" status="off"/>;
+export const GhostBlackLargeDisable = () => <div className="style-guide"><Button theme="ghost-black" status="off"/></div>;
 
-export const GhostBlackSmall = () => <Button theme="ghost-black" size="sm"/>;
+export const GhostBlackSmall = () => <div className="style-guide"><Button theme="ghost-black" size="sm"/></div>;
 
-export const GhostBlackSmallDisable = () => <Button theme="ghost-black" size="sm" status="off"/>;
+export const GhostBlackSmallDisable = () => <div className="style-guide"><Button theme="ghost-black" size="sm" status="off"/></div>;
 
-export const GhostWhiteLarge = () => <div style={{backgroundColor:"black", height:"1000px", margin:'-10px', padding:'10px'}} ><Button theme="ghost-white" /></div>;
+export const GhostWhiteLarge = () => <div className="style-guide"><Button theme="ghost-white"/></div>;
 
-export const GhostWhiteLargeDisable = () => <div style={{backgroundColor:"black", height:"1000px", margin:'-10px', padding:'10px'}} ><Button theme="ghost-white" status="off"/></div>;
+export const GhostWhiteLargeDisable = () => <div className="style-guide"><Button theme="ghost-white" status="off"/></div>;
 
-export const GhostWhiteSmall = () => <div style={{backgroundColor:"black", height:"1000px", margin:'-10px', padding:'10px'}} ><Button theme="ghost-white" size="sm"/></div>;
+export const GhostWhiteSmall = () => <div className="style-guide"><Button theme="ghost-white" size="sm"/></div>;
 
-export const GhostWhiteSmallDisable = () => <div style={{backgroundColor:"black", height:"1000px", margin:'-10px', padding:'10px'}} ><Button theme="ghost-white" size="sm" status="off"/></div>;
+export const GhostWhiteSmallDisable = () => <div className="style-guide"><Button theme="ghost-white" size="sm" status="off"/></div>;

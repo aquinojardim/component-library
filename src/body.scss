@@ -1,4 +1,6 @@
+@import "./breakpoint.scss";
 @import "./typography.scss";
+
 
 @mixin body-xxl {
   @include MetropolisLight;
@@ -34,4 +36,54 @@
   @include MetropolisLight;
   font-size: 0.5425rem;
   line-height: 0.9375rem;
+}
+
+.body-xxl {
+  @include body-xxl;
+  @media (max-width: $media-breakpoint-xs) {
+    @include body-xl;
+  }
+}
+
+.body-xl {
+  @include body-xl;
+  @media (max-width: $media-breakpoint-xs) {
+    @include body-lg;
+  }
+}
+
+.body-lg {
+  @include body-lg;
+  @media (max-width: $media-breakpoint-xs) {
+    @include body-md;
+  }
+}
+
+.body-md {
+  @include body-md;
+  @media (max-width: $media-breakpoint-xs) {
+    @include body-sm;
+  }
+}
+
+.body-sm {
+  @include body-sm;
+  @media (max-width: $media-breakpoint-xs) {
+    @include body-xs;
+  }
+}
+
+.body-xs {
+  @include body-xs;
+}
+
+.standalone-link {
+  @include MetropolisLight;
+  font-size: 0.9875rem;
+  line-height: 1.5625rem;
+  text-decoration: none;
+}
+
+.standalone-link:hover {
+  text-decoration: underline;
 }

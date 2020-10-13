@@ -68,3 +68,43 @@
   font-display: swap;
   font-weight: 300;
 }
+
+.metropolisBold {
+  @include MetropolisBold
+}
+
+.metropolisBoldItalic {
+  @include MetropolisBoldItalic
+}
+
+.metropolisSemiBold {
+  @include MetropolisSemiBold
+}
+
+.metropolisSemiBoldItalic {
+  @include MetropolisSemiBoldItalic
+}
+
+.metropolisMedium {
+  @include MetropolisMedium
+}
+
+.metropolisMediumItalic {
+  @include MetropolisMediumItalic
+}
+
+.metropolis {
+  @include Metropolis
+}
+
+.metropolisItalic {
+  @include MetropolisItalic
+}
+
+.metropolisLight {
+  @include MetropolisLight
+}
+
+.metropolisLightItalic {
+  @include MetropolisLightItalic
+}

@@ -1,44 +1,45 @@
 import React from "react";
 import Icon from "./Icon";
+import './../storybook.scss';
 
 export default {
   title: "Icon"
 };
 
-export const IconPrimary57 = () => <Icon theme="primary" size={57} />;
+export const IconPrimary57 = () => <div className="style-guide"><Icon theme="primary" size={57}/></div>;
 
-export const IconPrimary57precomposed = () => <Icon theme="primary" size={57} precomposed={true}/>;
+export const IconPrimary57precomposed = () => <div className="style-guide"><Icon theme="primary" size={57} precomposed={true}/></div>;
 
-export const IconPrimary72 = () => <Icon theme="primary" size={72}/>;
+export const IconPrimary72 = () => <div className="style-guide"><Icon theme="primary" size={72}/></div>;
 
-export const IconPrimary72precomposed = () => <Icon theme="primary" size={72} precomposed={true}/>;
+export const IconPrimary72precomposed = () => <div className="style-guide"><Icon theme="primary" size={72} precomposed={true}/></div>;
 
-export const IconPrimary76 = () => <Icon theme="primary" size={76}/>;
+export const IconPrimary76 = () => <div className="style-guide"><Icon theme="primary" size={76}/></div>;
 
-export const IconPrimary76precomposed = () => <Icon theme="primary" size={76} precomposed={true}/>;
+export const IconPrimary76precomposed = () => <div className="style-guide"><Icon theme="primary" size={76} precomposed={true}/></div>;
 
-export const IconPrimary114 = () => <Icon theme="primary" size={114} />;
+export const IconPrimary114 = () => <div className="style-guide"><Icon theme="primary" size={114}/></div>;
 
-export const IconPrimary114precomposed = () => <Icon theme="primary" size={114} precomposed={true}/>;
+export const IconPrimary114precomposed = () => <div className="style-guide"><Icon theme="primary" size={114} precomposed={true}/></div>;
 
-export const IconPrimary120 = () => <Icon theme="primary" size={120} />;
+export const IconPrimary120 = () => <div className="style-guide"><Icon theme="primary" size={120}/></div>;
 
-export const IconPrimary120precomposed = () => <Icon theme="primary" size={120} precomposed={true}/>;
+export const IconPrimary120precomposed = () => <div className="style-guide"><Icon theme="primary" size={120} precomposed={true}/></div>;
 
-export const IconPrimary144 = () => <Icon theme="primary" size={144} />;
+export const IconPrimary144 = () => <div className="style-guide"><Icon theme="primary" size={144}/></div>;
 
-export const IconPrimary144precomposed = () => <Icon theme="primary" size={144} precomposed={true}/>;
+export const IconPrimary144precomposed = () => <div className="style-guide"><Icon theme="primary" size={144} precomposed={true}/></div>;
 
-export const IconPrimary152 = () => <Icon theme="primary" size={152} />;
+export const IconPrimary152 = () => <div className="style-guide"><Icon theme="primary" size={152}/></div>;
 
-export const IconPrimary152precomposed = () => <Icon theme="primary" size={152} precomposed={true}/>;
+export const IconPrimary152precomposed = () => <div className="style-guide"><Icon theme="primary" size={152} precomposed={true}/></div>;
 
-export const IconPrimary180 = () => <Icon theme="primary" size={180} />;
+export const IconPrimary180 = () => <div className="style-guide"><Icon theme="primary" size={180}/></div>;
 
-export const IconPrimary180precomposed = () => <Icon theme="primary" size={180} precomposed={true}/>;
+export const IconPrimary180precomposed = () => <div className="style-guide"><Icon theme="primary" size={180} precomposed={true}/></div>;
 
-export const IconSecondary = () => <div style={{backgroundColor:"black", height:"1000px", margin:'-10px', padding:'10px'}} ><Icon theme="secondary" size={180}/></div>;
+export const IconSecondary = () => <div className="style-guide"><Icon theme="secondary" size={180}/></div>;
 
-export const IconPink = () => <Icon theme="pink" size={180} />;
+export const IconPink = () => <div className="style-guide"><Icon theme="pink" size={180}/></div>;
 
-export const IconBlack = () => <Icon theme="black" size={180} />;
+export const IconBlack = () => <div className="style-guide"><Icon theme="black" size={180}/></div>;

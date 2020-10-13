@@ -1,3 +1,5 @@
+@import "./colors.scss";
+@import "./breakpoint.scss";
 @import "./typography.scss";
 
 @mixin h1-largest {
@@ -102,4 +104,28 @@
   line-height: 0.875rem;
   letter-spacing: 0.1506rem;
   text-transform: uppercase;
+}
+
+.h1-largest {
+  @include h1-largest;
+  @media (max-width: $media-breakpoint-xs) {
+    @include h1-mobile;
+  }
+}
+
+.h6-mobile {
+  @include h6-mobile;
+}
+
+.heading-link {
+  @include MetropolisSemiBold;
+  font-size: 0.9875rem;
+  line-height: 1.375rem;
+  letter-spacing: 0.2468rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.heading-link:hover {
+  border-bottom: 1px solid $color-black;
 }

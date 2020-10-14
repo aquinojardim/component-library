@@ -81,6 +81,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "@fortawesome/react-fontawesome": "^0.1.11",
     "@gabrielajardimaquino/global-styles": "^1.1.0",
-    "fontsource-metropolis": "^3.0.1"
+    "fontsource-metropolis": "^3.0.1",
+    "formik": "^2.2.0"
   }
 }

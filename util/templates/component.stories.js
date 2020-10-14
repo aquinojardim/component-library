@@ -12,5 +12,5 @@ export const WithBar = () => <div className="style-guide"><${componentName} foo=
 
 export const WithBaz = () => <div className="style-guide"><${componentName} foo="baz"/></div>;
 `,
-  extension: `.stories.tsx`
+  extension: '.stories.tsx',
 });

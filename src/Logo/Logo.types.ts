@@ -1,4 +1,4 @@
 export interface LogoProps {
-  theme?: 'primary' | 'secondary' | 'pink' | 'black'
-  width?: string
+  theme?: 'primary' | 'secondary' | 'pink' | 'black';
+  width?: string;
 }

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 module.exports = (componentName) => ({
   content: `// Generated with util/create-component.js
 @import '~@gabrielajardimaquino/global-styles/theme.scss';
@@ -9,5 +10,5 @@ module.exports = (componentName) => ({
   color: $harvey-green;
 }
 `,
-  extension: `.scss`
+  extension: '.scss',
 });

@@ -22,8 +22,10 @@
 
 ## Usage
 
+On you project install @gabrielajardimaquino/component-library and all the dependencies
+
 ```
-npm install @gabrielajardimaquino/component-library @gabrielajardimaquino/global-styles fontsource-metropolis
+npm install @gabrielajardimaquino/component-library @fortawesome/fontawesome-svg-core @fortawesome/free-brands-svg-icons @fortawesome/free-regular-svg-icons @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome @gabrielajardimaquino/global-styles fontsource-metropolis formik
 ```
 
 Using a component (after the library installed as a dependency):
@@ -48,6 +50,9 @@ This project features:
 - [Rollup](https://github.com/rollup/rollup)
 - [Sass](https://sass-lang.com/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [ESlint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Formik](https://formik.org/)
 - [Storybook](https://storybook.js.org/) to help you create and show off your components
 - [Jest](https://jestjs.io/) and [React Testing Library](https://github.com/testing-library/react-testing-library) enabling testing of the components
 
@@ -141,6 +146,30 @@ This will generate:
 The default templates for each file can be modified under `util/templates`.
 
 Don't forget to add the component to your `index.ts` exports if you want the library to export the component!
+
+### Creating custom input components with Formik
+
+When creating input field use formik useField() to enable Formik validation when used. 
+
+```TSX
+import React from 'react';
+import { useField } from 'formik';
+
+const MyTextInput = ({ label, ...props }) => {
+  const [field, meta] = useField(props);
+  return (
+    <>
+      <label htmlFor={props.id || props.name}>{label}</label>
+      <input className="text-input" {...field} {...props} />
+      {meta.touched && meta.error ? (
+        <div className="error">{meta.error}</div>
+      ) : null}
+    </>
+  );
+};
+
+export default MyTextInput;
+```
 
 ### Installing Component Library Locally
 

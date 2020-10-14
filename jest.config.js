@@ -1,4 +1,15 @@
 module.exports = {
+  collectCoverage: true,
+  collectCoverageFrom: [
+    'src/**',
+    '!**/index.ts',
+    '!**/*.stories.tsx',
+    '!**/*.test.tsx',
+    '!**/*.types.ts',
+    '!**/*.scss',
+    '!**/*.d.ts',
+    '!**/node_modules/**',
+  ],
   roots: ['src'],
   setupFilesAfterEnv: ['./jest.setup.ts'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],

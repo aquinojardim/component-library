@@ -1,0 +1,46 @@
+{
+  "env": {
+    "node": true,
+    "browser": true,
+    "es2020": true,
+    "jest": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "createDefaultProgram": true
+  },
+  "plugins": [
+    "eslint-plugin-prettier",
+    "@typescript-eslint",
+    "jest"
+  ],
+  "extends": [
+    "airbnb-typescript",
+    "plugin:jest/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "indent": ["error", 2],
+    "semi": ["error", "always"],
+    "react/jsx-filename-extension": [1, { "extensions": [".ts", ".tsx", ".js", ".jsx"]}],
+    "react/jsx-curly-brace-presence": [1, { "props": "never", "children": "ignore" }],
+    "react/prop-types": "off",
+    "react/jsx-props-no-spreading": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "comma-dangle": "off",
+    "arrow-body-style": "off",
+    "arrow-parens": ["error", "always"],
+    "react/no-array-index-key": "off",
+    "operator-linebreak": ["error", "after"],
+    "prettier/prettier": ["error"],
+    "no-prototype-builtins": "off",
+    "import/no-dynamic-require": "off",
+    "global-require": "off",
+    "no-nested-ternary": "off",
+    "no-console": "off",
+    "react/destructuring-assignment": "off",
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"]
+  }
+}

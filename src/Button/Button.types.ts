@@ -5,6 +5,6 @@ export interface ButtonProps {
   size?: 'lg' | 'sm';
   status?: 'on' | 'off';
   // eslint-disable-next-line prettier/prettier
-  theme?:'primary' | 'secondary' | 'pink' | 'ghost-black' | 'ghost-white';
+  variant?:'primary' | 'secondary' | 'pink' | 'ghost-black' | 'ghost-white';
   width?: string;
 }

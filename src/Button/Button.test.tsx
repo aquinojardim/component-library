@@ -28,7 +28,7 @@ describe('Button test content', () => {
   });
 });
 
-describe('Button test theme', () => {
+describe('Button test variant', () => {
   let props: ButtonProps;
 
   beforeEach(() => {
@@ -39,36 +39,36 @@ describe('Button test theme', () => {
 
   const renderComponent = () => render(<Button {...props} />);
 
-  it('should work with primary theme by default props', () => {
+  it('should work with primary variant by default props', () => {
     const { getByTestId } = renderComponent();
     const ButtonPrimary = getByTestId('button');
     expect(ButtonPrimary).toBeTruthy();
     expect(ButtonPrimary.attributes).toHaveProperty('aria-label');
   });
 
-  it('should work with secondary theme', () => {
-    props.theme = 'secondary';
+  it('should work with secondary variant', () => {
+    props.variant = 'secondary';
     const { getByTestId } = renderComponent();
     const ButtonSecondary = getByTestId('button');
     expect(ButtonSecondary).toBeTruthy();
   });
 
-  it('should work with pink theme', () => {
-    props.theme = 'pink';
+  it('should work with pink variant', () => {
+    props.variant = 'pink';
     const { getByTestId } = renderComponent();
     const ButtonPink = getByTestId('button');
     expect(ButtonPink).toBeTruthy();
   });
 
-  it('should work with ghost-white theme', () => {
-    props.theme = 'ghost-white';
+  it('should work with ghost-white variant', () => {
+    props.variant = 'ghost-white';
     const { getByTestId } = renderComponent();
     const ButtonGhostWhite = getByTestId('button');
     expect(ButtonGhostWhite).toBeTruthy();
   });
 
-  it('should work with ghost-black theme', () => {
-    props.theme = 'ghost-black';
+  it('should work with ghost-black variant', () => {
+    props.variant = 'ghost-black';
     const { getByTestId } = renderComponent();
     const ButtonGhostBlack = getByTestId('button');
     expect(ButtonGhostBlack).toBeTruthy();

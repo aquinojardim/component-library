@@ -8,7 +8,7 @@ const Button = (props: ButtonProps) => {
     aria = 'button',
     status = 'on',
     size = 'lg',
-    theme = 'primary',
+    variant = 'primary',
     content = 'ok',
     onPress = () => {},
     width = '8.25rem',
@@ -29,7 +29,7 @@ const Button = (props: ButtonProps) => {
       aria-disabled={status !== 'on'}
       aria-label={aria}
       data-testid="button"
-      className={`button ${size} ${theme}-${status}`}
+      className={`button ${size} ${variant}-${status}`}
       style={{ width: `${width}` }}
     >
       {content}

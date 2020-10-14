@@ -1,6 +1,6 @@
 {
   "name": "@gabrielajardimaquino/component-library",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "",
   "main": "build/index.js",
   "module": "build/index.esm.js",
@@ -61,7 +61,7 @@
     "typescript": "^3.7.2"
   },
   "dependencies": {
-    "@gabrielajardimaquino/global-styles": "^1.0.10",
+    "@gabrielajardimaquino/global-styles": "^1.1.0",
     "fontsource-metropolis": "^3.0.1"
   }
 }

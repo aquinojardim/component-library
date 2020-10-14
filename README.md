@@ -23,7 +23,7 @@
 ## Usage
 
 ```
-npm install @gabrielajardimaquino/component-library
+npm install @gabrielajardimaquino/component-library @gabrielajardimaquino/global-styles fontsource-metropolis
 ```
 
 Using a component (after the library installed as a dependency):
@@ -105,6 +105,14 @@ To export your Storybook as static files:
 ```
 npm run storybook:export
 ```
+
+To deploy storybook to staging 
+
+```
+npm run deploy-storybook
+```
+It will be staging at: https://fashionphile.github.io/ComponentLibrary 
+
 - #### Testing
 
 ```

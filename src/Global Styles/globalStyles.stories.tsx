@@ -50,7 +50,7 @@ export const Link = () =>
 
 export const Tooltip = () => 
   <div className="style-guide">
-    <p>Tooltip Label
+    <p className="tooltip-label">Tooltip Label
       <div className="tooltip">◆
         <span className="tooltip-text">
         This is some tooltip text. This box shows the maximum amount of text that should appear inside. If more room is needed please use a modal instead.

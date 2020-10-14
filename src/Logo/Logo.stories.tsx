@@ -8,24 +8,24 @@ export default {
 
 export const LogoPrimary = () => (
   <div className="style-guide">
-    <Logo theme="primary" />
+    <Logo variant="primary" />
   </div>
 );
 
 export const LogoSecondary = () => (
   <div className="style-guide">
-    <Logo theme="secondary" />
+    <Logo variant="secondary" />
   </div>
 );
 
 export const LogoPink = () => (
   <div className="style-guide">
-    <Logo theme="pink" />
+    <Logo variant="pink" />
   </div>
 );
 
 export const LogoBlack = () => (
   <div className="style-guide">
-    <Logo theme="black" />
+    <Logo variant="black" />
   </div>
 );

@@ -1,28 +1,7 @@
 # Component Library
-## Components
-- ## Button
-###### Optional Props:
-######   aria = 'any string'
-######   content = 'any string'
-######   onPress = any function ( for best performance: useCallback )
-######   size = 'lg' | 'sm'
-######   status = 'on' | 'off'
-######   theme = 'primary' | 'secondary' | 'pink' | 'ghost-black' | 'ghost-white'
-######   width = 'any unit in string format'
-- ## Icon
-###### Optional Props:
-######   size = 57 | 72 | 76 | 114 | 120 | 144 | 152 | 180
-######   theme = 'primary' | 'secondary' | 'pink' | 'black'
-######   precomposed = boolean ( true | false )
-###### ( favicon.ico is also avaliable in the icon folder )
-- ## Logo
-###### Optional Props:
-######   theme = 'primary' | 'secondary' | 'pink' | 'black'
-######   width = 'any unit in string format'
-
 ## Usage
 
-On you project install @gabrielajardimaquino/component-library and all the dependencies
+On your project `npm install @gabrielajardimaquino/component-library` and all the dependencies
 
 ```
 npm install @gabrielajardimaquino/component-library @fortawesome/fontawesome-svg-core @fortawesome/free-brands-svg-icons @fortawesome/free-regular-svg-icons @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome @gabrielajardimaquino/global-styles fontsource-metropolis formik
@@ -37,12 +16,34 @@ import { Button } from "@gabrielajardimaquino/component-library";
 const App = () => (
   <div className="app-container">
     <h1>Hello I'm consuming the component library</h1>
-    <Button theme="primary" />
+    <Button variant="primary" />
   </div>
 );
 
 export default App;
 ```
+
+## Components
+- ## Button
+###### Optional Props:
+######   aria = 'any string'
+######   content = 'any string'
+######   onPress = any function ( for best performance: useCallback )
+######   size = 'lg' | 'sm'
+######   status = 'on' | 'off'
+######   variant = 'primary' | 'secondary' | 'pink' | 'ghost-black' | 'ghost-white'
+######   width = 'any unit in string format'
+- ## Icon
+###### Optional Props:
+######   size = 57 | 72 | 76 | 114 | 120 | 144 | 152 | 180
+######   variant = 'primary' | 'secondary' | 'pink' | 'black'
+######   precomposed = boolean ( true | false )
+###### ( favicon.ico is also avaliable in the icon folder )
+- ## Logo
+###### Optional Props:
+######   variant = 'primary' | 'secondary' | 'pink' | 'black'
+######   width = 'any unit in string format'
+
 # Development
 ## Description
 This project features:
@@ -154,6 +155,8 @@ When creating input field use formik useField() to enable Formik validation when
 ```TSX
 import React from 'react';
 import { useField } from 'formik';
+import './MyTextInput.scss';
+import 'fontsource-metropolis/all.css';
 
 const MyTextInput = ({ label, ...props }) => {
   const [field, meta] = useField(props);

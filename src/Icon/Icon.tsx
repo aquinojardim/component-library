@@ -2,16 +2,20 @@ import React from 'react';
 import { IconProps } from './Icon.types';
 
 const Icon = (props: IconProps) => {
-  const { theme = 'primary', size = 57, precomposed = false } = props;
+  const {
+    variant = 'primary',
+    size = 57,
+    precomposed = false,
+  } = props;
 
   return (
     <div>
-      {theme === 'primary' && precomposed ? (
+      {variant === 'primary' && precomposed ? (
         <img
           src={require(`./icon-${size}x${size}-precomposed.png`)}
           alt="Fashionphile Icon"
         />
-      ) : theme === 'primary' && !precomposed ? (
+      ) : variant === 'primary' && !precomposed ? (
         <img
           src={require(`./icon-${size}x${size}.png`)}
           alt="Fashionphile Icon"
@@ -19,7 +23,7 @@ const Icon = (props: IconProps) => {
       ) : (
         <img
           width={`${size}`}
-          src={require(`./icon-${theme}.svg`)}
+          src={require(`./icon-${variant}.svg`)}
           alt="Fashionphile Icon"
         />
       )}

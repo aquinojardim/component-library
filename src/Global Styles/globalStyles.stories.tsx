@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInfoCircle } from '@fortawesome/fontawesome-free-solid';
 import 'fontsource-metropolis/all.css';
 import '@gabrielajardimaquino/global-styles/theme.scss';
 
@@ -8,6 +10,8 @@ export default {
 
 export const typographyFont = () => (
   <div className="style-guide">
+    <h1>Font</h1>
+    <hr />
     <p className="metropolisBold">
       Metropolis Bold: Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp
       Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
@@ -53,69 +57,72 @@ export const typographyFont = () => (
 
 export const typographyHeader = () => (
   <div className="style-guide">
-    <p className="h1-largest">
-      metropolis semibold 1.89rem (28.48px) - h1-largest
-    </p>
-    <h1>metropolis semibold 1.687rem (25.31px) - h1-desktop</h1>
-    <h2>
-      metropolis semibold 1.5rem (22.50px) - h2-desktop and h1-mobile
-    </h2>
-    <h3>
-      metropolis semibold 1.33rem (20px) - base - h3-desktop and
-      h2-mobile
-    </h3>
-    <h4>
-      metrolpolis semibold 1.185rem (17.78px) - h4-desktop and
-      h3-mobile
-    </h4>
-    <h5>
-      metropolis semibold 0.8681rem (15.80px) - h5-desktop and
-      h4-mobile
-    </h5>
-    <h6>
-      metropolis semibold 0.9367rem (14.05px) - h6-desktop and
-      h5-mobile
-    </h6>
-    <p className="h6-mobile">
-      metropolis semibold 0.832rem (12.49px) - h6-mobile
+    <h1>Header</h1>
+    <hr />
+    <p className="h1-largest">metropolis semibold - h1-largest</p>
+    <h1>metropolis semibold - h1-desktop</h1>
+    <h2>metropolis semibold - h2-desktop and h1-mobile</h2>
+    <h3>metropolis semibold - base - h3-desktop and h2-mobile</h3>
+    <h4>metrolpolis semibold - h4-desktop and h3-mobile</h4>
+    <h5>metropolis semibold - h5-desktop and h4-mobile</h5>
+    <h6>metropolis semibold - h6-desktop and h5-mobile</h6>
+    <p className="h6-smallest">
+      metropolis - h6-mobile and h6-smallest
     </p>
   </div>
 );
 
 export const typographyBody = () => (
   <div className="style-guide">
+    <h1>Body</h1>
+    <hr />
     <p className="body-xxl">
-      This is body-xxl. The font is set to 1.35rem (21.60px). Lorem
-      ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      Varius vel pharetra vel turpis. Felis donec et odio pellentesque
-      diam. Maecenas pharetra convallis posuere morbi. At consectetur
-      lorem donec massa sapien faucibus. Leo in vitae turpis massa
-      sed. Lobortis feugiat vivamus at augue eget arcu dictum varius
-      duis.
+      This is body-xxl. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+      dolore magna aliqua. Varius vel pharetra vel turpis. Felis donec
+      et odio pellentesque diam. Maecenas pharetra convallis posuere
+      morbi. At consectetur lorem donec massa sapien faucibus. Leo in
+      vitae turpis massa sed. Lobortis feugiat vivamus at augue eget
+      arcu dictum varius duis.
     </p>
     <p className="body-xl">
-      This is body-xl. The font is set to 1.125rem (18.00px). Lorem
-      ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      Varius vel pharetra vel turpis. Felis donec et odio pellentesque
-      diam. Maecenas pharetra convallis posuere morbi. At consectetur
-      lorem donec massa sapien faucibus. Leo in vitae turpis massa
-      sed. Lobortis feugiat vivamus at augue eget arcu dictum varius
-      duis.
+      This is body-xl. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+      dolore magna aliqua. Varius vel pharetra vel turpis. Felis donec
+      et odio pellentesque diam. Maecenas pharetra convallis posuere
+      morbi. At consectetur lorem donec massa sapien faucibus. Leo in
+      vitae turpis massa sed. Lobortis feugiat vivamus at augue eget
+      arcu dictum varius duis.
     </p>
     <p className="body-lg">
-      This is body-lg. The font is set to 0.9375rem (15.00px). This is
-      the default font body font size. Lorem ipsum dolor sit amet,
-      consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-      labore et dolore magna aliqua. Varius vel pharetra vel turpis.
-      Felis donec et odio pellentesque diam. Maecenas pharetra
-      convallis posuere morbi. At consectetur lorem donec massa sapien
-      faucibus. Leo in vitae turpis massa sed. Lobortis feugiat
-      vivamus at augue eget arcu dictum varius duis.
+      This is body-lg. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+      dolore magna aliqua. Varius vel pharetra vel turpis. Felis donec
+      et odio pellentesque diam. Maecenas pharetra convallis posuere
+      morbi. At consectetur lorem donec massa sapien faucibus. Leo in
+      vitae turpis massa sed. Lobortis feugiat vivamus at augue eget
+      arcu dictum varius duis. <strong>default</strong>
     </p>
     <p className="body-md">
-      This is body-md. The font is set to 0.78125rem (12.50px). Lorem
+      This is body-md. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+      dolore magna aliqua. Varius vel pharetra vel turpis. Felis donec
+      et odio pellentesque diam. Maecenas pharetra convallis posuere
+      morbi. At consectetur lorem donec massa sapien faucibus. Leo in
+      vitae turpis massa sed. Lobortis feugiat vivamus at augue eget
+      arcu dictum varius duis.
+    </p>
+    <p className="body-sm">
+      This is body-sm. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+      dolore magna aliqua. Varius vel pharetra vel turpis. Felis donec
+      et odio pellentesque diam. Maecenas pharetra convallis posuere
+      morbi. At consectetur lorem donec massa sapien faucibus. Leo in
+      vitae turpis massa sed. Lobortis feugiat vivamus at augue eget
+      arcu dictum varius duis.
+    </p>
+    <p className="body-xs">
+      This is body-xs.Use this for extreme fine print copy only. Lorem
       ipsum dolor sit amet, consectetur adipiscing elit, sed do
       eiusmod tempor incididunt ut labore et dolore magna aliqua.
       Varius vel pharetra vel turpis. Felis donec et odio pellentesque
@@ -124,50 +131,46 @@ export const typographyBody = () => (
       sed. Lobortis feugiat vivamus at augue eget arcu dictum varius
       duis.
     </p>
-    <p className="body-sm">
-      This is body-sm. 0.64125rem (10.42px). Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua. Varius vel pharetra
-      vel turpis. Felis donec et odio pellentesque diam. Maecenas
-      pharetra convallis posuere morbi. At consectetur lorem donec
-      massa sapien faucibus. Leo in vitae turpis massa sed. Lobortis
-      feugiat vivamus at augue eget arcu dictum varius duis.
-    </p>
-    <p className="body-xs">
-      This is body-xs.The font is set to 0.5425rem (8.68px). Use this
-      for extreme fine print copy only. Lorem ipsum dolor sit amet,
-      consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-      labore et dolore magna aliqua. Varius vel pharetra vel turpis.
-      Felis donec et odio pellentesque diam. Maecenas pharetra
-      convallis posuere morbi. At consectetur lorem donec massa sapien
-      faucibus. Leo in vitae turpis massa sed. Lobortis feugiat
-      vivamus at augue eget arcu dictum varius duis.
-    </p>
   </div>
 );
 
-export const Link = () => (
+export const LinksAndTooltip = () => (
   <div className="style-guide">
+    <h1>Links and Tooltip</h1>
+    <hr />
     <p>
-      The
-      <a>Inline link</a>
-      are used by the a tag with no class
+      The <a>inline link</a> are used by the a tag with no class
     </p>
+    <hr />
     <p>
-      <a className="heading-link">Heading link</a>
+      <a className="h1-largest-link">h1-largest-link</a>
+      <a className="h1-link">h1-link</a>
+      <a className="h2-link">h2-link</a>
+      <a className="h3-link">h3-link</a>
+      <a className="h4-link">h4-link</a>
+      <a className="h5-link">h5-link</a>
+      <a className="h6-link">h6-link</a>
+      <a className="h6-smallest-link">h6-smallest-link</a>
     </p>
+    <hr />
     <p>
       <a className="standalone-link">Standalone link</a>
+      <a className="standalone-link">
+        Standalone link
+        <div className="tooltip">
+          <span className="vertical-center">
+            <FontAwesomeIcon icon={faInfoCircle} />
+          </span>
+        </div>
+      </a>
     </p>
-  </div>
-);
-
-export const Tooltip = () => (
-  <div className="style-guide">
+    <hr />
     <p className="tooltip-label">
       Tooltip Label
       <div className="tooltip">
-        ◆
+        <span className="vertical-center">
+          <FontAwesomeIcon icon={faInfoCircle} />
+        </span>
         <span className="tooltip-text">
           This is some tooltip text. This box shows the maximum amount
           of text that should appear inside. If more room is needed
@@ -180,6 +183,8 @@ export const Tooltip = () => (
 
 export const Colors = () => (
   <div className="style-guide">
+    <h1>Color</h1>
+    <hr />
     <div className="color-story color-white">color-white</div>
     <div className="color-story color-grey-1">color-grey-1</div>
     <div className="color-story color-grey-2">color-grey-2</div>
@@ -203,6 +208,8 @@ export const Colors = () => (
 
 export const Padding = () => (
   <div className="style-guide">
+    <h1>Padding</h1>
+    <hr />
     <div className="color-pink padding-max">.</div>
     <p>6rem</p>
     <div className="color-pink padding-xxl">.</div>
@@ -224,6 +231,8 @@ export const Padding = () => (
 
 export const Grid = () => (
   <div className="style-guide">
+    <h1>Grid</h1>
+    <hr />
     <div className="container">
       The grid has a total of 12 column...
       <div className="row">
@@ -251,8 +260,10 @@ export const Grid = () => (
   </div>
 );
 
-export const Breakpoint = () => (
+export const MeadiaBreakpoints = () => (
   <div className="style-guide">
+    <h1>Media Breakpoints</h1>
+    <hr />
     <div className="media-breakpoint-xl">
       <h4>media-breakpoint-xl:</h4>
       This screen is 1599px or smaller

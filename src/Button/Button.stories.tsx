@@ -6,122 +6,159 @@ export default {
   title: 'Button',
 };
 
-export const PrimaryLarge = () => (
-  <div className="style-guide">
-    <Button variant="primary" />
-  </div>
-);
-
-export const PrimaryLargeDisable = () => (
-  <div className="style-guide">
-    <Button variant="primary" status="off" />
-  </div>
-);
-
-export const PrimarySmall = () => (
-  <div className="style-guide">
-    <Button variant="primary" size="sm" />
-  </div>
-);
-
-export const PrimarySmallDisable = () => (
-  <div className="style-guide">
-    <Button variant="primary" size="sm" status="off" />
-  </div>
-);
-
-export const SecondaryLarge = () => (
-  <div className="style-guide">
-    <Button variant="secondary" />
-  </div>
-);
-
-export const SecondaryLargeDisable = () => (
-  <div className="style-guide">
-    <Button variant="secondary" status="off" />
-  </div>
-);
-
-export const SecondarySmall = () => (
-  <div className="style-guide">
-    <Button variant="secondary" size="sm" />
-  </div>
-);
-
-export const SecondarySmallDisable = () => (
-  <div className="style-guide">
-    <Button variant="secondary" size="sm" status="off" />
-  </div>
-);
-
-export const PinkLarge = () => (
-  <div className="style-guide">
-    <Button variant="pink" />
-  </div>
-);
-
-export const PinkLargeDisable = () => (
-  <div className="style-guide">
-    <Button variant="pink" status="off" />
-  </div>
-);
-
-export const PinkSmall = () => (
-  <div className="style-guide">
-    <Button variant="pink" size="sm" />
-  </div>
-);
-
-export const PinkSmallDisable = () => (
-  <div className="style-guide">
-    <Button variant="pink" size="sm" status="off" />
-  </div>
-);
-
-export const GhostBlackLarge = () => (
-  <div className="style-guide">
-    <Button variant="ghost-black" />
-  </div>
-);
-
-export const GhostBlackLargeDisable = () => (
-  <div className="style-guide">
-    <Button variant="ghost-black" status="off" />
-  </div>
-);
-
-export const GhostBlackSmall = () => (
-  <div className="style-guide">
-    <Button variant="ghost-black" size="sm" />
-  </div>
-);
-
-export const GhostBlackSmallDisable = () => (
-  <div className="style-guide">
-    <Button variant="ghost-black" size="sm" status="off" />
-  </div>
-);
-
-export const GhostWhiteLarge = () => (
-  <div className="style-guide">
-    <Button variant="ghost-white" />
-  </div>
-);
-
-export const GhostWhiteLargeDisable = () => (
-  <div className="style-guide">
-    <Button variant="ghost-white" status="off" />
-  </div>
-);
-
-export const GhostWhiteSmall = () => (
-  <div className="style-guide">
-    <Button variant="ghost-white" size="sm" />
-  </div>
-);
-
-export const GhostWhiteSmallDisable = () => (
-  <div className="style-guide">
-    <Button variant="ghost-white" size="sm" status="off" />
+export const ButtonComponent = () => (
+  <div className="style-guide container">
+    <h1> Button</h1>
+    <hr />
+    <h3> Primary </h3>
+    <div className="row">
+      <div>
+        <span>
+          .btn.lg.primary-on <strong>default</strong>
+        </span>{' '}
+        <Button content="Lorem ipsum" />
+      </div>
+      <div>
+        <span>.btn.lg.primary-off</span>{' '}
+        <Button
+          variant="primary"
+          status="off"
+          content="Lorem ipsum"
+        />
+      </div>
+      <div>
+        <span>.btn.sm.primary-on</span>{' '}
+        <Button variant="primary" size="sm" content="Lorem ipsum" />
+      </div>
+      <div>
+        <span>.btn.sm.primary-off</span>{' '}
+        <Button
+          variant="primary"
+          size="sm"
+          status="off"
+          content="Lorem ipsum"
+        />
+      </div>
+    </div>
+    <hr />
+    <h3> Secondary </h3>
+    <div className="row">
+      <div>
+        <span>.btn.lg.secondary-on</span>{' '}
+        <Button variant="secondary" content="Lorem ipsum" />
+      </div>
+      <div>
+        <span>.btn.lg.secondary-off</span>{' '}
+        <Button
+          variant="secondary"
+          status="off"
+          content="Lorem ipsum"
+        />
+      </div>
+      <div>
+        <span>.btn.sm.secondary-on</span>{' '}
+        <Button variant="secondary" size="sm" content="Lorem ipsum" />
+      </div>
+      <div>
+        <span>.btn.sm.secondary-off</span>{' '}
+        <Button
+          variant="secondary"
+          size="sm"
+          status="off"
+          content="Lorem ipsum"
+        />
+      </div>
+    </div>
+    <hr />
+    <h3> Pink </h3>
+    <div className="row">
+      <div>
+        <span>.btn.lg.pink-on</span>{' '}
+        <Button variant="pink" content="Lorem ipsum" />
+      </div>
+      <div>
+        <span>.btn.lg.pink-off</span>{' '}
+        <Button variant="pink" status="off" content="Lorem ipsum" />
+      </div>
+      <div>
+        <span>.btn.sm.pink-on</span>{' '}
+        <Button variant="pink" size="sm" content="Lorem ipsum" />
+      </div>
+      <div>
+        <span>.btn.sm.pink-off</span>{' '}
+        <Button
+          variant="pink"
+          size="sm"
+          status="off"
+          content="Lorem ipsum"
+        />
+      </div>
+    </div>
+    <hr />
+    <h3> Ghost-black </h3>
+    <div className="row">
+      <div>
+        <span>.btn.lg.ghost-black-on</span>{' '}
+        <Button variant="ghost-black" content="Lorem ipsum" />
+      </div>
+      <div>
+        <span>.btn.lg.ghost-black-off</span>{' '}
+        <Button
+          variant="ghost-black"
+          status="off"
+          content="Lorem ipsum"
+        />
+      </div>
+      <div>
+        <span>.btn.sm.ghost-black-on</span>{' '}
+        <Button
+          variant="ghost-black"
+          size="sm"
+          content="Lorem ipsum"
+        />
+      </div>
+      <div>
+        <span>.btn.sm.ghost-black-off</span>{' '}
+        <Button
+          variant="ghost-black"
+          size="sm"
+          status="off"
+          content="Lorem ipsum"
+        />
+      </div>
+    </div>
+    <hr />
+    <h3> Ghost-white </h3>
+    <div className="row">
+      <div>
+        <span>.btn.lg.ghost-white-on</span>{' '}
+        <Button variant="ghost-white" content="Lorem ipsum" />
+      </div>
+      <div>
+        <span>.btn.lg.ghost-white-off</span>{' '}
+        <Button
+          variant="ghost-white"
+          status="off"
+          content="Lorem ipsum"
+        />
+      </div>
+      <div>
+        <span>.btn.sm.ghost-white-on</span>{' '}
+        <Button
+          variant="ghost-white"
+          size="sm"
+          content="Lorem ipsum"
+        />
+      </div>
+      <div>
+        <span>.btn.sm.ghost-white-off</span>{' '}
+        <Button
+          variant="ghost-white"
+          size="sm"
+          status="off"
+          content="Lorem ipsum"
+        />
+      </div>
+    </div>
   </div>
 );

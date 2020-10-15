@@ -1,3 +1,4 @@
+/* eslint-disable react/button-has-type */
 import React from 'react';
 import { ButtonProps } from './Button.types';
 import './Button.scss';
@@ -9,9 +10,10 @@ const Button = (props: ButtonProps) => {
     status = 'on',
     size = 'lg',
     variant = 'primary',
+    type = 'button',
     content = 'ok',
     onPress = () => {},
-    width = '8.25rem',
+    width = '13.438rem',
   } = props;
 
   const handleOnClick = () => {
@@ -21,19 +23,21 @@ const Button = (props: ButtonProps) => {
   };
 
   return (
-    <div
-      onClick={handleOnClick}
-      onKeyPress={handleOnClick}
-      tabIndex={0}
-      role="button"
-      aria-disabled={status !== 'on'}
-      aria-label={aria}
-      data-testid="button"
-      className={`button ${size} ${variant}-${status}`}
-      style={{ width: `${width}` }}
-    >
-      {content}
-    </div>
+    <>
+      <button
+        onClick={handleOnClick}
+        onKeyPress={handleOnClick}
+        tabIndex={0}
+        aria-disabled={status !== 'on'}
+        aria-label={aria}
+        type={type}
+        data-testid="button"
+        className={`button ${size} ${variant}-${status}`}
+        style={{ width: `${width}` }}
+      >
+        {content}
+      </button>
+    </>
   );
 };
 

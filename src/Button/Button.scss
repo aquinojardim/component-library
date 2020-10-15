@@ -2,13 +2,9 @@
 @import "~fontsource-metropolis/all.css";
 
 .button {
-  @include MetropolisSemiBold;
+  @include h5-desktop;
   min-width: fit-content;
   text-align: center;
-  font-size: 0.8681rem;
-  line-height: 1.1875rem;
-  letter-spacing: 0.2168rem;
-  text-transform: uppercase;
   align-content: center;
   margin: $padding-sm;
 

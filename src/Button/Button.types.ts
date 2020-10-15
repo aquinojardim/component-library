@@ -7,4 +7,5 @@ export interface ButtonProps {
   // eslint-disable-next-line prettier/prettier
   variant?:'primary' | 'secondary' | 'pink' | 'ghost-black' | 'ghost-white';
   width?: string;
+  type?: 'button' | 'submit' | 'reset' | undefined;
 }

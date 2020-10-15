@@ -1,6 +1,6 @@
 {
   "name": "@gabrielajardimaquino/component-library",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "main": "build/index.js",
   "module": "build/index.esm.js",
@@ -66,6 +66,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "rollup": "^1.27.4",
+    "rollup-plugin-copy": "^3.3.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-postcss": "^3.1.2",
     "rollup-plugin-typescript2": "^0.27.0",
@@ -74,12 +75,14 @@
     "typescript": "^3.7.2"
   },
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
     "@fortawesome/free-regular-svg-icons": "^5.14.0",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "@fortawesome/react-fontawesome": "^0.1.11",
-    "@gabrielajardimaquino/global-styles": "^1.1.0",
+    "@gabrielajardimaquino/global-styles": "^1.1.2",
     "fontsource-metropolis": "^3.0.1",
     "formik": "^2.2.0"
   }

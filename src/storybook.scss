@@ -8,6 +8,10 @@
   padding: 100px;
 }
 
+.invisible {
+  color:#F2F2F2;
+}
+
 .media-breakpoint-xs {
   visibility: hidden;
   @media (max-width: $media-breakpoint-xs) {

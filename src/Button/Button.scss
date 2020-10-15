@@ -1,7 +1,7 @@
 @import '~@gabrielajardimaquino/global-styles/theme.scss';
 @import "~fontsource-metropolis/all.css";
 
-.button {
+.btn {
   @include h5-desktop;
   min-width: fit-content;
   text-align: center;
@@ -10,15 +10,15 @@
 
   &:focus { outline:0 }
   
-  &.lg {
+  &.btn-lg {
     padding: $padding-sm $padding-lg;
   }
 
-  &.sm {
+  &.btn-sm {
     padding: $padding-xs $padding-sm;
   }
 
-  &.primary-on {
+  &.btn-primary-on {
     background-color: $color-black;
     border: 0.0625rem solid $color-black;
     color: $color-white;
@@ -26,50 +26,53 @@
       background-color: $color-grey-7;
       border: 0.0625rem solid $color-grey-7;
       text-decoration-line: underline;
+      transition: background-color 0.2s,border-color 0.2s
     }
   }
 
-  &.primary-off {
+  &.btn-primary-off {
     background-color: $color-grey-7;
     border: 0.0625rem solid $color-grey-7;
     color: $color-grey-5;
     cursor: not-allowed;
   }
 
-  &.secondary-on {
+  &.btn-secondary-on {
     background-color: $color-white;
     border: $color-white;
     color: $color-black;
     &:hover {
       background-color: $color-blue;
       text-decoration-line: underline;
+      transition: background-color 0.2s,border-color 0.2s
     }
   }
 
-  &.secondary-off {
+  &.btn-secondary-off {
     background-color: $color-white;
     border: $color-white;
     color: $color-grey-5;
     cursor: not-allowed;
   }
 
-  &.pink-on {
+  &.btn-pink-on {
     background-color: $color-pink;
     border: 0.0625rem solid $color-pink;
     color: $color-white;
     &:hover {
       text-decoration-line: underline;
+      transition: background-color 0.2s,border-color 0.2s
     }
   }
 
-  &.pink-off {
+  &.btn-pink-off {
     background-color: $color-pink-light;
     border: 0.0625rem solid $color-pink-light;
     color: $color-grey-7;
     cursor: not-allowed;
   }
 
-  &.ghost-black-on {
+  &.btn-ghost-black-on {
     background-color: none;
     border: 0.0625rem solid $color-black;
     color: $color-black;
@@ -77,17 +80,18 @@
       background-color: $color-black;
       color: $color-white;
       text-decoration-line: underline;
+      transition: background-color 0.2s,border-color 0.2s
     }
   }
 
-  &.ghost-black-off {
+  &.btn-ghost-black-off {
     background-color: none;
     border: 0.0625rem solid $color-grey-7;
     color: $color-grey-7;
     cursor: not-allowed;
   }
 
-  &.ghost-white-on {
+  &.btn-ghost-white-on {
     background-color: none;
     border: 0.0625rem solid $color-white;
     color: $color-white;
@@ -95,10 +99,11 @@
       background-color: $color-white;
       color: $color-black;
       text-decoration-line: underline;
+      transition: background-color 0.2s,border-color 0.2s
     }
   }
 
-  &.ghost-white-off {
+  &.btn-ghost-white-off {
     background-color: none;
     border: 0.0625rem solid $color-grey-7;
     color: $color-grey-7;

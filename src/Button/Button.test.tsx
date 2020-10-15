@@ -75,14 +75,14 @@ describe('Button test variant', () => {
   });
 });
 
-describe('Button test OnPress', () => {
+describe('Button test onClick', () => {
   let props: ButtonProps;
-  let changeOnPress = 'off';
+  let changeonClick = 'off';
 
   beforeEach(() => {
     props = {
-      onPress: () => {
-        changeOnPress = 'on';
+      onClick: () => {
+        changeonClick = 'on';
       },
     };
   });
@@ -98,14 +98,14 @@ describe('Button test OnPress', () => {
   it('should call function on click', () => {
     const { getByTestId } = renderComponent();
     fireEvent.click(getByTestId('button'), new MouseEvent('click'));
-    expect(changeOnPress).toEqual('on');
+    expect(changeonClick).toEqual('on');
   });
 
   it('should call function on click 1 time', () => {
-    props.onPress = jest.fn();
+    props.onClick = jest.fn();
     const { getByTestId } = renderComponent();
     fireEvent.click(getByTestId('button'));
-    expect(props.onPress).toHaveBeenCalledTimes(1);
+    expect(props.onClick).toHaveBeenCalledTimes(1);
   });
 
   it('should call function on key down', () => {
@@ -114,28 +114,28 @@ describe('Button test OnPress', () => {
       key: 'Enter',
       code: 'Enter',
     });
-    expect(changeOnPress).toEqual('on');
+    expect(changeonClick).toEqual('on');
   });
 
   it('should work with no function', () => {
-    changeOnPress = 'off';
+    changeonClick = 'off';
     props = {};
     const { getByTestId } = renderComponent();
     const ButtonWithNoFunc = getByTestId('button');
     expect(ButtonWithNoFunc).toBeTruthy();
-    expect(changeOnPress).toEqual('off');
+    expect(changeonClick).toEqual('off');
   });
 });
 
 describe('Button test Disable', () => {
   let props: ButtonProps;
-  let changeOnPress = 'off';
+  let changeonClick = 'off';
 
   beforeEach(() => {
     props = {
       status: 'off',
-      onPress: () => {
-        changeOnPress = 'on';
+      onClick: () => {
+        changeonClick = 'on';
       },
     };
   });
@@ -145,14 +145,14 @@ describe('Button test Disable', () => {
   it('should not call function on click', () => {
     const { getByTestId } = renderComponent();
     fireEvent.click(getByTestId('button'), new MouseEvent('click'));
-    expect(changeOnPress).toEqual('off');
+    expect(changeonClick).toEqual('off');
   });
 
   it('should not call function on click 0 time', () => {
-    props.onPress = jest.fn();
+    props.onClick = jest.fn();
     const { getByTestId } = renderComponent();
     fireEvent.click(getByTestId('button'));
-    expect(props.onPress).toHaveBeenCalledTimes(0);
+    expect(props.onClick).toHaveBeenCalledTimes(0);
   });
 
   it('should not call function on key down', () => {
@@ -161,6 +161,6 @@ describe('Button test Disable', () => {
       key: 'Enter',
       code: 'Enter',
     });
-    expect(changeOnPress).toEqual('off');
+    expect(changeonClick).toEqual('off');
   });
 });

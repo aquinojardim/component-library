@@ -63,7 +63,7 @@ export const typographyHeader = () => (
     <h1>metropolis semibold - h1-desktop</h1>
     <h2>metropolis semibold - h2-desktop and h1-mobile</h2>
     <h3>metropolis semibold - base - h3-desktop and h2-mobile</h3>
-    <h4>metrolpolis semibold - h4-desktop and h3-mobile</h4>
+    <h4>metropolis semibold - h4-desktop and h3-mobile</h4>
     <h5>metropolis semibold - h5-desktop and h4-mobile</h5>
     <h6>metropolis semibold - h6-desktop and h5-mobile</h6>
     <p className="h6-smallest">
@@ -142,16 +142,16 @@ export const LinksAndTooltip = () => (
       The <a>inline link</a> are used by the a tag with no class
     </p>
     <hr />
-    <p>
-      <a className="h1-largest-link">h1-largest-link</a>
-      <a className="h1-link">h1-link</a>
-      <a className="h2-link">h2-link</a>
-      <a className="h3-link">h3-link</a>
-      <a className="h4-link">h4-link</a>
-      <a className="h5-link">h5-link</a>
-      <a className="h6-link">h6-link</a>
-      <a className="h6-smallest-link">h6-smallest-link</a>
-    </p>
+    <span className="invisible">.</span>
+    <a className="h1-largest-link">h1-largest-link</a>
+    <a className="h1-link">h1-link</a>
+    <a className="h2-link">h2-link</a>
+    <a className="h3-link">h3-link</a>
+    <a className="h4-link">h4-link</a>
+    <a className="h5-link">h5-link</a>
+    <a className="h6-link">h6-link</a>
+    <a className="h6-smallest-link">h6-smallest-link</a>
+    <span className="invisible">.</span>
     <hr />
     <p>
       <a className="standalone-link">Standalone link</a>

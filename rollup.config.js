@@ -4,6 +4,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import typescript from 'rollup-plugin-typescript2';
 import postcss from 'rollup-plugin-postcss';
 import copy from 'rollup-plugin-copy';
+import svgr from '@svgr/rollup';
 
 const packageJson = require('./package.json');
 
@@ -22,6 +23,7 @@ export default {
     },
   ],
   plugins: [
+    svgr(),
     peerDepsExternal(),
     resolve(),
     commonjs(),
@@ -29,6 +31,11 @@ export default {
     postcss(),
     copy({
       targets: [
+        {
+          src: 'src/Icon/favicon.ico',
+          dest: 'build/Icon',
+          rename: 'favicon.ico',
+        },
         {
           src: 'src/Icon/icon-57x57-precomposed.png',
           dest: 'build/Icon',
@@ -110,9 +117,34 @@ export default {
           rename: 'icon-180x180.png',
         },
         {
-          src: 'src/Icon/favicon.ico',
+          src: 'src/Icon/icon-secondary.svg',
           dest: 'build/Icon',
-          rename: 'favicon.ico',
+          rename: 'icon-white.svg',
+        },
+        {
+          src: 'src/Icon/icon-black.svg',
+          dest: 'build/Icon',
+          rename: 'icon-black.svg',
+        },
+        {
+          src: 'src/Icon/icon-pink.svg',
+          dest: 'build/Icon',
+          rename: 'icon-pink.svg',
+        },
+        {
+          src: 'src/Icon/secondaryLogo.svg',
+          dest: 'build/Icon',
+          rename: 'logo-white.svg',
+        },
+        {
+          src: 'src/Icon/blackLogo.svg',
+          dest: 'build/Icon',
+          rename: 'logo-black.svg',
+        },
+        {
+          src: 'src/Icon/pinkLogo.svg',
+          dest: 'build/Icon',
+          rename: 'logo-pink.svg',
         },
       ],
     }),

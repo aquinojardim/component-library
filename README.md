@@ -28,21 +28,18 @@ export default App;
 ###### Optional Props:
 ######   aria = 'any string'
 ######   content = 'any string'
-######   onPress = any function ( for best performance: useCallback )
+######   onClick = any function ( for best performance: useCallback )
 ######   size = 'lg' | 'sm'
 ######   status = 'on' | 'off'
+######   type = 'button' | 'submit' | 'reset'
 ######   variant = 'primary' | 'secondary' | 'pink' | 'ghost-black' | 'ghost-white'
 ######   width = 'any unit in string format'
 - ## Icon
 ###### Optional Props:
-######   size = 57 | 72 | 76 | 114 | 120 | 144 | 152 | 180
-######   variant = 'primary' | 'secondary' | 'pink' | 'black'
-######   precomposed = boolean ( true | false )
-###### ( favicon.ico is also avaliable in the icon folder )
-- ## Logo
-###### Optional Props:
-######   variant = 'primary' | 'secondary' | 'pink' | 'black'
-######   width = 'any unit in string format'
+######   name?: ' any string from [icon names](https://github.com/fashionphile/ComponentLibrary/blob/master/README.iconnames.md)'
+######   size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl';
+######   variant?: 'primary' | 'secondary' | 'pink' | 'black' | 'grey';
+###### ( png, svg and favicon.ico icons are also avaliable in the icon folder )
 
 # Development
 ## Description

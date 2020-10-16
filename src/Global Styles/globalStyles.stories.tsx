@@ -1,6 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInfoCircle } from '@fortawesome/fontawesome-free-solid';
+import Icon from '../Icon/Icon';
 import 'fontsource-metropolis/all.css';
 import '@gabrielajardimaquino/global-styles/theme.scss';
 
@@ -158,8 +157,8 @@ export const LinksAndTooltip = () => (
       <a className="standalone-link">
         Standalone link
         <div className="tooltip">
-          <span className="vertical-center">
-            <FontAwesomeIcon icon={faInfoCircle} />
+          <span className="tooltip-icon">
+            <Icon name="fa-icon-info-circle-solid" size="xs" />
           </span>
         </div>
       </a>
@@ -168,8 +167,8 @@ export const LinksAndTooltip = () => (
     <p className="tooltip-label">
       Tooltip Label
       <div className="tooltip">
-        <span className="vertical-center">
-          <FontAwesomeIcon icon={faInfoCircle} />
+        <span className="tooltip-icon">
+          <Icon name="fa-icon-info-circle-solid" size="xs" />
         </span>
         <span className="tooltip-text">
           This is some tooltip text. This box shows the maximum amount

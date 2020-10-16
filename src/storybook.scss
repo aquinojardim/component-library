@@ -3,7 +3,8 @@
 
 .style-guide {
   background-color:#F2F2F2;
-  height: 1000px; 
+  min-height: 1000px; 
+  height: fit-content; 
   margin: -100px; 
   padding: 100px;
 }

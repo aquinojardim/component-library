@@ -50,7 +50,6 @@ This project features:
 - [TypeScript](https://www.typescriptlang.org/)
 - [ESlint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
-- [Formik](https://formik.org/)
 - [Storybook](https://storybook.js.org/) to help you create and show off your components
 - [Jest](https://jestjs.io/) and [React Testing Library](https://github.com/testing-library/react-testing-library) enabling testing of the components
 

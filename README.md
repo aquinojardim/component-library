@@ -4,7 +4,7 @@
 On your project `npm install @gabrielajardimaquino/component-library` and all the dependencies
 
 ```
-npm install @gabrielajardimaquino/component-library @fortawesome/fontawesome-svg-core @fortawesome/free-brands-svg-icons @fortawesome/free-regular-svg-icons @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome @gabrielajardimaquino/global-styles fontsource-metropolis formik
+npm install @gabrielajardimaquino/component-library fontsource-metropolis  @gabrielajardimaquino/global-styles
 ```
 
 Using a component (after the library installed as a dependency):
@@ -14,7 +14,7 @@ import React from "react";
 import { Button } from "@gabrielajardimaquino/component-library";
 
 const App = () => (
-  <div className="app-container">
+  <div>
     <h1>Hello I'm consuming the component library</h1>
     <Button variant="primary" />
   </div>
@@ -28,21 +28,18 @@ export default App;
 ###### Optional Props:
 ######   aria = 'any string'
 ######   content = 'any string'
-######   onPress = any function ( for best performance: useCallback )
+######   onClick = any function ( for best performance: useCallback )
 ######   size = 'lg' | 'sm'
 ######   status = 'on' | 'off'
+######   type = 'button' | 'submit' | 'reset'
 ######   variant = 'primary' | 'secondary' | 'pink' | 'ghost-black' | 'ghost-white'
 ######   width = 'any unit in string format'
 - ## Icon
 ###### Optional Props:
-######   size = 57 | 72 | 76 | 114 | 120 | 144 | 152 | 180
-######   variant = 'primary' | 'secondary' | 'pink' | 'black'
-######   precomposed = boolean ( true | false )
-###### ( favicon.ico is also avaliable in the icon folder )
-- ## Logo
-###### Optional Props:
-######   variant = 'primary' | 'secondary' | 'pink' | 'black'
-######   width = 'any unit in string format'
+######   name?: ' any string from [icon names](https://github.com/fashionphile/ComponentLibrary/blob/master/README.iconnames.md)'
+######   size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl';
+######   variant?: 'primary' | 'secondary' | 'pink' | 'black' | 'grey';
+###### ( png, svg and favicon.ico icons are also avaliable in the icon folder )
 
 # Development
 ## Description
@@ -148,31 +145,6 @@ The default templates for each file can be modified under `util/templates`.
 
 Don't forget to add the component to your `index.ts` exports if you want the library to export the component!
 
-### Creating custom input components with Formik
-
-When creating input field use formik useField() to enable Formik validation when used. 
-
-```TSX
-import React from 'react';
-import { useField } from 'formik';
-import './MyTextInput.scss';
-import 'fontsource-metropolis/all.css';
-
-const MyTextInput = ({ label, ...props }) => {
-  const [field, meta] = useField(props);
-  return (
-    <>
-      <label htmlFor={props.id || props.name}>{label}</label>
-      <input className="text-input" {...field} {...props} />
-      {meta.touched && meta.error ? (
-        <div className="error">{meta.error}</div>
-      ) : null}
-    </>
-  );
-};
-
-export default MyTextInput;
-```
 
 ### Installing Component Library Locally
 

@@ -12,13 +12,13 @@ const Button = (props: ButtonProps) => {
     variant = 'primary',
     type = 'button',
     content = 'ok',
-    onPress = () => {},
+    onClick = () => {},
     width = '13.438rem',
   } = props;
 
   const handleOnClick = () => {
-    if (onPress && status === 'on') {
-      onPress();
+    if (onClick && status === 'on') {
+      onClick();
     }
   };
 
@@ -32,7 +32,7 @@ const Button = (props: ButtonProps) => {
         aria-label={aria}
         type={type}
         data-testid="button"
-        className={`button ${size} ${variant}-${status}`}
+        className={`btn btn-${size} btn-${variant}-${status}`}
         style={{ width: `${width}` }}
       >
         {content}

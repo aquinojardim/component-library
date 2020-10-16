@@ -12,10 +12,14 @@
   
   &.btn-lg {
     padding: $padding-sm $padding-lg;
+    width: 13.438rem;
+    height: 3.438rem;
   }
 
   &.btn-sm {
     padding: $padding-xs $padding-sm;
+    width: 11.063rem;
+    height:  2.375rem;
   }
 
   &.btn-primary-on {

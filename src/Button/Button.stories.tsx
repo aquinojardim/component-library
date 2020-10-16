@@ -11,16 +11,19 @@ export const Buttons = () => (
     <div className="container">
       <h1> Button</h1>
       <hr />
-      <p> variant: primary </p>
       <div className="row">
         <div>
-          <span>
-            size: lg | status: on <strong>default</strong>
-          </span>{' '}
+          <p>
+            variant: primary <strong>default</strong>
+          </p>
+          <p>size: lg</p>
+          <p>status: on</p>
           <Button content="Lorem ipsum" />
         </div>
         <div>
-          <span>size: lg | status: off</span>{' '}
+          <p>variant: primary</p>
+          <p>size: lg</p>
+          <p>status: off</p>
           <Button
             variant="primary"
             status="off"
@@ -28,11 +31,15 @@ export const Buttons = () => (
           />
         </div>
         <div>
-          <span>size: sm | status: on</span>{' '}
+          <p>variant: primary</p>
+          <p>size: sm</p>
+          <p>status: on</p>
           <Button variant="primary" size="sm" content="Lorem ipsum" />
         </div>
         <div>
-          <span>size: sm | status: off</span>{' '}
+          <p>variant: primary</p>
+          <p>size: sm</p>
+          <p>status: off</p>
           <Button
             variant="primary"
             size="sm"
@@ -42,14 +49,17 @@ export const Buttons = () => (
         </div>
       </div>
       <hr />
-      <p> variant: secondary </p>
       <div className="row">
         <div>
-          <span>size: lg | status: on</span>{' '}
+          <p> variant: secondary </p>
+          <p>size: lg</p>
+          <p>status: on</p>
           <Button variant="secondary" content="Lorem ipsum" />
         </div>
         <div>
-          <span>size: lg | status: off</span>{' '}
+          <p> variant: secondary </p>
+          <p>size: lg</p>
+          <p>status: off</p>
           <Button
             variant="secondary"
             status="off"
@@ -57,7 +67,9 @@ export const Buttons = () => (
           />
         </div>
         <div>
-          <span>size: sm | status: on</span>{' '}
+          <p> variant: secondary </p>
+          <p>size: sm</p>
+          <p>status: on</p>
           <Button
             variant="secondary"
             size="sm"
@@ -65,7 +77,9 @@ export const Buttons = () => (
           />
         </div>
         <div>
-          <span>size: sm | status: off</span>{' '}
+          <p> variant: secondary </p>
+          <p>size: sm</p>
+          <p>status: off</p>
           <Button
             variant="secondary"
             size="sm"
@@ -75,22 +89,29 @@ export const Buttons = () => (
         </div>
       </div>
       <hr />
-      <p> variant: pink </p>
       <div className="row">
         <div>
-          <span>size: lg | status: on</span>{' '}
+          <p> variant: pink </p>
+          <p>size: lg</p>
+          <p>status: on</p>
           <Button variant="pink" content="Lorem ipsum" />
         </div>
         <div>
-          <span>size: lg | status: off</span>{' '}
+          <p> variant: pink </p>
+          <p>size: lg</p>
+          <p>status: off</p>
           <Button variant="pink" status="off" content="Lorem ipsum" />
         </div>
         <div>
-          <span>size: sm | status: on</span>{' '}
+          <p> variant: pink </p>
+          <p>size: sm</p>
+          <p>status: on</p>
           <Button variant="pink" size="sm" content="Lorem ipsum" />
         </div>
         <div>
-          <span>size: sm | status: off</span>{' '}
+          <p> variant: pink </p>
+          <p>size: sm</p>
+          <p>status: off</p>
           <Button
             variant="pink"
             size="sm"
@@ -100,14 +121,17 @@ export const Buttons = () => (
         </div>
       </div>
       <hr />
-      <p> variant: ghost-black </p>
       <div className="row">
         <div>
-          <span>size: lg | status: on</span>{' '}
+          <p> variant: ghost-black </p>
+          <p>size: lg</p>
+          <p>status: on</p>
           <Button variant="ghost-black" content="Lorem ipsum" />
         </div>
         <div>
-          <span>size: lg | status: off</span>{' '}
+          <p> variant: ghost-black </p>
+          <p>size: lg</p>
+          <p>status: off</p>
           <Button
             variant="ghost-black"
             status="off"
@@ -115,7 +139,9 @@ export const Buttons = () => (
           />
         </div>
         <div>
-          <span>size: sm | status: on</span>{' '}
+          <p> variant: ghost-black </p>
+          <p>size: sm</p>
+          <p>status: on</p>
           <Button
             variant="ghost-black"
             size="sm"
@@ -123,7 +149,9 @@ export const Buttons = () => (
           />
         </div>
         <div>
-          <span>size: sm | status: off</span>{' '}
+          <p> variant: ghost-black </p>
+          <p>size: sm</p>
+          <p>status: off</p>
           <Button
             variant="ghost-black"
             size="sm"
@@ -133,14 +161,17 @@ export const Buttons = () => (
         </div>
       </div>
       <hr />
-      <p> variant: ghost-white </p>
       <div className="row">
         <div>
-          <span>size: lg | status: on</span>{' '}
+          <p> variant: ghost-white </p>
+          <p>size: lg</p>
+          <p>status: on</p>
           <Button variant="ghost-white" content="Lorem ipsum" />
         </div>
         <div>
-          <span>size: lg | status: off</span>{' '}
+          <p> variant: ghost-white </p>
+          <p>size: lg</p>
+          <p>status: off</p>
           <Button
             variant="ghost-white"
             status="off"
@@ -148,7 +179,9 @@ export const Buttons = () => (
           />
         </div>
         <div>
-          <span>size: sm | status: on</span>{' '}
+          <p> variant: ghost-white </p>
+          <p>size: sm</p>
+          <p>status: on</p>
           <Button
             variant="ghost-white"
             size="sm"
@@ -156,7 +189,9 @@ export const Buttons = () => (
           />
         </div>
         <div>
-          <span>size: sm | status: off</span>{' '}
+          <p> variant: ghost-white </p>
+          <p>size: sm</p>
+          <p>status: off</p>
           <Button
             variant="ghost-white"
             size="sm"

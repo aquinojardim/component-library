@@ -13,7 +13,7 @@ const Button = (props: ButtonProps) => {
     type = 'button',
     content = 'ok',
     onClick = () => {},
-    width = '13.438rem',
+    width = '',
   } = props;
 
   const handleOnClick = () => {

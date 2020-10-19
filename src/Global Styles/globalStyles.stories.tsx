@@ -5,10 +5,18 @@ import '@gabrielajardimaquino/global-styles/theme.scss';
 
 export default {
   title: 'Global Styles',
+  decorators: [
+    (Story) => (
+      <div className="style-guide">
+        <Story />
+      </div>
+    ),
+  ],
+  controls: { hideNoControlsWarning: true },
 };
 
 export const typographyFont = () => (
-  <div className="style-guide">
+  <div>
     <h1>Font</h1>
     <hr />
     <p className="metropolisBold">
@@ -55,7 +63,7 @@ export const typographyFont = () => (
 );
 
 export const typographyHeader = () => (
-  <div className="style-guide">
+  <div>
     <h1>Header</h1>
     <hr />
     <p className="h1-largest">metropolis semibold - h1-largest</p>
@@ -72,7 +80,7 @@ export const typographyHeader = () => (
 );
 
 export const typographyBody = () => (
-  <div className="style-guide">
+  <div>
     <h1>Body</h1>
     <hr />
     <p className="body-xxl">
@@ -134,7 +142,7 @@ export const typographyBody = () => (
 );
 
 export const LinksAndTooltip = () => (
-  <div className="style-guide">
+  <div>
     <h1>Links and Tooltip</h1>
     <hr />
     <p>
@@ -181,7 +189,7 @@ export const LinksAndTooltip = () => (
 );
 
 export const Colors = () => (
-  <div className="style-guide">
+  <div>
     <h1>Color</h1>
     <hr />
     <div className="color-story color-white">color-white</div>
@@ -206,7 +214,7 @@ export const Colors = () => (
 );
 
 export const Padding = () => (
-  <div className="style-guide">
+  <div>
     <h1>Padding</h1>
     <hr />
     <div className="color-pink padding-max">.</div>
@@ -229,7 +237,7 @@ export const Padding = () => (
 );
 
 export const Grid = () => (
-  <div className="style-guide">
+  <div>
     <h1>Grid</h1>
     <hr />
     <div className="container">
@@ -260,7 +268,7 @@ export const Grid = () => (
 );
 
 export const MeadiaBreakpoints = () => (
-  <div className="style-guide">
+  <div>
     <h1>Media Breakpoints</h1>
     <hr />
     <div className="media-breakpoint-xl">

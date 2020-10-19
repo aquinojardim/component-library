@@ -77,6 +77,7 @@ import Iconpaypallogo from './svg/icon-paypal-logo.svg';
 const Icon = (props: IconProps) => {
   const {
     name = 'icon-logo-knot',
+    aria = name,
     variant = 'primary',
     size = 'sm',
   } = props;
@@ -158,7 +159,7 @@ const Icon = (props: IconProps) => {
     }
   };
 
-  return <div className='icon-margin'> {iconName()}</div>;
+  return <div className='icon-margin' aria-label={aria}> {iconName()}</div>;
 
 };
 

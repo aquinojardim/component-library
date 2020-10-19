@@ -7,5 +7,7 @@ module.exports = ({ config }) => {
     test: /\.svg$/,
     use: ["@svgr/webpack"],
   });
+  
+  
   return config;
 };

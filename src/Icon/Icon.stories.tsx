@@ -3,7 +3,7 @@ import Icon from './Icon';
 import '../storybook.scss';
 
 export default {
-  title: 'Icon',
+  title: 'Components/Icon',
   componet: Icon,
   argTypes: {
     variant: {

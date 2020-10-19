@@ -5,7 +5,7 @@ import ${componentName} from "./${componentName}";
 import './../storybook.scss';
 
 export default {
-  title: "${componentName}",
+  title: "Components/${componentName}",
   componet: ${componentName},
   decorators: [
     (Story) => (

@@ -36,7 +36,7 @@ export const ${componentName}Options = () => (
   <div>
     <h1>${componentName}</h1>
     <hr />
-    <${componentName} foo="bar"/>
+    <${componentName} aria="${componentName}"/>
   </div>;
 );
 

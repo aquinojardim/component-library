@@ -5,8 +5,8 @@ import { ${componentName}Props } from "./${componentName}.types";
 import "fontsource-metropolis/all.css";
 import "./${componentName}.scss";
 
-const ${componentName}: React.FC<${componentName}Props> = ({ foo }) => (
-    <div data-testid="${componentName}" className="foo-bar">{foo}</div>
+const ${componentName}: React.FC<${componentName}Props> = ({ aria="${componentName}" }) => (
+    <div data-testid="${componentName}" className="${componentName}">{foo}</div>
 );
 
 export default ${componentName};

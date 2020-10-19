@@ -4,10 +4,8 @@ module.exports = (componentName) => ({
 @import '~@gabrielajardimaquino/global-styles/theme.scss';
 @import "~fontsource-metropolis/all.css";
 
-.foo-bar {
-  @include font-defaults;
-
-  color: $harvey-green;
+.${componentName} {
+  color: $color-black;
 }
 `,
   extension: '.scss',

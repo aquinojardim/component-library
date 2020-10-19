@@ -16,7 +16,7 @@ export default {
 };
 
 export const typographyFont = () => (
-  <div>
+  <div className="container">
     <h1>Font</h1>
     <hr />
     <p className="metropolisBold">
@@ -63,7 +63,7 @@ export const typographyFont = () => (
 );
 
 export const typographyHeader = () => (
-  <div>
+  <div className="container">
     <h1>Header</h1>
     <hr />
     <p className="h1-largest">metropolis semibold - h1-largest</p>
@@ -80,7 +80,7 @@ export const typographyHeader = () => (
 );
 
 export const typographyBody = () => (
-  <div>
+  <div className="container">
     <h1>Body</h1>
     <hr />
     <p className="body-xxl">
@@ -142,7 +142,7 @@ export const typographyBody = () => (
 );
 
 export const LinksAndTooltip = () => (
-  <div>
+  <div className="container">
     <h1>Links and Tooltip</h1>
     <hr />
     <p>
@@ -189,7 +189,7 @@ export const LinksAndTooltip = () => (
 );
 
 export const Colors = () => (
-  <div>
+  <div className="container">
     <h1>Color</h1>
     <hr />
     <div className="color-story color-white">color-white</div>
@@ -214,7 +214,7 @@ export const Colors = () => (
 );
 
 export const Padding = () => (
-  <div>
+  <div className="container">
     <h1>Padding</h1>
     <hr />
     <div className="color-pink padding-max">.</div>
@@ -237,38 +237,36 @@ export const Padding = () => (
 );
 
 export const Grid = () => (
-  <div>
+  <div className="container">
     <h1>Grid</h1>
     <hr />
-    <div className="container">
-      The grid has a total of 12 column...
-      <div className="row">
-        <div className="col-12 color-pink-light">col-12</div>
+    The grid has a total of 12 column...
+    <div className="row">
+      <div className="col-12 color-pink-light">col-12</div>
+    </div>
+    ...divided by a 2rem gutter...
+    <div className="row">
+      <div className="col-1 color-pink-light">col-1</div>
+      <div className="col-8 color-pink-light">col-8</div>
+      <div className="col-3 color-pink-light">col-3</div>
+    </div>
+    ...and can be used for responsive design.
+    <div className="row">
+      <div className="col-lg-1 col-md-2 col-sm-4 col-xs-12 color-pink-light">
+        col-lg-1 col-md-2 col-sm-4 col-xs-12
       </div>
-      ...divided by a 2rem gutter...
-      <div className="row">
-        <div className="col-1 color-pink-light">col-1</div>
-        <div className="col-8 color-pink-light">col-8</div>
-        <div className="col-3 color-pink-light">col-3</div>
+      <div className="col-lg-8 col-md-6 col-sm-4 col-xs-12 color-pink-light">
+        col-lg-8 col-md-6 col-sm-4 col-xs-12
       </div>
-      ...and can be used for responsive design.
-      <div className="row">
-        <div className="col-lg-1 col-md-2 col-sm-4 col-xs-12 color-pink-light">
-          col-lg-1 col-md-2 col-sm-4 col-xs-12
-        </div>
-        <div className="col-lg-8 col-md-6 col-sm-4 col-xs-12 color-pink-light">
-          col-lg-8 col-md-6 col-sm-4 col-xs-12
-        </div>
-        <div className="col-lg-3 col-md-4 col-sm-4 col-xs-12 color-pink-light">
-          col-lg-3 col-md-4 col-sm-4 col-xs-12
-        </div>
+      <div className="col-lg-3 col-md-4 col-sm-4 col-xs-12 color-pink-light">
+        col-lg-3 col-md-4 col-sm-4 col-xs-12
       </div>
     </div>
   </div>
 );
 
 export const MeadiaBreakpoints = () => (
-  <div>
+  <div className="container">
     <h1>Media Breakpoints</h1>
     <hr />
     <div className="media-breakpoint-xl">

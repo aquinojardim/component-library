@@ -3,7 +3,7 @@ import { create } from '@storybook/theming/create';
 export default create({
   base: 'light',
   colorPrimary: '#191C1F',
-  colorSecondary: '#FF0099',
+  colorSecondary: '#EB0C8F',
   brandTitle: 'Fashionphile',
   brandUrl: 'https://www.fashionphile.com/',
   brandImage: 'https://www.fashionphile.com/images/FASHIONPHILE.svg',

@@ -5,13 +5,6 @@ import '../storybook.scss';
 export default {
   title: 'Icon',
   componet: Icon,
-  decorators: [
-    (Story) => (
-      <div className="style-guide">
-        <Story />
-      </div>
-    ),
-  ],
   argTypes: {
     variant: {
       name: 'variant',

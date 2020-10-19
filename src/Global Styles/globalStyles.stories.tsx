@@ -5,14 +5,12 @@ import '@gabrielajardimaquino/global-styles/theme.scss';
 
 export default {
   title: 'Global Styles',
-  decorators: [
-    (Story) => (
-      <div className="style-guide">
-        <Story />
-      </div>
-    ),
-  ],
-  controls: { hideNoControlsWarning: true },
+  parameters: {
+    controls: { hideNoControlsWarning: true },
+    docs: {
+      page: null,
+    },
+  },
 };
 
 export const typographyFont = () => (

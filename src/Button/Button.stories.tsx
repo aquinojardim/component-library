@@ -5,13 +5,13 @@ import '../storybook.scss';
 export default {
   title: 'Button',
   componet: Button,
-  decorators: [
-    (Story) => (
-      <div className="style-guide">
-        <Story />
-      </div>
-    ),
-  ],
+  // decorators: [
+  //   (Story) => (
+  //     <div className="style-guide">
+  //       <Story />
+  //     </div>
+  //   ),
+  // ],
   argTypes: {
     aria: {
       name: 'aria',

@@ -1,7 +1,7 @@
 import React from 'react';
 import Icon from '../Icon/Icon';
 import 'fontsource-metropolis/all.css';
-import '@gabrielajardimaquino/global-styles/theme.scss';
+import '@gabrielajardimaquino/global-styles/build/theme.scss';
 
 export default {
   title: 'Styles/Global',

@@ -5,13 +5,13 @@ import '../storybook.scss';
 export default {
   title: 'Button',
   componet: Button,
-  decorators: [
-    (Story) => (
-      <div className="style-guide">
-        <Story />
-      </div>
-    ),
-  ],
+  // decorators: [
+  //   (Story) => (
+  //     <div className="style-guide">
+  //       <Story />
+  //     </div>
+  //   ),
+  // ],
   argTypes: {
     aria: {
       name: 'aria',
@@ -120,7 +120,7 @@ export const ButtonOptions = () => (
     <h1>Button</h1>
     <hr />
     <div className="row">
-      <div>
+      <div className="col-lg-3 col-sm-6 col-xs-12">
         <p>
           variant: primary <strong>default</strong>
         </p>
@@ -128,7 +128,7 @@ export const ButtonOptions = () => (
         <p>status: on</p>
         <Button content="Lorem ipsum" />
       </div>
-      <div>
+      <div className="col-lg-3 col-sm-6 col-xs-12">
         <p>variant: primary</p>
         <p>size: lg</p>
         <p>status: off</p>
@@ -138,13 +138,13 @@ export const ButtonOptions = () => (
           content="Lorem ipsum"
         />
       </div>
-      <div>
+      <div className="col-lg-3 col-sm-6 col-xs-12">
         <p>variant: primary</p>
         <p>size: sm</p>
         <p>status: on</p>
         <Button variant="primary" size="sm" content="Lorem ipsum" />
       </div>
-      <div>
+      <div className="col-lg-3 col-sm-6 col-xs-12">
         <p>variant: primary</p>
         <p>size: sm</p>
         <p>status: off</p>
@@ -158,13 +158,13 @@ export const ButtonOptions = () => (
     </div>
     <hr />
     <div className="row">
-      <div>
+      <div className="col-lg-3 col-sm-6 col-xs-12">
         <p> variant: secondary </p>
         <p>size: lg</p>
         <p>status: on</p>
         <Button variant="secondary" content="Lorem ipsum" />
       </div>
-      <div>
+      <div className="col-lg-3 col-sm-6 col-xs-12">
         <p> variant: secondary </p>
         <p>size: lg</p>
         <p>status: off</p>
@@ -174,13 +174,13 @@ export const ButtonOptions = () => (
           content="Lorem ipsum"
         />
       </div>
-      <div>
+      <div className="col-lg-3 col-sm-6 col-xs-12">
         <p> variant: secondary </p>
         <p>size: sm</p>
         <p>status: on</p>
         <Button variant="secondary" size="sm" content="Lorem ipsum" />
       </div>
-      <div>
+      <div className="col-lg-3 col-sm-6 col-xs-12">
         <p> variant: secondary </p>
         <p>size: sm</p>
         <p>status: off</p>
@@ -194,25 +194,25 @@ export const ButtonOptions = () => (
     </div>
     <hr />
     <div className="row">
-      <div>
+      <div className="col-lg-3 col-sm-6 col-xs-12">
         <p> variant: pink </p>
         <p>size: lg</p>
         <p>status: on</p>
         <Button variant="pink" content="Lorem ipsum" />
       </div>
-      <div>
+      <div className="col-lg-3 col-sm-6 col-xs-12">
         <p> variant: pink </p>
         <p>size: lg</p>
         <p>status: off</p>
         <Button variant="pink" status="off" content="Lorem ipsum" />
       </div>
-      <div>
+      <div className="col-lg-3 col-sm-6 col-xs-12">
         <p> variant: pink </p>
         <p>size: sm</p>
         <p>status: on</p>
         <Button variant="pink" size="sm" content="Lorem ipsum" />
       </div>
-      <div>
+      <div className="col-lg-3 col-sm-6 col-xs-12">
         <p> variant: pink </p>
         <p>size: sm</p>
         <p>status: off</p>
@@ -226,13 +226,13 @@ export const ButtonOptions = () => (
     </div>
     <hr />
     <div className="row">
-      <div>
+      <div className="col-lg-3 col-sm-6 col-xs-12">
         <p> variant: ghost-black </p>
         <p>size: lg</p>
         <p>status: on</p>
         <Button variant="ghost-black" content="Lorem ipsum" />
       </div>
-      <div>
+      <div className="col-lg-3 col-sm-6 col-xs-12">
         <p> variant: ghost-black </p>
         <p>size: lg</p>
         <p>status: off</p>
@@ -242,7 +242,7 @@ export const ButtonOptions = () => (
           content="Lorem ipsum"
         />
       </div>
-      <div>
+      <div className="col-lg-3 col-sm-6 col-xs-12">
         <p> variant: ghost-black </p>
         <p>size: sm</p>
         <p>status: on</p>
@@ -252,7 +252,7 @@ export const ButtonOptions = () => (
           content="Lorem ipsum"
         />
       </div>
-      <div>
+      <div className="col-lg-3 col-sm-6 col-xs-12">
         <p> variant: ghost-black </p>
         <p>size: sm</p>
         <p>status: off</p>
@@ -266,13 +266,13 @@ export const ButtonOptions = () => (
     </div>
     <hr />
     <div className="row">
-      <div>
+      <div className="col-lg-3 col-sm-6 col-xs-12">
         <p> variant: ghost-white </p>
         <p>size: lg</p>
         <p>status: on</p>
         <Button variant="ghost-white" content="Lorem ipsum" />
       </div>
-      <div>
+      <div className="col-lg-3 col-sm-6 col-xs-12">
         <p> variant: ghost-white </p>
         <p>size: lg</p>
         <p>status: off</p>
@@ -282,7 +282,7 @@ export const ButtonOptions = () => (
           content="Lorem ipsum"
         />
       </div>
-      <div>
+      <div className="col-lg-3 col-sm-6 col-xs-12">
         <p> variant: ghost-white </p>
         <p>size: sm</p>
         <p>status: on</p>
@@ -292,7 +292,7 @@ export const ButtonOptions = () => (
           content="Lorem ipsum"
         />
       </div>
-      <div>
+      <div className="col-lg-3 col-sm-6 col-xs-12">
         <p> variant: ghost-white </p>
         <p>size: sm</p>
         <p>status: off</p>

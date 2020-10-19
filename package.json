@@ -1,6 +1,6 @@
 {
   "name": "@gabrielajardimaquino/component-library",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "",
   "main": "build/index.js",
   "module": "build/index.esm.js",
@@ -30,6 +30,8 @@
   },
   "homepage": "https://github.com/fashionphile/ComponentLibrary#readme",
   "peerDependencies": {
+    "@gabrielajardimaquino/global-styles": ">=1.1.4",
+    "fontsource-metropolis": ">=3.0.1",
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
   },
@@ -38,14 +40,13 @@
     "@rollup/plugin-commonjs": "^11.1.0",
     "@rollup/plugin-node-resolve": "^7.1.3",
     "@storybook/addon-a11y": "^6.0.26",
-    "@storybook/addon-actions": "^6.0.26",
     "@storybook/addon-docs": "^6.0.26",
     "@storybook/addon-essentials": "^6.0.26",
-    "@storybook/addon-storysource": "^6.0.26",
     "@storybook/addon-viewport": "^6.0.26",
     "@storybook/preset-typescript": "^3.0.0",
     "@storybook/react": "^6.0.26",
     "@storybook/storybook-deployer": "^2.8.7",
+    "@storybook/theming": "^6.0.26",
     "@svgr/rollup": "^5.4.0",
     "@svgr/webpack": "^5.4.0",
     "@testing-library/jest-dom": "^5.5.0",
@@ -74,8 +75,6 @@
     "node-sass": "^4.14.1",
     "prettier": "2.1.2",
     "react": "^16.13.1",
-    "react-docgen-typescript": "^1.20.5",
-    "react-docgen-typescript-loader": "^3.7.2",
     "react-dom": "^16.13.1",
     "rollup": "^1.27.4",
     "rollup-plugin-copy": "^3.3.0",
@@ -83,13 +82,12 @@
     "rollup-plugin-postcss": "^3.1.2",
     "rollup-plugin-typescript2": "^0.27.0",
     "sass-loader": "^8.0.0",
-    "storybook-addon-react-docgen": "^1.2.42",
     "svg-react-loader": "^0.4.6",
     "ts-jest": "^24.2.0",
     "typescript": "^3.7.2"
   },
   "dependencies": {
-    "@gabrielajardimaquino/global-styles": "^1.1.3",
+    "@gabrielajardimaquino/global-styles": "^1.1.4",
     "fontsource-metropolis": "^3.0.1"
   }
 }

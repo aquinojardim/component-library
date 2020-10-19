@@ -10,9 +10,6 @@ module.exports = {
     "@storybook/addon-storysource",
     "@storybook/addon-viewport",
   ],
-  // typescript: {
-  //   reactDocgen: "react-docgen"
-  // },
   webpackFinal: async (config) => {
     config.module.rules.push({
       test: /\.scss$/,

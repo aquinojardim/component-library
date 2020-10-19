@@ -36,6 +36,7 @@ export default App;
 ######   width = 'any unit in string format'
 - ## Icon
 ###### Optional Props:
+######   aria = 'any string'
 ######   name?: ' any string from [icon names](https://github.com/fashionphile/ComponentLibrary/blob/master/README.iconnames.md)'
 ######   size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl';
 ######   variant?: 'primary' | 'secondary' | 'pink' | 'black' | 'grey';

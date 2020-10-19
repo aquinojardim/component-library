@@ -5,12 +5,45 @@ import ${componentName} from "./${componentName}";
 import './../storybook.scss';
 
 export default {
-    title: "${componentName}"
+  title: "${componentName}",
+  componet: ${componentName},
+  decorators: [
+    (Story) => (
+      <div className="style-guide">
+        <Story />
+      </div>
+    ),
+  ],
+  argTypes: {
+    aria: {
+      name: 'aria',
+      type: { name: 'string', required: false },
+      defaultValue: "${componentName}",
+      table: {
+        type: { summary: 'string' },
+        defaultValue: { summary: "${componentName}" },
+      },
+      control: 'text',
+    },
+  }
 };
 
-export const WithBar = () => <div className="style-guide"><${componentName} foo="bar"/></div>;
+const Template = (args) => <${componentName} {...args} />;
 
-export const WithBaz = () => <div className="style-guide"><${componentName} foo="baz"/></div>;
+export const ${componentName}s = Template.bind({});
+
+export const ${componentName}Options = () => (
+  <div>
+    <h1>${componentName}</h1>
+    <hr />
+    <${componentName} foo="bar"/>
+  </div>;
+);
+
+${componentName}Options.parameters = {
+  controls: { hideNoControlsWarning: true },
+};
+
 `,
   extension: '.stories.tsx',
 });

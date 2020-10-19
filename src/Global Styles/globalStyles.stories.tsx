@@ -263,7 +263,7 @@ export const Grid = () => (
   </div>
 );
 
-export const MeadiaBreakpoints = () => (
+export const MediaBreakpoints = () => (
   <div className="container">
     <h1>Media Breakpoints</h1>
     <hr />

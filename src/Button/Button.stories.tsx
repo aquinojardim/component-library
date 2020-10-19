@@ -3,15 +3,8 @@ import Button from './Button';
 import '../storybook.scss';
 
 export default {
-  title: 'Button',
+  title: 'Components/Button',
   componet: Button,
-  // decorators: [
-  //   (Story) => (
-  //     <div className="style-guide">
-  //       <Story />
-  //     </div>
-  //   ),
-  // ],
   argTypes: {
     aria: {
       name: 'aria',

@@ -4,7 +4,7 @@ import 'fontsource-metropolis/all.css';
 import '@gabrielajardimaquino/global-styles/theme.scss';
 
 export default {
-  title: 'Global Styles',
+  title: 'Styles/Global',
   parameters: {
     controls: { hideNoControlsWarning: true },
     docs: {

@@ -1,9 +1,11 @@
 const gulp = require('gulp');
+const del = require('del');
 const sassCombine = require('gulp-scss-combine');
 const concat = require('gulp-concat');
 const sass = require('gulp-sass');
 
 gulp.task('sassBuild', (done) => {
+  del(['build/Styles/theme.scss']);
   gulp
     .src(['src/Styles/1colors.scss', 'src/Styles/*.scss'])
     .pipe(concat('theme.scss'))
@@ -13,6 +15,7 @@ gulp.task('sassBuild', (done) => {
 });
 
 gulp.task('sassLocal', (done) => {
+  del(['src/Styles/theme.scss']);
   gulp
     .src(['src/Styles/1colors.scss', 'src/Styles/*.scss'])
     .pipe(concat('theme.scss'))
@@ -22,6 +25,7 @@ gulp.task('sassLocal', (done) => {
 });
 
 gulp.task('cssBuild', (done) => {
+  del(['build/Styles/theme.css']);
   gulp
     .src(['src/Styles/1colors.scss', 'src/Styles/*.scss'])
     .pipe(concat('theme.scss'))

@@ -4,12 +4,17 @@
 @import "./4typography.scss";
 @import "./5header.scss";
 
+
+/* =========
+   HTML TAGS 
+   ========= */
+
 html,
 body {
   @include MetropolisLight;
   color: $color-black;
   font-size: 1rem;
-  line-height: 1.7rem;
+  line-height: 1.6rem;
   padding: $padding-sm;
   width: 100%;
 }

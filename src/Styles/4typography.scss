@@ -2,6 +2,13 @@
 @import "./Fonts/metropolis.css";
 
 
+
+
+
+/* ==========
+   TYPOGRAPHY 
+   ========== */
+
 @mixin MetropolisSemiBold {
   font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: normal;
@@ -21,7 +28,6 @@
   font-display: swap;
   font-weight: 500;
 }
-
 @mixin MetropolisMediumItalic {
   font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: italic;
@@ -35,7 +41,6 @@
   font-display: swap;
   font-weight: 400;
 }
-
 @mixin MetropolisItalic {
   font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: italic;
@@ -49,7 +54,6 @@
   font-display: swap;
   font-weight: 200;
 }
-
 @mixin MetropolisLightItalic {
   font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: italic;

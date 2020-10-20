@@ -1,5 +1,14 @@
 @import "./1colors.scss";
 
+
+
+
+
+
+/* =======
+   PADDING 
+   ======= */
+
 $padding-xxs: 0.25rem;
 $padding-xs: 0.5rem;
 $padding-sm: 1rem;
@@ -8,3 +17,293 @@ $padding-lg: 2rem;
 $padding-xl: 3rem;
 $padding-xxl: 4rem;
 $padding-max: 6rem;
+
+
+
+
+
+
+
+/* ===============
+   PADDING CLASSES 
+   =============== */
+
+
+
+/* padding */
+.padding-xxs {
+  padding: $padding-xxs;
+}
+.padding-xs {
+  padding: $padding-xs;
+}
+.padding-sm {
+  padding: $padding-sm;
+}
+.padding-md {
+  padding: $padding-md;
+}
+.padding-lg {
+  padding: $padding-lg;
+}
+.padding-xl {
+  padding: $padding-xl;
+}
+.padding-xxl {
+  padding: $padding-xxl;
+}
+.padding-max {
+  padding: $padding-max;
+}
+
+
+
+/* padding-left */
+.padding-left-xxs {
+  padding-left: $padding-xxs;
+}
+.padding-left-xs {
+  padding-left: $padding-xs;
+}
+.padding-left-sm {
+  padding-left: $padding-sm;
+}
+.padding-left-md {
+  padding-left: $padding-md;
+}
+.padding-left-lg {
+  padding-left: $padding-lg;
+}
+.padding-left-xl {
+  padding-left: $padding-xl;
+}
+.padding-left-xxl {
+  padding-left: $padding-xxl;
+}
+.padding-left-max {
+  padding-left: $padding-max;
+}
+
+
+
+/* padding-right */
+.padding-right-xxs {
+  padding-right: $padding-xxs;
+}
+.padding-right-xs {
+  padding-right: $padding-xs;
+}
+.padding-right-sm {
+  padding-right: $padding-sm;
+}
+.padding-right-md {
+  padding-right: $padding-md;
+}
+.padding-right-lg {
+  padding-right: $padding-lg;
+}
+.padding-right-xl {
+  padding-right: $padding-xl;
+}
+.padding-right-xxl {
+  padding-right: $padding-xxl;
+}
+.padding-right-max {
+  padding-right: $padding-max;
+}
+
+
+
+/* padding-top */
+.padding-top-xxs {
+  padding-top: $padding-xxs;
+}
+.padding-top-xs {
+  padding-top: $padding-xs;
+}
+.padding-top-sm {
+  padding-top: $padding-sm;
+}
+.padding-top-md {
+  padding-top: $padding-md;
+}
+.padding-top-lg {
+  padding-top: $padding-lg;
+}
+.padding-top-xl {
+  padding-top: $padding-xl;
+}
+.padding-top-xxl {
+  padding-top: $padding-xxl;
+}
+.padding-top-max {
+  padding-top: $padding-max;
+}
+
+
+
+/* padding-bottom */
+.padding-bottom-xxs {
+  padding-bottom: $padding-xxs;
+}
+.padding-bottom-xs {
+  padding-bottom: $padding-xs;
+}
+.padding-bottom-sm {
+  padding-bottom: $padding-sm;
+}
+.padding-bottom-md {
+  padding-bottom: $padding-md;
+}
+.padding-bottom-lg {
+  padding-bottom: $padding-lg;
+}
+.padding-bottom-xl {
+  padding-bottom: $padding-xl;
+}
+.padding-bottom-xxl {
+  padding-bottom: $padding-xxl;
+}
+.padding-bottom-max {
+  padding-bottom: $padding-max;
+}
+
+
+
+/* margin */
+.margin-xxs {
+  margin: $padding-xxs;
+}
+.margin-xs {
+  margin: $padding-xs;
+}
+.margin-sm {
+  margin: $padding-sm;
+}
+.margin-md {
+  margin: $padding-md;
+}
+.margin-lg {
+  margin: $padding-lg;
+}
+.margin-xl {
+  margin: $padding-xl;
+}
+.margin-xxl {
+  margin: $padding-xxl;
+}
+.margin-max {
+  margin: $padding-max;
+}
+
+
+
+/* margin-left */
+.margin-left-xxs {
+  margin-left: $padding-xxs;
+}
+.margin-left-xs {
+  margin-left: $padding-xs;
+}
+.margin-left-sm {
+  margin-left: $padding-sm;
+}
+.margin-left-md {
+  margin-left: $padding-md;
+}
+.margin-left-lg {
+  margin-left: $padding-lg;
+}
+.margin-left-xl {
+  margin-left: $padding-xl;
+}
+.margin-left-xxl {
+  margin-left: $padding-xxl;
+}
+.margin-left-max {
+  margin-left: $padding-max;
+}
+
+
+
+/* margin-right */
+.margin-right-xxs {
+  margin-right: $padding-xxs;
+}
+.margin-right-xs {
+  margin-right: $padding-xs;
+}
+.margin-right-sm {
+  margin-right: $padding-sm;
+}
+.margin-right-md {
+  margin-right: $padding-md;
+}
+.margin-right-lg {
+  margin-right: $padding-lg;
+}
+.margin-right-xl {
+  margin-right: $padding-xl;
+}
+.margin-right-xxl {
+  margin-right: $padding-xxl;
+}
+.margin-right-max {
+  margin-right: $padding-max;
+}
+
+
+
+/* margin-top */
+.margin-top-xxs {
+  margin-top: $padding-xxs;
+}
+.margin-top-xs {
+  margin-top: $padding-xs;
+}
+.margin-top-sm {
+  margin-top: $padding-sm;
+}
+.margin-top-md {
+  margin-top: $padding-md;
+}
+.margin-top-lg {
+  margin-top: $padding-lg;
+}
+.margin-top-xl {
+  margin-top: $padding-xl;
+}
+.margin-top-xxl {
+  margin-top: $padding-xxl;
+}
+.margin-top-max {
+  margin-top: $padding-max;
+}
+
+
+
+/* margin-bottom */
+.margin-bottom-xxs {
+  margin-bottom: $padding-xxs;
+}
+.margin-bottom-xs {
+  margin-bottom: $padding-xs;
+}
+.margin-bottom-sm {
+  margin-bottom: $padding-sm;
+}
+.margin-bottom-md {
+  margin-bottom: $padding-md;
+}
+.margin-bottom-lg {
+  margin-bottom: $padding-lg;
+}
+.margin-bottom-xl {
+  margin-bottom: $padding-xl;
+}
+.margin-bottom-xxl {
+  margin-bottom: $padding-xxl;
+}
+.margin-bottom-max {
+  margin-bottom: $padding-max;
+}

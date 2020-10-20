@@ -1,3 +1,7 @@
+/* =====
+   COLOR 
+   ===== */
+
 $color-white: #ffffff;
 $color-grey-1: #F8F8F8;
 $color-grey-2: #E8E8E8;
@@ -14,3 +18,170 @@ $color-pink-light: #F3DCE6;
 $color-yellow: #ECB904;
 $color-orange: #F58720;
 $color-green: #008300;
+
+
+
+
+
+
+
+/* =============
+   COLOR CLASSES
+   ============= */
+
+
+
+
+/* color border */
+.border-color-white {
+  border-color: $color-white;
+}
+.border-color-grey-1 {
+  border-color: $color-grey-1;
+}
+.border-color-grey-2 {
+  border-color: $color-grey-2;
+}
+.border-color-grey-3 {
+  border-color: $color-grey-3;
+}
+.border-color-grey-4 {
+  border-color: $color-grey-4;
+}
+.border-color-grey-5 {
+  border-color: $color-grey-5;
+}
+.border-color-grey-6 {
+  border-color: $color-grey-6;
+}
+.border-color-grey-7 {
+  border-color: $color-grey-7;
+}
+.border-color-grey-8 {
+  border-color: $color-grey-8;
+}
+.border-color-black {
+  border-color: $color-black;
+}
+.border-color-blue {
+  border-color: $color-blue;
+}
+.border-color-pink {
+  border-color: $color-pink;
+}
+.border-color-pink-light {
+  border-color: $color-pink-light;
+}
+.border-color-yellow {
+  border-color: $color-yellow;
+}
+.border-color-orange {
+  border-color: $color-orange;
+}
+.border-color-green {
+  border-color: $color-green;
+}
+
+
+
+/* color background */
+.background-color-white {
+  background-color: $color-white;
+}
+.background-color-grey-1 {
+  background-color: $color-grey-1;
+}
+.background-color-grey-2 {
+  background-color: $color-grey-2;
+}
+.background-color-grey-3 {
+  background-color: $color-grey-3;
+}
+.background-color-grey-4 {
+  background-color: $color-grey-4;
+}
+.background-color-grey-5 {
+  background-color: $color-grey-5;
+}
+.background-color-grey-6 {
+  background-color: $color-grey-6;
+}
+.background-color-grey-7 {
+  background-color: $color-grey-7;
+}
+.background-color-grey-8 {
+  background-color: $color-grey-8;
+}
+.background-color-black {
+  background-color: $color-black;
+}
+.background-color-blue {
+  background-color: $color-blue;
+}
+.background-color-pink {
+  background-color: $color-pink;
+}
+.background-color-pink-light {
+  background-color: $color-pink-light;
+}
+.background-color-yellow {
+  background-color: $color-yellow;
+}
+.background-color-orange {
+  background-color: $color-orange;
+}
+.background-color-green {
+  background-color: $color-green;
+}
+
+
+
+/* color text */
+.text-color-white {
+  color: $color-white;
+}
+.text-color-grey-1 {
+  color: $color-grey-1;
+}
+.text-color-grey-2 {
+  color: $color-grey-2;
+}
+.text-color-grey-3 {
+  color: $color-grey-3;
+}
+.text-color-grey-4 {
+  color: $color-grey-4;
+}
+.text-color-grey-5 {
+  color: $color-grey-5;
+}
+.text-color-grey-6 {
+  color: $color-grey-6;
+}
+.text-color-grey-7 {
+  color: $color-grey-7;
+}
+.text-color-grey-8 {
+  color: $color-grey-8;
+}
+.text-color-black {
+  color: $color-black;
+}
+.text-color-blue {
+  color: $color-blue;
+}
+.text-color-pink {
+  color: $color-pink;
+}
+.text-color-pink-light {
+  color: $color-pink-light;
+}
+.text-color-yellow {
+  color: $color-yellow;
+}
+.text-color-orange {
+  color: $color-orange;
+}
+.text-color-green {
+  color: $color-green;
+}

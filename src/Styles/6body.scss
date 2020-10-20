@@ -3,41 +3,51 @@
 @import "./4typography.scss";
 
 
+
+
+/* ====
+   BODY 
+   ==== */
+
 @mixin body-xxl {
   @include MetropolisLight;
   font-size: 1.35rem;
-  line-height: 2.25rem;
 }
 
 @mixin body-xl {
   @include MetropolisLight;
   font-size: 1.125rem;
-  line-height: 1.875rem;
 }
 
 @mixin body-lg {
   @include MetropolisLight;
   font-size: 0.9375rem;
-  line-height: 1.563rem;
 }
 
 @mixin body-md {
   @include MetropolisLight;
   font-size: 0.78125rem;
-  line-height: 1.313rem;
 }
 
 @mixin body-sm {
   @include MetropolisLight;
   font-size: 0.64125em;
-  line-height: 1.125rem;
 }
 
 @mixin body-xs {
   @include MetropolisLight;
   font-size: 0.5425rem;
-  line-height: 0.875rem;
 }
+
+
+
+
+
+
+
+/* ============
+   BODY CLASSES 
+   ============ */
 
 .body-xxl {
   @include body-xxl;
@@ -63,12 +73,21 @@
   @include body-xs;
 }
 
+
+
+
+
+
+
+/* =========
+   BODY LINK 
+   ========= */
+
 .standalone-link {
   @include MetropolisLight;
   text-decoration: none;
   display: block;
 }
-
 .standalone-link:hover {
   text-decoration: underline;
 }

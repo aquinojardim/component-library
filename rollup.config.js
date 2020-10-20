@@ -6,22 +6,21 @@ import postcss from 'rollup-plugin-postcss';
 import copy from 'rollup-plugin-copy';
 import svgr from '@svgr/rollup';
 
-const packageJson = require('./package.json');
-
 export default {
-  input: 'src/index.ts',
+  input: [
+    'src/index.ts',
+    'src/Button/index.ts',
+    'src/Icon/index.ts',
+    'src/Styles/theme.scss',
+  ],
   output: [
     {
-      file: packageJson.main,
+      dir: 'build',
       format: 'cjs',
       sourcemap: true,
     },
-    {
-      file: packageJson.module,
-      format: 'esm',
-      sourcemap: true,
-    },
   ],
+  preserveModules: true,
   plugins: [
     svgr(),
     peerDepsExternal(),

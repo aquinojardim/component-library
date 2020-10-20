@@ -1,3 +1,7 @@
+/* =====
+   COLOR 
+   ===== */
+
 $color-white: #ffffff;
 $color-grey-1: #F8F8F8;
 $color-grey-2: #E8E8E8;
@@ -16,6 +20,182 @@ $color-orange: #F58720;
 $color-green: #008300;
 
 
+
+
+
+
+
+/* =============
+   COLOR CLASSES
+   ============= */
+
+
+
+
+/* color border */
+.border-color-white {
+  border-color: $color-white;
+}
+.border-color-grey-1 {
+  border-color: $color-grey-1;
+}
+.border-color-grey-2 {
+  border-color: $color-grey-2;
+}
+.border-color-grey-3 {
+  border-color: $color-grey-3;
+}
+.border-color-grey-4 {
+  border-color: $color-grey-4;
+}
+.border-color-grey-5 {
+  border-color: $color-grey-5;
+}
+.border-color-grey-6 {
+  border-color: $color-grey-6;
+}
+.border-color-grey-7 {
+  border-color: $color-grey-7;
+}
+.border-color-grey-8 {
+  border-color: $color-grey-8;
+}
+.border-color-black {
+  border-color: $color-black;
+}
+.border-color-blue {
+  border-color: $color-blue;
+}
+.border-color-pink {
+  border-color: $color-pink;
+}
+.border-color-pink-light {
+  border-color: $color-pink-light;
+}
+.border-color-yellow {
+  border-color: $color-yellow;
+}
+.border-color-orange {
+  border-color: $color-orange;
+}
+.border-color-green {
+  border-color: $color-green;
+}
+
+
+
+/* color background */
+.background-color-white {
+  background-color: $color-white;
+}
+.background-color-grey-1 {
+  background-color: $color-grey-1;
+}
+.background-color-grey-2 {
+  background-color: $color-grey-2;
+}
+.background-color-grey-3 {
+  background-color: $color-grey-3;
+}
+.background-color-grey-4 {
+  background-color: $color-grey-4;
+}
+.background-color-grey-5 {
+  background-color: $color-grey-5;
+}
+.background-color-grey-6 {
+  background-color: $color-grey-6;
+}
+.background-color-grey-7 {
+  background-color: $color-grey-7;
+}
+.background-color-grey-8 {
+  background-color: $color-grey-8;
+}
+.background-color-black {
+  background-color: $color-black;
+}
+.background-color-blue {
+  background-color: $color-blue;
+}
+.background-color-pink {
+  background-color: $color-pink;
+}
+.background-color-pink-light {
+  background-color: $color-pink-light;
+}
+.background-color-yellow {
+  background-color: $color-yellow;
+}
+.background-color-orange {
+  background-color: $color-orange;
+}
+.background-color-green {
+  background-color: $color-green;
+}
+
+
+
+/* color text */
+.text-color-white {
+  color: $color-white;
+}
+.text-color-grey-1 {
+  color: $color-grey-1;
+}
+.text-color-grey-2 {
+  color: $color-grey-2;
+}
+.text-color-grey-3 {
+  color: $color-grey-3;
+}
+.text-color-grey-4 {
+  color: $color-grey-4;
+}
+.text-color-grey-5 {
+  color: $color-grey-5;
+}
+.text-color-grey-6 {
+  color: $color-grey-6;
+}
+.text-color-grey-7 {
+  color: $color-grey-7;
+}
+.text-color-grey-8 {
+  color: $color-grey-8;
+}
+.text-color-black {
+  color: $color-black;
+}
+.text-color-blue {
+  color: $color-blue;
+}
+.text-color-pink {
+  color: $color-pink;
+}
+.text-color-pink-light {
+  color: $color-pink-light;
+}
+.text-color-yellow {
+  color: $color-yellow;
+}
+.text-color-orange {
+  color: $color-orange;
+}
+.text-color-green {
+  color: $color-green;
+}
+
+
+
+
+
+
+
+/* =======
+   PADDING 
+   ======= */
+
 $padding-xxs: 0.25rem;
 $padding-xs: 0.5rem;
 $padding-sm: 1rem;
@@ -26,6 +206,305 @@ $padding-xxl: 4rem;
 $padding-max: 6rem;
 
 
+
+
+
+
+
+/* ===============
+   PADDING CLASSES 
+   =============== */
+
+
+
+/* padding */
+.padding-xxs {
+  padding: $padding-xxs;
+}
+.padding-xs {
+  padding: $padding-xs;
+}
+.padding-sm {
+  padding: $padding-sm;
+}
+.padding-md {
+  padding: $padding-md;
+}
+.padding-lg {
+  padding: $padding-lg;
+}
+.padding-xl {
+  padding: $padding-xl;
+}
+.padding-xxl {
+  padding: $padding-xxl;
+}
+.padding-max {
+  padding: $padding-max;
+}
+
+
+
+/* padding-left */
+.padding-left-xxs {
+  padding-left: $padding-xxs;
+}
+.padding-left-xs {
+  padding-left: $padding-xs;
+}
+.padding-left-sm {
+  padding-left: $padding-sm;
+}
+.padding-left-md {
+  padding-left: $padding-md;
+}
+.padding-left-lg {
+  padding-left: $padding-lg;
+}
+.padding-left-xl {
+  padding-left: $padding-xl;
+}
+.padding-left-xxl {
+  padding-left: $padding-xxl;
+}
+.padding-left-max {
+  padding-left: $padding-max;
+}
+
+
+
+/* padding-right */
+.padding-right-xxs {
+  padding-right: $padding-xxs;
+}
+.padding-right-xs {
+  padding-right: $padding-xs;
+}
+.padding-right-sm {
+  padding-right: $padding-sm;
+}
+.padding-right-md {
+  padding-right: $padding-md;
+}
+.padding-right-lg {
+  padding-right: $padding-lg;
+}
+.padding-right-xl {
+  padding-right: $padding-xl;
+}
+.padding-right-xxl {
+  padding-right: $padding-xxl;
+}
+.padding-right-max {
+  padding-right: $padding-max;
+}
+
+
+
+/* padding-top */
+.padding-top-xxs {
+  padding-top: $padding-xxs;
+}
+.padding-top-xs {
+  padding-top: $padding-xs;
+}
+.padding-top-sm {
+  padding-top: $padding-sm;
+}
+.padding-top-md {
+  padding-top: $padding-md;
+}
+.padding-top-lg {
+  padding-top: $padding-lg;
+}
+.padding-top-xl {
+  padding-top: $padding-xl;
+}
+.padding-top-xxl {
+  padding-top: $padding-xxl;
+}
+.padding-top-max {
+  padding-top: $padding-max;
+}
+
+
+
+/* padding-bottom */
+.padding-bottom-xxs {
+  padding-bottom: $padding-xxs;
+}
+.padding-bottom-xs {
+  padding-bottom: $padding-xs;
+}
+.padding-bottom-sm {
+  padding-bottom: $padding-sm;
+}
+.padding-bottom-md {
+  padding-bottom: $padding-md;
+}
+.padding-bottom-lg {
+  padding-bottom: $padding-lg;
+}
+.padding-bottom-xl {
+  padding-bottom: $padding-xl;
+}
+.padding-bottom-xxl {
+  padding-bottom: $padding-xxl;
+}
+.padding-bottom-max {
+  padding-bottom: $padding-max;
+}
+
+
+
+/* margin */
+.margin-xxs {
+  margin: $padding-xxs;
+}
+.margin-xs {
+  margin: $padding-xs;
+}
+.margin-sm {
+  margin: $padding-sm;
+}
+.margin-md {
+  margin: $padding-md;
+}
+.margin-lg {
+  margin: $padding-lg;
+}
+.margin-xl {
+  margin: $padding-xl;
+}
+.margin-xxl {
+  margin: $padding-xxl;
+}
+.margin-max {
+  margin: $padding-max;
+}
+
+
+
+/* margin-left */
+.margin-left-xxs {
+  margin-left: $padding-xxs;
+}
+.margin-left-xs {
+  margin-left: $padding-xs;
+}
+.margin-left-sm {
+  margin-left: $padding-sm;
+}
+.margin-left-md {
+  margin-left: $padding-md;
+}
+.margin-left-lg {
+  margin-left: $padding-lg;
+}
+.margin-left-xl {
+  margin-left: $padding-xl;
+}
+.margin-left-xxl {
+  margin-left: $padding-xxl;
+}
+.margin-left-max {
+  margin-left: $padding-max;
+}
+
+
+
+/* margin-right */
+.margin-right-xxs {
+  margin-right: $padding-xxs;
+}
+.margin-right-xs {
+  margin-right: $padding-xs;
+}
+.margin-right-sm {
+  margin-right: $padding-sm;
+}
+.margin-right-md {
+  margin-right: $padding-md;
+}
+.margin-right-lg {
+  margin-right: $padding-lg;
+}
+.margin-right-xl {
+  margin-right: $padding-xl;
+}
+.margin-right-xxl {
+  margin-right: $padding-xxl;
+}
+.margin-right-max {
+  margin-right: $padding-max;
+}
+
+
+
+/* margin-top */
+.margin-top-xxs {
+  margin-top: $padding-xxs;
+}
+.margin-top-xs {
+  margin-top: $padding-xs;
+}
+.margin-top-sm {
+  margin-top: $padding-sm;
+}
+.margin-top-md {
+  margin-top: $padding-md;
+}
+.margin-top-lg {
+  margin-top: $padding-lg;
+}
+.margin-top-xl {
+  margin-top: $padding-xl;
+}
+.margin-top-xxl {
+  margin-top: $padding-xxl;
+}
+.margin-top-max {
+  margin-top: $padding-max;
+}
+
+
+
+/* margin-bottom */
+.margin-bottom-xxs {
+  margin-bottom: $padding-xxs;
+}
+.margin-bottom-xs {
+  margin-bottom: $padding-xs;
+}
+.margin-bottom-sm {
+  margin-bottom: $padding-sm;
+}
+.margin-bottom-md {
+  margin-bottom: $padding-md;
+}
+.margin-bottom-lg {
+  margin-bottom: $padding-lg;
+}
+.margin-bottom-xl {
+  margin-bottom: $padding-xl;
+}
+.margin-bottom-xxl {
+  margin-bottom: $padding-xxl;
+}
+.margin-bottom-max {
+  margin-bottom: $padding-max;
+}
+
+
+
+
+
+
+
+/* ==========
+   BREAKPOINT 
+   ========== */
+
 $media-breakpoint-xs: 576px;
 $media-breakpoint-sm: 768px;
 $media-breakpoint-md: 992px;
@@ -34,6 +513,13 @@ $media-breakpoint-xl: 1599px;
 
 
 
+
+
+
+
+/* ==========
+   TYPOGRAPHY 
+   ========== */
 
 @mixin MetropolisSemiBold {
   font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -54,7 +540,6 @@ $media-breakpoint-xl: 1599px;
   font-display: swap;
   font-weight: 500;
 }
-
 @mixin MetropolisMediumItalic {
   font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: italic;
@@ -68,7 +553,6 @@ $media-breakpoint-xl: 1599px;
   font-display: swap;
   font-weight: 400;
 }
-
 @mixin MetropolisItalic {
   font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: italic;
@@ -82,7 +566,6 @@ $media-breakpoint-xl: 1599px;
   font-display: swap;
   font-weight: 200;
 }
-
 @mixin MetropolisLightItalic {
   font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: italic;
@@ -94,27 +577,33 @@ $media-breakpoint-xl: 1599px;
 
 
 
+
+
+/* ======
+   HEADER 
+   ====== */
+
 @mixin h1-largest {
   @include MetropolisSemiBold;
   font-size: 1.75rem;
-  line-height: 2.438rem;
-  letter-spacing: 0.4375rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.25rem;
   text-transform: uppercase;
 }
 
 @mixin h1-desktop {
   @include MetropolisSemiBold;
   font-size: 1.563rem;
-  line-height: 2.188rem;
-  letter-spacing: 0.375rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.25rem;
   text-transform: uppercase;
 }
 
 @mixin h2-desktop {
   @include MetropolisSemiBold;
   font-size: 1.375rem;
-  line-height: 1.938rem;
-  letter-spacing: 0.375rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.25rem;
   text-transform: uppercase;
 }
 
@@ -122,12 +611,11 @@ $media-breakpoint-xl: 1599px;
   @include h2-desktop
 }
 
-
 @mixin h3-desktop {
   @include MetropolisSemiBold;
   font-size: 1.25rem;
-  line-height: 1.75rem;
-  letter-spacing: 0.3125rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.25rem;
   text-transform: uppercase;
 }
 
@@ -138,7 +626,7 @@ $media-breakpoint-xl: 1599px;
 @mixin h4-desktop {
   @include MetropolisSemiBold;
   font-size: 1.063rem;
-  line-height: 1.563rem;
+  line-height: 1.4rem;
   letter-spacing: 0.25rem;
   text-transform: uppercase;
 }
@@ -150,8 +638,8 @@ $media-breakpoint-xl: 1599px;
 @mixin h5-desktop {
   @include MetropolisSemiBold;
   font-size: 0.9375rem;
-  line-height: 1.375rem;
-  letter-spacing: 0.1875rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.25rem;
   text-transform: uppercase;
 }
 
@@ -162,8 +650,8 @@ $media-breakpoint-xl: 1599px;
 @mixin h6-desktop {
   @include MetropolisSemiBold;
   font-size: 0.875rem;
-  line-height: 1.188rem;
-  letter-spacing: 0.1875rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.25rem;
   text-transform: uppercase;
 }
 
@@ -174,10 +662,20 @@ $media-breakpoint-xl: 1599px;
 @mixin h6-mobile {
   @include Metropolis;
   font-size: 0.75rem;
-  line-height: 1.063rem;
-  letter-spacing: 0.1875rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.25rem;
   text-transform: uppercase;
 }
+
+
+
+
+
+
+
+/* ==============
+   HEADER CLASSES 
+   ============== */
 
 .h1-largest {
   @include h1-largest;
@@ -190,17 +688,27 @@ $media-breakpoint-xl: 1599px;
   @include h6-mobile;
 }
 
+
+
+
+
+
+
+/* ===========
+   HEADER LINK 
+   =========== */
+
 .h1-largest-link {
   @include h1-largest;
   width: fit-content;
   text-decoration: none;
   display: block;
+  line-height: 2.438rem;
   margin-bottom: 2px;
   @media (max-width: $media-breakpoint-xs) {
     @include h1-mobile;
   }
 }
-
 .h1-largest-link:hover {
   margin-bottom: 0;
   border-bottom: 2px solid $color-black;
@@ -211,12 +719,12 @@ $media-breakpoint-xl: 1599px;
   width: fit-content;
   text-decoration: none;
   display: block;
+  line-height: 2.188rem;
   margin-bottom: 2px;
   @media (max-width: $media-breakpoint-xs) {
     @include h1-mobile;
   }
 }
-
 .h1-link:hover {
   margin-bottom: 0;
   border-bottom: 2px solid $color-black;
@@ -227,12 +735,12 @@ $media-breakpoint-xl: 1599px;
   width: fit-content;
   text-decoration: none;
   display: block;
+  line-height: 1.938rem;
   margin-bottom: 2px;
   @media (max-width: $media-breakpoint-xs) {
     @include h2-mobile;
   }
 }
-
 .h2-link:hover {
   margin-bottom: 0;
   border-bottom: 2px solid $color-black;
@@ -243,12 +751,12 @@ $media-breakpoint-xl: 1599px;
   width: fit-content;
   text-decoration: none;
   display: block;
+  line-height: 1.75rem;
   margin-bottom: 2px;
   @media (max-width: $media-breakpoint-xs) {
     @include h3-mobile;
   }
 }
-
 .h3-link:hover {
   margin-bottom: 0;
   border-bottom: 2px solid $color-black;
@@ -259,12 +767,12 @@ $media-breakpoint-xl: 1599px;
   width: fit-content;
   text-decoration: none;
   display: block;
+  line-height: 1.563rem;
   margin-bottom: 2px;
   @media (max-width: $media-breakpoint-xs) {
     @include h4-mobile;
   }
 }
-
 .h4-link:hover {
   margin-bottom: 0;
   border-bottom: 2px solid $color-black;
@@ -275,12 +783,12 @@ $media-breakpoint-xl: 1599px;
   width: fit-content;
   text-decoration: none;
   display: block;
+  line-height: 1.375rem;
   margin-bottom: 2px;
   @media (max-width: $media-breakpoint-xs) {
     @include h5-mobile;
   }
 }
-
 .h5-link:hover {
   margin-bottom: 0;
   border-bottom: 2px solid $color-black;
@@ -291,12 +799,12 @@ $media-breakpoint-xl: 1599px;
   width: fit-content;
   text-decoration: none;
   display: block;
+  line-height: 1.188rem;
   margin-bottom: 2px;
   @media (max-width: $media-breakpoint-xs) {
     @include h6-mobile;
   }
 }
-
 .h6-link:hover {
   margin-bottom: 0;
   border-bottom: 2px solid $color-black;
@@ -307,9 +815,9 @@ $media-breakpoint-xl: 1599px;
   width: fit-content;
   text-decoration: none;
   display: block;
+  line-height: 1.063rem;
   margin-bottom: 1px;
 }
-
 .h6-smallest-link:hover {
   margin-bottom: 0;
   border-bottom: 1px solid $color-black;
@@ -320,41 +828,51 @@ $media-breakpoint-xl: 1599px;
 
 
 
+
+
+/* ====
+   BODY 
+   ==== */
+
 @mixin body-xxl {
   @include MetropolisLight;
   font-size: 1.35rem;
-  line-height: 2.25rem;
 }
 
 @mixin body-xl {
   @include MetropolisLight;
   font-size: 1.125rem;
-  line-height: 1.875rem;
 }
 
 @mixin body-lg {
   @include MetropolisLight;
   font-size: 0.9375rem;
-  line-height: 1.563rem;
 }
 
 @mixin body-md {
   @include MetropolisLight;
   font-size: 0.78125rem;
-  line-height: 1.313rem;
 }
 
 @mixin body-sm {
   @include MetropolisLight;
   font-size: 0.64125em;
-  line-height: 1.125rem;
 }
 
 @mixin body-xs {
   @include MetropolisLight;
   font-size: 0.5425rem;
-  line-height: 0.875rem;
 }
+
+
+
+
+
+
+
+/* ============
+   BODY CLASSES 
+   ============ */
 
 .body-xxl {
   @include body-xxl;
@@ -380,12 +898,21 @@ $media-breakpoint-xl: 1599px;
   @include body-xs;
 }
 
+
+
+
+
+
+
+/* =========
+   BODY LINK 
+   ========= */
+
 .standalone-link {
   @include MetropolisLight;
   text-decoration: none;
   display: block;
 }
-
 .standalone-link:hover {
   text-decoration: underline;
 }
@@ -396,12 +923,17 @@ $media-breakpoint-xl: 1599px;
 
 
 
+
+/* =========
+   HTML TAGS 
+   ========= */
+
 html,
 body {
   @include MetropolisLight;
   color: $color-black;
   font-size: 1rem;
-  line-height: 1.7rem;
+  line-height: 1.6rem;
   padding: $padding-sm;
   width: 100%;
 }
@@ -460,6 +992,13 @@ a:hover {
 
 
 
+
+
+
+/* ============
+   GRID CLASSES 
+   ============ */
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -487,249 +1026,208 @@ a:hover {
 }
 
 
+
+/* column xs */
 .col-xs-12 {
   grid-column: span 12
 }
-
 .col-xs-11 {
   grid-column: span 11
 }
-
 .col-xs-10 {
   grid-column: span 10
 }
-
 .col-xs-9 {
   grid-column: span 9
 }
-
 .col-xs-8 {
   grid-column: span 8
 }
-
 .col-xs-7 {
   grid-column: span 7
 }
-
 .col-xs-6 {
   grid-column: span 6
 }
-
 .col-xs-5 {
   grid-column: span 5
 }
-
 .col-xs-4 {
   grid-column: span 4
 }
-
 .col-xs-3 {
   grid-column: span 3
 }
-
 .col-xs-2 {
   grid-column: span 2
 }
-
 .col-xs-1 {
   grid-column: span 1
 }
 
+
+
+/* column sm */
 @media (min-width: $media-breakpoint-sm) {
   .col-sm-12 {
     grid-column: span 12
   }
-
   .col-sm-11 {
     grid-column: span 11
   }
-
   .col-sm-10 {
     grid-column: span 10
   }
-
   .col-sm-9 {
     grid-column: span 9
   }
-
   .col-sm-8 {
     grid-column: span 8
   }
-
   .col-sm-7 {
     grid-column: span 7
   }
-
   .col-sm-6 {
     grid-column: span 6
   }
-
   .col-sm-5 {
     grid-column: span 5
   }
-
   .col-sm-4 {
     grid-column: span 4
   }
-
   .col-sm-3 {
     grid-column: span 3
   }
-
   .col-sm-2 {
     grid-column: span 2
   }
-
   .col-sm-1 {
     grid-column: span 1
   }
 }
 
+
+
+/* column md */
 @media (min-width: $media-breakpoint-md) {
   .col-md-12 {
     grid-column: span 12
   }
-
   .col-md-11 {
     grid-column: span 11
   }
-
   .col-md-10 {
     grid-column: span 10
   }
-
   .col-md-9 {
     grid-column: span 9
   }
-
   .col-md-8 {
     grid-column: span 8
   }
-
   .col-md-7 {
     grid-column: span 7
   }
-
   .col-md-6 {
     grid-column: span 6
   }
-
   .col-md-5 {
     grid-column: span 5
   }
-
   .col-md-4 {
     grid-column: span 4
   }
-
   .col-md-3 {
     grid-column: span 3
   }
-
   .col-md-2 {
     grid-column: span 2
   }
-
   .col-md-1 {
     grid-column: span 1
   }
 }
 
+
+
+/* column lg */
 @media (min-width: $media-breakpoint-lg) {
   .col-lg-12 {
     grid-column: span 12
   }
-
   .col-lg-11 {
     grid-column: span 11
   }
-
   .col-lg-10 {
     grid-column: span 10
   }
-
   .col-lg-9 {
     grid-column: span 9
   }
-
   .col-lg-8 {
     grid-column: span 8
   }
-
   .col-lg-7 {
     grid-column: span 7
   }
-
   .col-lg-6 {
     grid-column: span 6
   }
-
   .col-lg-5 {
     grid-column: span 5
   }
-
   .col-lg-4 {
     grid-column: span 4
   }
-
   .col-lg-3 {
     grid-column: span 3
   }
-
   .col-lg-2 {
     grid-column: span 2
   }
-
   .col-lg-1 {
     grid-column: span 1
   }
 }
 
+
+
+/* column any */
 @media (min-width: 0) {
   .col-12 {
     grid-column: span 12
   }
-
   .col-11 {
     grid-column: span 11
   }
-
   .col-10 {
     grid-column: span 10
   }
-
   .col-9 {
     grid-column: span 9
   }
-
   .col-8 {
     grid-column: span 8
   }
-
   .col-7 {
     grid-column: span 7
   }
-
   .col-6 {
     grid-column: span 6
   }
-
   .col-5 {
     grid-column: span 5
   }
-
   .col-4 {
     grid-column: span 4
   }
-
   .col-3 {
     grid-column: span 3
   }
-
   .col-2 {
     grid-column: span 2
   }
-
   .col-1 {
     grid-column: span 1
   }
@@ -737,6 +1235,13 @@ a:hover {
 
 
 
+
+
+
+
+/* ===============
+   TOOLTIP CLASSES
+   =============== */
 
 .tooltip {
   position: relative;

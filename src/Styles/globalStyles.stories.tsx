@@ -141,12 +141,19 @@ export const LinksAndTooltip = () => (
     <hr />
     <span className="invisible">.</span>
     <a className="h1-largest-link">h1-largest-link</a>
+    <span className="invisible">.</span>
     <a className="h1-link">h1-link</a>
+    <span className="invisible">.</span>
     <a className="h2-link">h2-link</a>
+    <span className="invisible">.</span>
     <a className="h3-link">h3-link</a>
+    <span className="invisible">.</span>
     <a className="h4-link">h4-link</a>
+    <span className="invisible">.</span>
     <a className="h5-link">h5-link</a>
+    <span className="invisible">.</span>
     <a className="h6-link">h6-link</a>
+    <span className="invisible">.</span>
     <a className="h6-smallest-link">h6-smallest-link</a>
     <span className="invisible">.</span>
     <hr />

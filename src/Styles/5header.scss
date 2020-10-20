@@ -3,27 +3,33 @@
 @import "./3breakpoint.scss";
 @import "./4typography.scss";
 
+
+
+/* ======
+   HEADER 
+   ====== */
+
 @mixin h1-largest {
   @include MetropolisSemiBold;
   font-size: 1.75rem;
-  line-height: 2.438rem;
-  letter-spacing: 0.4375rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.25rem;
   text-transform: uppercase;
 }
 
 @mixin h1-desktop {
   @include MetropolisSemiBold;
   font-size: 1.563rem;
-  line-height: 2.188rem;
-  letter-spacing: 0.375rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.25rem;
   text-transform: uppercase;
 }
 
 @mixin h2-desktop {
   @include MetropolisSemiBold;
   font-size: 1.375rem;
-  line-height: 1.938rem;
-  letter-spacing: 0.375rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.25rem;
   text-transform: uppercase;
 }
 
@@ -31,12 +37,11 @@
   @include h2-desktop
 }
 
-
 @mixin h3-desktop {
   @include MetropolisSemiBold;
   font-size: 1.25rem;
-  line-height: 1.75rem;
-  letter-spacing: 0.3125rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.25rem;
   text-transform: uppercase;
 }
 
@@ -47,7 +52,7 @@
 @mixin h4-desktop {
   @include MetropolisSemiBold;
   font-size: 1.063rem;
-  line-height: 1.563rem;
+  line-height: 1.4rem;
   letter-spacing: 0.25rem;
   text-transform: uppercase;
 }
@@ -59,8 +64,8 @@
 @mixin h5-desktop {
   @include MetropolisSemiBold;
   font-size: 0.9375rem;
-  line-height: 1.375rem;
-  letter-spacing: 0.1875rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.25rem;
   text-transform: uppercase;
 }
 
@@ -71,8 +76,8 @@
 @mixin h6-desktop {
   @include MetropolisSemiBold;
   font-size: 0.875rem;
-  line-height: 1.188rem;
-  letter-spacing: 0.1875rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.25rem;
   text-transform: uppercase;
 }
 
@@ -83,10 +88,20 @@
 @mixin h6-mobile {
   @include Metropolis;
   font-size: 0.75rem;
-  line-height: 1.063rem;
-  letter-spacing: 0.1875rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.25rem;
   text-transform: uppercase;
 }
+
+
+
+
+
+
+
+/* ==============
+   HEADER CLASSES 
+   ============== */
 
 .h1-largest {
   @include h1-largest;
@@ -99,17 +114,27 @@
   @include h6-mobile;
 }
 
+
+
+
+
+
+
+/* ===========
+   HEADER LINK 
+   =========== */
+
 .h1-largest-link {
   @include h1-largest;
   width: fit-content;
   text-decoration: none;
   display: block;
+  line-height: 2.438rem;
   margin-bottom: 2px;
   @media (max-width: $media-breakpoint-xs) {
     @include h1-mobile;
   }
 }
-
 .h1-largest-link:hover {
   margin-bottom: 0;
   border-bottom: 2px solid $color-black;
@@ -120,12 +145,12 @@
   width: fit-content;
   text-decoration: none;
   display: block;
+  line-height: 2.188rem;
   margin-bottom: 2px;
   @media (max-width: $media-breakpoint-xs) {
     @include h1-mobile;
   }
 }
-
 .h1-link:hover {
   margin-bottom: 0;
   border-bottom: 2px solid $color-black;
@@ -136,12 +161,12 @@
   width: fit-content;
   text-decoration: none;
   display: block;
+  line-height: 1.938rem;
   margin-bottom: 2px;
   @media (max-width: $media-breakpoint-xs) {
     @include h2-mobile;
   }
 }
-
 .h2-link:hover {
   margin-bottom: 0;
   border-bottom: 2px solid $color-black;
@@ -152,12 +177,12 @@
   width: fit-content;
   text-decoration: none;
   display: block;
+  line-height: 1.75rem;
   margin-bottom: 2px;
   @media (max-width: $media-breakpoint-xs) {
     @include h3-mobile;
   }
 }
-
 .h3-link:hover {
   margin-bottom: 0;
   border-bottom: 2px solid $color-black;
@@ -168,12 +193,12 @@
   width: fit-content;
   text-decoration: none;
   display: block;
+  line-height: 1.563rem;
   margin-bottom: 2px;
   @media (max-width: $media-breakpoint-xs) {
     @include h4-mobile;
   }
 }
-
 .h4-link:hover {
   margin-bottom: 0;
   border-bottom: 2px solid $color-black;
@@ -184,12 +209,12 @@
   width: fit-content;
   text-decoration: none;
   display: block;
+  line-height: 1.375rem;
   margin-bottom: 2px;
   @media (max-width: $media-breakpoint-xs) {
     @include h5-mobile;
   }
 }
-
 .h5-link:hover {
   margin-bottom: 0;
   border-bottom: 2px solid $color-black;
@@ -200,12 +225,12 @@
   width: fit-content;
   text-decoration: none;
   display: block;
+  line-height: 1.188rem;
   margin-bottom: 2px;
   @media (max-width: $media-breakpoint-xs) {
     @include h6-mobile;
   }
 }
-
 .h6-link:hover {
   margin-bottom: 0;
   border-bottom: 2px solid $color-black;
@@ -216,9 +241,9 @@
   width: fit-content;
   text-decoration: none;
   display: block;
+  line-height: 1.063rem;
   margin-bottom: 1px;
 }
-
 .h6-smallest-link:hover {
   margin-bottom: 0;
   border-bottom: 1px solid $color-black;

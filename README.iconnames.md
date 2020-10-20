@@ -1,6 +1,6 @@
 ### Icon Names
-- ![Alt text](src/Icon/svg/fa-icon-badge-percent.svg?raw=true "Title") fa-icon-badge-percent
-- fa-icon-bags-shopping
+![Alt text](src/Icon/svg/fa-icon-badge-percent.svg?raw=true "Title") fa-icon-badge-percent
+![Alt text](src/Icon/svg/fa-icon-bags-shopping.svg?raw=true "Title") fa-icon-bags-shopping
 - fa-icon-bars
 - fa-icon-box-heart
 - fa-icon-brand-facebook-f

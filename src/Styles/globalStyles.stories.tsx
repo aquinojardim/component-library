@@ -214,21 +214,21 @@ export const Padding = () => (
   <div className="container">
     <h1>Padding</h1>
     <hr />
-    <div className="color-pink padding-max">.</div>
+    <div className="color-pink story-padding-max">.</div>
     <p>6rem</p>
-    <div className="color-pink padding-xxl">.</div>
+    <div className="color-pink story-padding-xxl">.</div>
     <p>4rem</p>
-    <div className="color-pink padding-xl">.</div>
+    <div className="color-pink story-padding-xl">.</div>
     <p>3rem</p>
-    <div className="color-pink padding-lg">.</div>
+    <div className="color-pink story-padding-lg">.</div>
     <p>2rem</p>
-    <div className="color-pink padding-md">.</div>
+    <div className="color-pink story-padding-md">.</div>
     <p>1.5rem</p>
-    <div className="color-pink padding-sm">.</div>
+    <div className="color-pink story-padding-sm">.</div>
     <p>1rem</p>
-    <div className="color-pink padding-xs">.</div>
+    <div className="color-pink story-padding-xs">.</div>
     <p>0.5rem</p>
-    <div className="color-pink padding-xxs">.</div>
+    <div className="color-pink story-padding-xxs">.</div>
     <p>0.25rem</p>
   </div>
 );

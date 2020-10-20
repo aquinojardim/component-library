@@ -829,31 +829,37 @@ $media-breakpoint-xl: 1599px;
 @mixin body-xxl {
   @include MetropolisLight;
   font-size: 1.35rem;
+  line-height: 1.6em;
 }
 
 @mixin body-xl {
   @include MetropolisLight;
   font-size: 1.125rem;
+  line-height: 1.6em;
 }
 
 @mixin body-lg {
   @include MetropolisLight;
   font-size: 0.9375rem;
+  line-height: 1.6em;
 }
 
 @mixin body-md {
   @include MetropolisLight;
   font-size: 0.78125rem;
+  line-height: 1.6em;
 }
 
 @mixin body-sm {
   @include MetropolisLight;
   font-size: 0.64125em;
+  line-height: 1.6em;
 }
 
 @mixin body-xs {
   @include MetropolisLight;
   font-size: 0.5425rem;
+  line-height: 1.6em;
 }
 
 

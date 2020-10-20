@@ -1,71 +1,71 @@
 ### Icon Names
-![Alt text](src/Icon/svg/fa-icon-badge-percent.svg?raw=true "Title") fa-icon-badge-percent
-![Alt text](src/Icon/svg/fa-icon-bags-shopping.svg?raw=true "Title") fa-icon-bags-shopping
-- fa-icon-bars
-- fa-icon-box-heart
-- fa-icon-brand-facebook-f
-- fa-icon-brand-instagram
-- fa-icon-brand-pinterest
-- fa-icon-brand-twitter
-- fa-icon-calendar-alt
-- fa-icon-caret-down
-- fa-icon-caret-left
-- fa-icon-caret-right
-- fa-icon-caret-up
-- fa-icon-chevron-down
-- fa-icon-chevron-left
-- fa-icon-chevron-right
-- fa-icon-chevron-up
-- fa-icon-clock
-- fa-icon-comment-alt-edit-solid
-- fa-icon-comment-alt-edit
-- fa-icon-comment-solid
-- fa-icon-comment
-- fa-icon-credit-card
-- fa-icon-envelope-open-dollar
-- fa-icon-envelope-solid
-- fa-icon-envelope
-- fa-icon-exclamation-circle
-- fa-icon-exclamation-circle-solid
-- fa-icon-exclamation-triangle-solid
-- fa-icon-exclamation-triangle
-- fa-icon-external-link
-- fa-icon-heart-solid
-- fa-icon-heart
-- fa-icon-info-circle-solid
-- fa-icon-info-circle
-- fa-icon-map-marker
-- fa-icon-minus-circle-solid
-- fa-icon-minus-circle
-- fa-icon-minus
-- fa-icon-phone-solid
-- fa-icon-phone
-- fa-icon-plus-circle-solid
-- fa-icon-plus-circle
-- fa-icon-plus
-- fa-icon-question-circle-solid
-- fa-icon-question-circle
-- fa-icon-search
-- fa-icon-searchplus
-- fa-icon-shield-check-solid
-- fa-icon-shopping-bag
-- fa-icon-square-solid
-- fa-icon-square
-- fa-icon-times-circle-solid
-- fa-icon-times-circle
-- fa-icon-times
-- icon-applepay-logo
-- icon-cc-amex
-- icon-cc-applepay
-- icon-cc-discover
-- icon-cc-egift
-- icon-cc-mc
-- icon-cc-paypal
-- icon-cc-store-credit
-- icon-cc-visa
-- icon-logo-heart
-- icon-logo-knot
-- icon-logo-nm-horizontal
-- icon-logo-nm-stacked
-- icon-logo-text
-- icon-paypal-logo
+- ![Alt text](src/Icon/svg/fa-icon-badge-percent.svg?raw=true "Title") fa-icon-badge-percent
+- ![Alt text](src/Icon/svg/fa-icon-bags-shopping.svg?raw=true "Title") fa-icon-bags-shopping
+- ![Alt text](src/Icon/svg/fa-icon-bars.svg?raw=true "Title") fa-icon-bars
+- ![Alt text](src/Icon/svg/fa-icon-box-heart.svg?raw=true "Title") fa-icon-box-heart
+- ![Alt text](src/Icon/svg/fa-icon-brand-facebook-f.svg?raw=true "Title") fa-icon-brand-facebook-f
+- ![Alt text](src/Icon/svg/fa-icon-brand-instagram.svg?raw=true "Title") fa-icon-brand-instagram
+- ![Alt text](src/Icon/svg/fa-icon-brand-pinterest.svg?raw=true "Title") fa-icon-brand-pinterest
+- ![Alt text](src/Icon/svg/fa-icon-brand-twitter.svg?raw=true "Title") fa-icon-brand-twitter
+- ![Alt text](src/Icon/svg/fa-icon-calendar-alt.svg?raw=true "Title") fa-icon-calendar-alt
+- ![Alt text](src/Icon/svg/fa-icon-caret-down.svg?raw=true "Title") fa-icon-caret-down
+- ![Alt text](src/Icon/svg/fa-icon-caret-left.svg?raw=true "Title") fa-icon-caret-left
+- ![Alt text](src/Icon/svg/fa-icon-caret-right.svg?raw=true "Title") fa-icon-caret-right
+- ![Alt text](src/Icon/svg/fa-icon-caret-up.svg?raw=true "Title") fa-icon-caret-up
+- ![Alt text](src/Icon/svg/fa-icon-chevron-down.svg?raw=true "Title") fa-icon-chevron-down
+- ![Alt text](src/Icon/svg/fa-icon-chevron-left.svg?raw=true "Title") fa-icon-chevron-left
+- ![Alt text](src/Icon/svg/fa-icon-chevron-right.svg?raw=true "Title") fa-icon-chevron-right
+- ![Alt text](src/Icon/svg/fa-icon-chevron-up.svg?raw=true "Title") fa-icon-chevron-up
+- ![Alt text](src/Icon/svg/fa-icon-clock.svg?raw=true "Title") fa-icon-clock
+- ![Alt text](src/Icon/svg/fa-icon-comment-alt-edit-solid.svg?raw=true "Title") fa-icon-comment-alt-edit-solid
+- ![Alt text](src/Icon/svg/fa-icon-comment-alt-edit.svg?raw=true "Title") fa-icon-comment-alt-edit
+- ![Alt text](src/Icon/svg/fa-icon-comment-solid.svg?raw=true "Title") fa-icon-comment-solid
+- ![Alt text](src/Icon/svg/fa-icon-comment.svg?raw=true "Title") fa-icon-comment
+- ![Alt text](src/Icon/svg/fa-icon-credit-card.svg?raw=true "Title") fa-icon-credit-card
+- ![Alt text](src/Icon/svg/fa-icon-envelope-open-dollar.svg?raw=true "Title") fa-icon-envelope-open-dollar
+- ![Alt text](src/Icon/svg/fa-icon-envelope-solid.svg?raw=true "Title") fa-icon-envelope-solid
+- ![Alt text](src/Icon/svg/fa-icon-envelope.svg?raw=true "Title") fa-icon-envelope
+- ![Alt text](src/Icon/svg/fa-icon-exclamation-circle.svg?raw=true "Title") fa-icon-exclamation-circle
+- ![Alt text](src/Icon/svg/fa-icon-exclamation-circle-solid.svg?raw=true "Title") fa-icon-exclamation-circle-solid
+- ![Alt text](src/Icon/svg/fa-icon-exclamation-triangle-solid.svg?raw=true "Title") fa-icon-exclamation-triangle-solid
+- ![Alt text](src/Icon/svg/fa-icon-exclamation-triangle.svg?raw=true "Title") fa-icon-exclamation-triangle
+- ![Alt text](src/Icon/svg/fa-icon-external-link.svg?raw=true "Title") fa-icon-external-link
+- ![Alt text](src/Icon/svg/fa-icon-heart-solid.svg?raw=true "Title") fa-icon-heart-solid
+- ![Alt text](src/Icon/svg/fa-icon-heart.svg?raw=true "Title") fa-icon-heart
+- ![Alt text](src/Icon/svg/fa-icon-info-circle-solid.svg?raw=true "Title") fa-icon-info-circle-solid
+- ![Alt text](src/Icon/svg/fa-icon-info-circle.svg?raw=true "Title") fa-icon-info-circle
+- ![Alt text](src/Icon/svg/fa-icon-map-marker.svg?raw=true "Title") fa-icon-map-marker
+- ![Alt text](src/Icon/svg/fa-icon-minus-circle-solid.svg?raw=true "Title") fa-icon-minus-circle-solid
+- ![Alt text](src/Icon/svg/fa-icon-minus-circle.svg?raw=true "Title") fa-icon-minus-circle
+- ![Alt text](src/Icon/svg/fa-icon-minus.svg?raw=true "Title") fa-icon-minus
+- ![Alt text](src/Icon/svg/fa-icon-phone-solid.svg?raw=true "Title") fa-icon-phone-solid
+- ![Alt text](src/Icon/svg/fa-icon-phone.svg?raw=true "Title") fa-icon-phone
+- ![Alt text](src/Icon/svg/fa-icon-plus-circle-solid.svg?raw=true "Title") fa-icon-plus-circle-solid
+- ![Alt text](src/Icon/svg/fa-icon-plus-circle.svg?raw=true "Title") fa-icon-plus-circle
+- ![Alt text](src/Icon/svg/fa-icon-plus.svg?raw=true "Title") fa-icon-plus
+- ![Alt text](src/Icon/svg/fa-icon-question-circle-solid.svg?raw=true "Title") fa-icon-question-circle-solid
+- ![Alt text](src/Icon/svg/fa-icon-question-circle.svg?raw=true "Title") fa-icon-question-circle
+- ![Alt text](src/Icon/svg/fa-icon-search.svg?raw=true "Title") fa-icon-search
+- ![Alt text](src/Icon/svg/fa-icon-searchplus.svg?raw=true "Title") fa-icon-searchplus
+- ![Alt text](src/Icon/svg/fa-icon-shield-check-solid.svg?raw=true "Title") fa-icon-shield-check-solid
+- ![Alt text](src/Icon/svg/fa-icon-shopping-bag.svg?raw=true "Title") fa-icon-shopping-bag
+- ![Alt text](src/Icon/svg/fa-icon-square-solid.svg?raw=true "Title") fa-icon-square-solid
+- ![Alt text](src/Icon/svg/fa-icon-square.svg?raw=true "Title") fa-icon-square
+- ![Alt text](src/Icon/svg/fa-icon-times-circle-solid.svg?raw=true "Title") fa-icon-times-circle-solid
+- ![Alt text](src/Icon/svg/fa-icon-times-circle.svg?raw=true "Title") fa-icon-times-circle
+- ![Alt text](src/Icon/svg/fa-icon-times.svg?raw=true "Title") fa-icon-times
+- ![Alt text](src/Icon/svg/icon-applepay-logo.svg?raw=true "Title") icon-applepay-logo
+- ![Alt text](src/Icon/svg/icon-cc-amex.svg?raw=true "Title") icon-cc-amex
+- ![Alt text](src/Icon/svg/icon-cc-applepay.svg?raw=true "Title") icon-cc-applepay
+- ![Alt text](src/Icon/svg/icon-cc-discover.svg?raw=true "Title") icon-cc-discover
+- ![Alt text](src/Icon/svg/icon-cc-egift.svg?raw=true "Title") icon-cc-egift
+- ![Alt text](src/Icon/svg/icon-cc-mc.svg?raw=true "Title") icon-cc-mc
+- ![Alt text](src/Icon/svg/icon-cc-paypal.svg?raw=true "Title") icon-cc-paypal
+- ![Alt text](src/Icon/svg/icon-cc-store-credit.svg?raw=true "Title") icon-cc-store-credit
+- ![Alt text](src/Icon/svg/icon-cc-visa.svg?raw=true "Title") icon-cc-visa
+- ![Alt text](src/Icon/svg/icon-paypal-logo.svg?raw=true "Title") icon-paypal-logo
+- ![Alt text](src/Icon/svg/icon-logo-heart.svg?raw=true "Title") icon-logo-heart
+- ![Alt text](src/Icon/svg/icon-logo-knot.svg?raw=true "Title") icon-logo-knot
+- ![Alt text](src/Icon/svg/icon-logo-nm-horizontal.svg?raw=true "Title") icon-logo-nm-horizontal
+- ![Alt text](src/Icon/svg/icon-logo-nm-stacked.svg?raw=true "Title") icon-logo-nm-stacked
+- ![Alt text](src/Icon/svg/icon-logo-text.svg?raw=true "Title") icon-logo-text

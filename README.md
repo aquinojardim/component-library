@@ -39,7 +39,7 @@ export default App;
 ######   aria = 'any string'
 ######   name?: ' any string from [icon names](https://github.com/fashionphile/ComponentLibrary/blob/master/README.iconnames.md)'
 ######   size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl';
-######   variant?: 'primary' | 'secondary' | 'pink' | 'black' | 'grey';
+######   variant?: 'primary' | 'secondary' | 'pink' | 'grey';
 ###### ( png, svg and favicon.ico icons are also avaliable in the icon folder )
 
 # Development

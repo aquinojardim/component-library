@@ -1,10 +1,10 @@
 # Component Library
 ## Usage
 
-On your project `npm install @gabrielajardimaquino/component-library` and all the dependencies
+On your project install the component-library:
 
 ```
-npm install @gabrielajardimaquino/component-library fontsource-metropolis  @gabrielajardimaquino/global-styles
+npm install @gabrielajardimaquino/component-library
 ```
 
 Using a component (after the library installed as a dependency):

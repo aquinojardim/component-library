@@ -18,7 +18,7 @@ export default {
       },
       control: {
         type: 'select',
-        options: ['primary', 'secondary', 'pink', 'black', 'grey'],
+        options: ['primary', 'secondary', 'pink', 'grey'],
       },
     },
     size: {
@@ -177,23 +177,19 @@ export const IconOptions = () => (
     <div className="row">
       <div className="col-md-2 col-xs-6">
         <p className="body-lg">primary</p>
-        <Icon name="icon-paypal-logo" variant="primary" />
+        <Icon variant="primary" size="xxl" />
       </div>
       <div className="col-md-2 col-xs-6">
         <p className="body-lg">secondary</p>
-        <Icon name="icon-paypal-logo" variant="secondary" />
+        <Icon variant="secondary" size="xxl" />
       </div>
       <div className="col-md-2 col-xs-6">
         <p className="body-lg">pink</p>
-        <Icon name="icon-paypal-logo" variant="pink" />
-      </div>
-      <div className="col-md-2 col-xs-6">
-        <p className="body-lg">black</p>
-        <Icon name="icon-paypal-logo" variant="black" />
+        <Icon variant="pink" size="xxl" />
       </div>
       <div className="col-md-2 col-xs-6">
         <p className="body-lg">grey</p>
-        <Icon name="icon-paypal-logo" variant="grey" />
+        <Icon variant="grey" size="xxl" />
       </div>
     </div>
     <hr />

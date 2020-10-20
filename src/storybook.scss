@@ -1,5 +1,5 @@
-@import "~fontsource-metropolis/all.css";
-@import '~@gabrielajardimaquino/global-styles/build/theme.scss';
+@import './Styles/Fonts/metropolis.css';
+@import './Styles/theme.scss';
 
 .invisible {
   color:#F2F2F2;
@@ -147,15 +147,6 @@
 
 .padding-max {
   width: $padding-max;
-}
-
-
-.metropolisBold {
-  @include MetropolisBold
-}
-
-.metropolisBoldItalic {
-  @include MetropolisBoldItalic
 }
 
 .metropolisSemiBold {

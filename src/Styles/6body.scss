@@ -1,0 +1,93 @@
+@import "./1colors.scss";
+@import "./3breakpoint.scss";
+@import "./4typography.scss";
+
+
+
+
+/* ====
+   BODY 
+   ==== */
+
+@mixin body-xxl {
+  @include MetropolisLight;
+  font-size: 1.35rem;
+}
+
+@mixin body-xl {
+  @include MetropolisLight;
+  font-size: 1.125rem;
+}
+
+@mixin body-lg {
+  @include MetropolisLight;
+  font-size: 0.9375rem;
+}
+
+@mixin body-md {
+  @include MetropolisLight;
+  font-size: 0.78125rem;
+}
+
+@mixin body-sm {
+  @include MetropolisLight;
+  font-size: 0.64125em;
+}
+
+@mixin body-xs {
+  @include MetropolisLight;
+  font-size: 0.5425rem;
+}
+
+
+
+
+
+
+
+/* ============
+   BODY CLASSES 
+   ============ */
+
+.body-xxl {
+  @include body-xxl;
+}
+
+.body-xl {
+  @include body-xl;
+}
+
+.body-lg {
+  @include body-lg;
+}
+
+.body-md {
+  @include body-md;
+}
+
+.body-sm {
+  @include body-sm;
+}
+
+.body-xs {
+  @include body-xs;
+}
+
+
+
+
+
+
+
+/* =========
+   BODY LINK 
+   ========= */
+
+.standalone-link {
+  @include MetropolisLight;
+  text-decoration: none;
+  display: block;
+}
+.standalone-link:hover {
+  text-decoration: underline;
+}

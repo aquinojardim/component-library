@@ -1,7 +1,7 @@
 import React from 'react';
 import Icon from '../Icon/Icon';
-import 'fontsource-metropolis/all.css';
-import '@gabrielajardimaquino/global-styles/build/theme.scss';
+import './Fonts/metropolis.css';
+import './theme.scss';
 
 export default {
   title: 'Styles/Global',
@@ -17,14 +17,6 @@ export const typographyFont = () => (
   <div className="container">
     <h1>Font</h1>
     <hr />
-    <p className="metropolisBold">
-      Metropolis Bold: Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp
-      Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
-    </p>
-    <p className="metropolisBoldItalic">
-      Metropolis Bold Italic: Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm
-      Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
-    </p>
     <p className="metropolisSemiBold">
       Metropolis Semi Bold: Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn
       Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
@@ -149,12 +141,19 @@ export const LinksAndTooltip = () => (
     <hr />
     <span className="invisible">.</span>
     <a className="h1-largest-link">h1-largest-link</a>
+    <span className="invisible">.</span>
     <a className="h1-link">h1-link</a>
+    <span className="invisible">.</span>
     <a className="h2-link">h2-link</a>
+    <span className="invisible">.</span>
     <a className="h3-link">h3-link</a>
+    <span className="invisible">.</span>
     <a className="h4-link">h4-link</a>
+    <span className="invisible">.</span>
     <a className="h5-link">h5-link</a>
+    <span className="invisible">.</span>
     <a className="h6-link">h6-link</a>
+    <span className="invisible">.</span>
     <a className="h6-smallest-link">h6-smallest-link</a>
     <span className="invisible">.</span>
     <hr />

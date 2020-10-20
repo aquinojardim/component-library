@@ -1,5 +1,5 @@
-@import '~@gabrielajardimaquino/global-styles/build/theme.scss';
-@import "~fontsource-metropolis/all.css";
+@import './../Styles/theme.scss';
+@import './../Styles/Fonts/metropolis.css';
 
 .btn {
   @include h5-desktop;

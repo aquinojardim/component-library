@@ -1,0 +1,58 @@
+@import "./1colors.scss";
+@import "./Fonts/metropolis.css";
+
+
+@mixin MetropolisSemiBold {
+  font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+}
+@mixin MetropolisSemiBoldItalic {
+  font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-display: swap;
+  font-weight: 600;
+}
+
+@mixin MetropolisMedium {
+  font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+}
+
+@mixin MetropolisMediumItalic {
+  font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-display: swap;
+  font-weight: 500;
+}
+
+@mixin Metropolis {
+  font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+}
+
+@mixin MetropolisItalic {
+  font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+}
+
+@mixin MetropolisLight {
+  font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200;
+}
+
+@mixin MetropolisLightItalic {
+  font-family: 'Metropolis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-display: swap;
+  font-weight: 200;
+}

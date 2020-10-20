@@ -1,7 +1,7 @@
 import React from 'react';
 import Icon from '../Icon/Icon';
-import 'fontsource-metropolis/all.css';
-import '@gabrielajardimaquino/global-styles/build/theme.scss';
+import './Fonts/metropolis.css';
+import './theme.scss';
 
 export default {
   title: 'Styles/Global',
@@ -17,14 +17,6 @@ export const typographyFont = () => (
   <div className="container">
     <h1>Font</h1>
     <hr />
-    <p className="metropolisBold">
-      Metropolis Bold: Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp
-      Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
-    </p>
-    <p className="metropolisBoldItalic">
-      Metropolis Bold Italic: Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm
-      Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
-    </p>
     <p className="metropolisSemiBold">
       Metropolis Semi Bold: Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn
       Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz

@@ -1,21 +1,34 @@
+/* eslint-disable lines-around-directive */
+/* eslint-disable strict */
+'use strict';
+
 const gulp = require('gulp');
 const del = require('del');
 const sassCombine = require('gulp-scss-combine');
 const concat = require('gulp-concat');
 const sass = require('gulp-sass');
 
-gulp.task('sassBuild', (done) => {
+gulp.task('cleansrc', (done) => {
   del(['build/Styles/theme.scss']);
-  gulp
-    .src(['src/Styles/1colors.scss', 'src/Styles/*.scss'])
-    .pipe(concat('theme.scss'))
-    .pipe(sassCombine())
-    .pipe(gulp.dest('build/Styles'));
   done();
 });
 
-gulp.task('sassLocal', (done) => {
+gulp.task('cleansass', (done) => {
   del(['src/Styles/theme.scss']);
+  done();
+});
+
+gulp.task('cleancss', (done) => {
+  del(['build/Styles/theme.css']);
+  done();
+});
+
+gulp.task(
+  'clean',
+  gulp.parallel('cleansrc', 'cleansass', 'cleancss'),
+);
+
+gulp.task('src', (done) => {
   gulp
     .src(['src/Styles/1colors.scss', 'src/Styles/*.scss'])
     .pipe(concat('theme.scss'))
@@ -24,8 +37,16 @@ gulp.task('sassLocal', (done) => {
   done();
 });
 
-gulp.task('cssBuild', (done) => {
-  del(['build/Styles/theme.css']);
+gulp.task('sass', (done) => {
+  gulp
+    .src(['src/Styles/1colors.scss', 'src/Styles/*.scss'])
+    .pipe(concat('theme.scss'))
+    .pipe(sassCombine())
+    .pipe(gulp.dest('build/Styles'));
+  done();
+});
+
+gulp.task('css', (done) => {
   gulp
     .src(['src/Styles/1colors.scss', 'src/Styles/*.scss'])
     .pipe(concat('theme.scss'))
@@ -35,7 +56,4 @@ gulp.task('cssBuild', (done) => {
   done();
 });
 
-gulp.task(
-  'default',
-  gulp.parallel('sassBuild', 'sassLocal', 'cssBuild'),
-);
+gulp.task('build', gulp.parallel('src', 'sass', 'css'));

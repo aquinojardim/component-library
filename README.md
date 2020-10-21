@@ -668,10 +668,6 @@ Build all
 ```
 npm run build
 ```
-Build only Global Styles
-```
-npm run gulp
-```
 
 - #### Storybook
 

@@ -12,7 +12,6 @@
     "build": "gulp clean && gulp build && rollup -c",
     "test": "jest",
     "test:watch": "jest --watch",
-    "merge-styles": "gulp clean && gulp build",
     "storybook": "gulp clean && gulp build && start-storybook -p 6006",
     "storybook:export": "gulp clean && gulp build && build-storybook",
     "storybook-docs": "gulp clean && gulp build && start-storybook --docs",

@@ -8,8 +8,13 @@ const sassCombine = require('gulp-scss-combine');
 const concat = require('gulp-concat');
 const sass = require('gulp-sass');
 
-gulp.task('cleansrc', (done) => {
+gulp.task('cleansrcsass', (done) => {
   del(['build/Styles/theme.scss']);
+  done();
+});
+
+gulp.task('cleansrccss', (done) => {
+  del(['build/Styles/theme.css']);
   done();
 });
 
@@ -25,10 +30,10 @@ gulp.task('cleancss', (done) => {
 
 gulp.task(
   'clean',
-  gulp.parallel('cleansrc', 'cleansass', 'cleancss'),
+  gulp.parallel('cleansrcsass', 'cleansrccss', 'cleansass', 'cleancss'),
 );
 
-gulp.task('src', (done) => {
+gulp.task('sassLocal', (done) => {
   gulp
     .src(['src/Styles/1colors.scss', 'src/Styles/*.scss'])
     .pipe(concat('theme.scss'))
@@ -37,7 +42,7 @@ gulp.task('src', (done) => {
   done();
 });
 
-gulp.task('sass', (done) => {
+gulp.task('sassBuild', (done) => {
   gulp
     .src(['src/Styles/1colors.scss', 'src/Styles/*.scss'])
     .pipe(concat('theme.scss'))
@@ -46,7 +51,17 @@ gulp.task('sass', (done) => {
   done();
 });
 
-gulp.task('css', (done) => {
+gulp.task('cssLocal', (done) => {
+  gulp
+    .src(['src/Styles/1colors.scss', 'src/Styles/*.scss'])
+    .pipe(concat('theme.scss'))
+    .pipe(sassCombine())
+    .pipe(sass({ style: 'expanded' }))
+    .pipe(gulp.dest('src/Styles'));
+  done();
+});
+
+gulp.task('cssBuild', (done) => {
   gulp
     .src(['src/Styles/1colors.scss', 'src/Styles/*.scss'])
     .pipe(concat('theme.scss'))
@@ -56,4 +71,7 @@ gulp.task('css', (done) => {
   done();
 });
 
-gulp.task('build', gulp.parallel('src', 'sass', 'css'));
+gulp.task(
+  'build',
+  gulp.parallel('sassLocal', 'sassBuild', 'cssLocal', 'cssBuild'),
+);

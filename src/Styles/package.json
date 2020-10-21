@@ -1,0 +1,21 @@
+{
+  "name": "@gabrielajardimaquino/global-styles",
+  "version": "1.1.7",
+  "description": "Fashionphile Global Styles from https://www.figma.com/file/XAEBSreZiaP6jLj6l5jNSt/Style-Guide%3A-Base-%2B-Components?node-id=102%3A0",
+  "main": "index.js",
+  "files": [
+    "Fonts/*",
+    "theme.scss",
+    "theme.css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fashionphile/ComponentLibrary"
+  },
+  "author": "Gabriela Jardim Aquino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fashionphile/ComponentLibrary"
+  },
+  "homepage": "https://github.com/fashionphile/ComponentLibrary/blob/master/src/Styles/readme"
+}

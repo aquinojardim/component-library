@@ -562,3 +562,5 @@ const Tooltip = () => {
 
 export default Tooltip;
 ```
+
+###### ( png, svg and favicon.ico icons are also avaliable in folders )

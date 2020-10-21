@@ -2,8 +2,8 @@
 import React from 'react';
 import { ButtonProps } from './Button.types';
 import './Button.scss';
-import '../Styles/Fonts/metropolis.css';
-import '../Styles/theme.scss';
+import '../../Styles/Fonts/metropolis.css';
+import '../../Styles/theme.scss';
 
 const Button = (props: ButtonProps) => {
   const {

@@ -1,10 +1,11 @@
 {
   "name": "@gabrielajardimaquino/global-styles",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Fashionphile Global Styles from https://www.figma.com/file/XAEBSreZiaP6jLj6l5jNSt/Style-Guide%3A-Base-%2B-Components?node-id=102%3A0",
   "main": "index.js",
   "files": [
-    "Fonts/*",
+    "Fonts",
+    "Icons",
     "theme.scss",
     "theme.css"
   ],

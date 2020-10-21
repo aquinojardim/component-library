@@ -1,6 +1,6 @@
 import React from 'react';
 import Icon from './Icon';
-import '../storybook.scss';
+import '../../storybook.scss';
 
 export default {
   title: 'Components/Icon',

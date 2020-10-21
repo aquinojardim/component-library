@@ -1,78 +1,42 @@
+/* eslint-disable lines-around-directive */
+/* eslint-disable strict */
+'use strict';
+
 const gulp = require('gulp');
 const del = require('del');
 const sassCombine = require('gulp-scss-combine');
 const concat = require('gulp-concat');
 const sass = require('gulp-sass');
 
-gulp.task('cleansrcsass', (done) => {
-  del(['src/Styles/theme.scss']);
-  done();
-});
-
-gulp.task('cleansrccss', (done) => {
-  del(['src/Styles/theme.css']);
-  done();
-});
-
 gulp.task('cleansass', (done) => {
-  del(['build/Styles/theme.scss']);
+  del(['Styles/theme.scss']);
   done();
 });
 
 gulp.task('cleancss', (done) => {
-  del(['build/Styles/theme.css']);
+  del(['Styles/theme.css']);
   done();
 });
 
-gulp.task(
-  'clean',
-  gulp.parallel(
-    'cleansrcsass',
-    'cleansrccss',
-    'cleansass',
-    'cleancss',
-  ),
-);
+gulp.task('clean', gulp.parallel('cleansass', 'cleancss'));
 
-gulp.task('sassLocal', (done) => {
+gulp.task('buildsass', (done) => {
   gulp
-    .src(['src/Styles/1colors.scss', 'src/Styles/*.scss'])
+    .src(['Styles/1colors.scss', 'Styles/*.scss'])
     .pipe(concat('theme.scss'))
     .pipe(sassCombine())
-    .pipe(gulp.dest('src/Styles'));
+    .pipe(gulp.dest('Styles'));
   done();
 });
 
-gulp.task('sassBuild', (done) => {
+gulp.task('buildcss', (done) => {
   gulp
-    .src(['src/Styles/1colors.scss', 'src/Styles/*.scss'])
-    .pipe(concat('theme.scss'))
-    .pipe(sassCombine())
-    .pipe(gulp.dest('build/Styles'));
-  done();
-});
-
-gulp.task('cssLocal', (done) => {
-  gulp
-    .src(['src/Styles/1colors.scss', 'src/Styles/*.scss'])
+    .src(['Styles/1colors.scss', 'Styles/*.scss'])
     .pipe(concat('theme.scss'))
     .pipe(sassCombine())
     .pipe(sass({ style: 'expanded' }))
-    .pipe(gulp.dest('src/Styles'));
+    .pipe(gulp.dest('Styles'));
   done();
 });
 
-gulp.task('cssBuild', (done) => {
-  gulp
-    .src(['src/Styles/1colors.scss', 'src/Styles/*.scss'])
-    .pipe(concat('theme.scss'))
-    .pipe(sassCombine())
-    .pipe(sass({ style: 'expanded' }))
-    .pipe(gulp.dest('build/Styles'));
-  done();
-});
-
-gulp.task(
-  'build',
-  gulp.parallel('sassLocal', 'sassBuild', 'cssLocal', 'cssBuild'),
-);
+gulp.task('build', gulp.parallel('buildsass', 'buildcss'));

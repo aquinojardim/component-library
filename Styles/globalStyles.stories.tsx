@@ -1,5 +1,6 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
-import Icon from '../Icon/Icon';
+import Icon from '../Components/Icon/Icon';
 import './Fonts/metropolis.css';
 import './theme.scss';
 

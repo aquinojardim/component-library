@@ -1,11 +1,15 @@
 {
   "name": "@gabrielajardimaquino/component-library",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "",
   "main": "build/index.js",
   "module": "build/index.esm.js",
   "files": [
-    "build"
+    "build",
+    "Styles/Fonts",
+    "Styles/Icons",
+    "Styles/theme.scss",
+    "Styles/theme.css"
   ],
   "types": "build/index.d.ts",
   "scripts": {
@@ -79,7 +83,6 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "rollup": "^1.27.4",
-    "rollup-plugin-copy": "^3.3.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-postcss": "^3.1.2",
     "rollup-plugin-typescript2": "^0.27.0",

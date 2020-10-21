@@ -44,10 +44,10 @@ export default App;
 
 # Global Styles
 ```bash
-import '@gabrielajardimaquino/component-library/Styles/Fonts/metropolis.css';
-import '@gabrielajardimaquino/component-library/Styles/theme.scss';
+import '@gabrielajardimaquino/component-library/build/Styles/Fonts/metropolis.css';
+import '@gabrielajardimaquino/component-library/build/Styles/theme.scss';
 # or for just tags and classes
-import '@gabrielajardimaquino/component-library/Styles/theme.css';
+import '@gabrielajardimaquino/component-library/build/Styles/theme.css';
 ```
 # Colors
 The colors and their Sass variable names are provided below.
@@ -257,7 +257,7 @@ You can use the styles by applying tag, h1 to h6 tags are pre defined as well as
 You can use the styles include a mixin to yous Sass files.
 Rememenber to import the theme at the top of the file
 ```bash
-@import '~@gabrielajardimaquino/component-library/Styles/theme.scss';
+@import '~@gabrielajardimaquino/component-library/build/Styles/theme.scss';
 ```
 - Classes:
 you also can use one of thepreset class names to style any tag
@@ -276,13 +276,9 @@ export default Test;
 ```
 
 ## Font
-Include the font to your project dependences
-```bash
-npm install fontsource-metropolis
-``` 
 Import the font at the top of the app file
 ```bash
-import 'fontsource-metropolis/all.css';
+import '@gabrielajardimaquino/component-library/build/Styles/Fonts/metropolis.css'
 ```
 
 Use the font by family:
@@ -292,10 +288,6 @@ font-family: 'Metropolis'
 
 or use a preset Mixin:
 ```bash
-# Bold (weight: 700)
-@include MetropolisBold;
-@include MetropolisBoldItalic;
-
 # Semi Bold (weight: 600)
 @include MetropolisSemiBold;
 @include MetropolisSemiBoldItalic;
@@ -308,7 +300,7 @@ or use a preset Mixin:
 @include Metropolis;
 @include MetropolisItalic;
 
-# Light (weight: 300)
+# Light (weight: 200)
 @include MetropolisLight;
 @include MetropolisLightItalic;
 ```

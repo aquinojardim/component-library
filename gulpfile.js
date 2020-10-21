@@ -1,7 +1,3 @@
-/* eslint-disable lines-around-directive */
-/* eslint-disable strict */
-'use strict';
-
 const gulp = require('gulp');
 const del = require('del');
 const sassCombine = require('gulp-scss-combine');
@@ -9,17 +5,17 @@ const concat = require('gulp-concat');
 const sass = require('gulp-sass');
 
 gulp.task('cleansrcsass', (done) => {
-  del(['build/Styles/theme.scss']);
+  del(['src/Styles/theme.scss']);
   done();
 });
 
 gulp.task('cleansrccss', (done) => {
-  del(['build/Styles/theme.css']);
+  del(['src/Styles/theme.css']);
   done();
 });
 
 gulp.task('cleansass', (done) => {
-  del(['src/Styles/theme.scss']);
+  del(['build/Styles/theme.scss']);
   done();
 });
 
@@ -30,7 +26,12 @@ gulp.task('cleancss', (done) => {
 
 gulp.task(
   'clean',
-  gulp.parallel('cleansrcsass', 'cleansrccss', 'cleansass', 'cleancss'),
+  gulp.parallel(
+    'cleansrcsass',
+    'cleansrccss',
+    'cleansass',
+    'cleancss',
+  ),
 );
 
 gulp.task('sassLocal', (done) => {

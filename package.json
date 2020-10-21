@@ -1,6 +1,6 @@
 {
   "name": "@gabrielajardimaquino/component-library",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "",
   "main": "build/index.js",
   "module": "build/index.esm.js",
@@ -12,10 +12,10 @@
     "build": "gulp clean && gulp build && rollup -c",
     "test": "jest",
     "test:watch": "jest --watch",
-    "storybook": "gulp clean && gulp build && start-storybook -p 6006",
-    "storybook:export": "gulp clean && gulp build && build-storybook",
-    "storybook-docs": "gulp clean && gulp build && start-storybook --docs",
-    "deploy-storybook": "gulp clean && gulp build && storybook-to-ghpages",
+    "storybook": "gulp clean && gulp build && rollup -c && start-storybook -p 6006",
+    "storybook:export": "gulp clean && gulp build && rollup -c && build-storybook",
+    "storybook-docs": "gulp clean && gulp build && rollup -c && start-storybook --docs",
+    "deploy-storybook": "gulp clean && gulp build && rollup -c && storybook-to-ghpages",
     "generate": "node ./util/create-component"
   },
   "repository": {

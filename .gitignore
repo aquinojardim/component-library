@@ -1,4 +1,8 @@
 node_modules/
-src/Components/build/
 coverage/
 storybook-static/
+src/Components/build/
+src/Components/Styles/
+src/Components/README.md
+src/Styles/theme.css
+src/Styles/theme.scss

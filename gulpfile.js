@@ -9,12 +9,12 @@ const concat = require('gulp-concat');
 const sass = require('gulp-sass');
 
 gulp.task('cleansass', (done) => {
-  del(['Styles/theme.scss']);
+  del(['src/Styles/theme.scss']);
   done();
 });
 
 gulp.task('cleancss', (done) => {
-  del(['Styles/theme.css']);
+  del(['src/Styles/theme.css']);
   done();
 });
 
@@ -22,20 +22,20 @@ gulp.task('clean', gulp.parallel('cleansass', 'cleancss'));
 
 gulp.task('buildsass', (done) => {
   gulp
-    .src(['Styles/1colors.scss', 'Styles/*.scss'])
+    .src(['src/Styles/1colors.scss', 'src/Styles/*.scss'])
     .pipe(concat('theme.scss'))
     .pipe(sassCombine())
-    .pipe(gulp.dest('Styles'));
+    .pipe(gulp.dest('src/Styles'));
   done();
 });
 
 gulp.task('buildcss', (done) => {
   gulp
-    .src(['Styles/1colors.scss', 'Styles/*.scss'])
+    .src(['src/Styles/1colors.scss', 'src/Styles/*.scss'])
     .pipe(concat('theme.scss'))
     .pipe(sassCombine())
     .pipe(sass({ style: 'expanded' }))
-    .pipe(gulp.dest('Styles'));
+    .pipe(gulp.dest('src/Styles'));
   done();
 });
 

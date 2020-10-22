@@ -5,33 +5,22 @@
   "main": "build/index.js",
   "module": "build/index.esm.js",
   "files": [
-    "build",
-    "Styles/Fonts",
-    "Styles/Icons",
-    "Styles/theme.scss",
-    "Styles/theme.css"
+    "build"
   ],
   "types": "build/index.d.ts",
   "scripts": {
-    "build": "gulp clean && gulp build && rollup -c",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "storybook": "gulp clean && gulp build && rollup -c && start-storybook -p 6006",
-    "storybook:export": "gulp clean && gulp build && rollup -c && build-storybook",
-    "storybook-docs": "gulp clean && gulp build && rollup -c && start-storybook --docs",
-    "deploy-storybook": "gulp clean && gulp build && rollup -c && storybook-to-ghpages",
-    "generate": "node ./util/create-component"
+    "build": "gulp clean && gulp build && rollup -c"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fashionphile/ComponentLibrary.git"
+    "url": "git+https://github.com/aquinojardim/component-library"
   },
   "author": "Gabriela Jardim Aquino",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fashionphile/ComponentLibrary/issues"
+    "url": "https://github.com/aquinojardim/component-library/issues"
   },
-  "homepage": "https://github.com/fashionphile/ComponentLibrary#readme",
+  "homepage": "https://github.com/aquinojardim/component-library#readme",
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"

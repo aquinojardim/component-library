@@ -1,17 +1,4 @@
 {
-  "name": "@gabrielajardimaquino/component-library",
-  "version": "1.2.4",
-  "description": "",
-  "main": "build/index.js",
-  "module": "build/index.esm.js",
-  "files": [
-    "build",
-    "Styles/Fonts",
-    "Styles/Icons",
-    "Styles/theme.scss",
-    "Styles/theme.css"
-  ],
-  "types": "build/index.d.ts",
   "scripts": {
     "build": "gulp clean && gulp build && rollup -c",
     "test": "jest",
@@ -24,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fashionphile/ComponentLibrary.git"
+    "url": "git+https://github.com/aquinojardim/component-library"
   },
   "author": "Gabriela Jardim Aquino",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fashionphile/ComponentLibrary/issues"
+    "url": "https://github.com/aquinojardim/component-library/issues"
   },
-  "homepage": "https://github.com/fashionphile/ComponentLibrary#readme",
+  "homepage": "https://github.com/aquinojardim/component-library#readme",
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
@@ -84,6 +71,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "rollup": "^1.27.4",
+    "rollup-plugin-copy": "^3.3.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-postcss": "^3.1.2",
     "rollup-plugin-typescript2": "^0.27.0",

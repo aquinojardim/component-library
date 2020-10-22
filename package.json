@@ -1,16 +1,17 @@
 {
   "name": "root",
   "private": true,
-  
   "scripts": {
     "build": "gulp clean && gulp build && rollup -c",
     "test": "jest",
     "test:watch": "jest --watch",
-    "storybook": "gulp clean && gulp build && rollup -c && start-storybook -p 6006",
-    "storybook:export": "gulp clean && gulp build && rollup -c && build-storybook",
-    "storybook-docs": "gulp clean && gulp build && rollup -c && start-storybook --docs",
-    "deploy-storybook": "gulp clean && gulp build && rollup -c && storybook-to-ghpages",
-    "generate": "node ./util/create-component"
+    "storybook": "gulp clean && gulp build && start-storybook -p 6006",
+    "storybook:export": "gulp clean && gulp build && build-storybook",
+    "storybook-docs": "gulp clean && gulp build && start-storybook --docs",
+    "deploy-storybook": "gulp clean && gulp build && storybook-to-ghpages",
+    "generate": "node ./util/create-component",
+    "version": "npx lerna version --yes",
+    "publish": "gulp clean && gulp build && rollup -c && npx lerna publish from-package && gulp after"
   },
   "repository": {
     "type": "git",

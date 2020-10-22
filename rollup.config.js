@@ -31,19 +31,23 @@ export default {
       targets: [
         {
           src: 'src/Styles/Fonts/*',
-          dest: 'src/Components/build/Styles/Fonts/',
+          dest: 'src/Components/Styles/Fonts/',
         },
         {
           src: 'src/Styles/Icons/*',
-          dest: 'src/Components/build/Styles/Icons/',
+          dest: 'src/Components/Styles/Icons/',
         },
         {
           src: 'src/Styles/theme.css',
-          dest: 'src/Components/build/Styles/',
+          dest: 'src/Components/Styles/',
         },
         {
           src: 'src/Styles/theme.scss',
-          dest: 'src/Components/build/Styles/',
+          dest: 'src/Components/Styles/',
+        },
+        {
+          src: 'README.md',
+          dest: 'src/Components/',
         },
       ],
     }),

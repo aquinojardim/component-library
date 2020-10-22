@@ -5,7 +5,9 @@
   "main": "build/index.js",
   "module": "build/index.esm.js",
   "files": [
-    "build"
+    "build",
+    "Styles",
+    "!CHANGELOG.md"
   ],
   "types": "build/index.d.ts",
   "repository": {

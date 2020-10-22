@@ -40,3 +40,15 @@ gulp.task('buildcss', (done) => {
 });
 
 gulp.task('build', gulp.parallel('buildsass', 'buildcss'));
+
+gulp.task('cleanstyles', (done) => {
+  del(['src/Components/Styles']);
+  done();
+});
+
+gulp.task('cleanreadme', (done) => {
+  del(['src/Components/README.md']);
+  done();
+});
+
+gulp.task('after', gulp.parallel('cleanstyles', 'cleanreadme'));

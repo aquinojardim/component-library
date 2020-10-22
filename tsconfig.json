@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "rootDir": "Components",
+    "rootDir": "src/Components",
     "declaration": true,
     "declarationDir": "build",
     "module": "esnext",
@@ -24,12 +24,12 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
   },
-  "include": ["Components/**/*", "module.d.ts"],
+  "include": ["src/Components/**/*", "module.d.ts"],
   "exclude": [
     "node_modules",
-    "build",
+    "src/Components/build",
     "storybook-static",
-    "Components/**/*.stories.tsx",
-    "Components/**/*.test.tsx"
+    "src/Components/**/*.stories.tsx",
+    "src/Components/**/*.test.tsx"
   ]
 }

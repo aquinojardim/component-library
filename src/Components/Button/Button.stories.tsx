@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from './Button';
-import '../../storybook.scss';
+import '../../../storybook.scss';
 
 export default {
   title: 'Components/Button',

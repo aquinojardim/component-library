@@ -1,13 +1,15 @@
 {
+  "name": "@gabrielajardimaquino/component-library",
+  "version": "1.2.4",
+  "description": "",
+  "main": "build/index.js",
+  "module": "build/index.esm.js",
+  "files": [
+    "build"
+  ],
+  "types": "build/index.d.ts",
   "scripts": {
-    "build": "gulp clean && gulp build && rollup -c",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "storybook": "gulp clean && gulp build && rollup -c && start-storybook -p 6006",
-    "storybook:export": "gulp clean && gulp build && rollup -c && build-storybook",
-    "storybook-docs": "gulp clean && gulp build && rollup -c && start-storybook --docs",
-    "deploy-storybook": "gulp clean && gulp build && rollup -c && storybook-to-ghpages",
-    "generate": "node ./util/create-component"
+    "build": "gulp clean && gulp build && rollup -c"
   },
   "repository": {
     "type": "git",
@@ -71,7 +73,6 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "rollup": "^1.27.4",
-    "rollup-plugin-copy": "^3.3.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-postcss": "^3.1.2",
     "rollup-plugin-typescript2": "^0.27.0",

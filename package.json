@@ -1,4 +1,6 @@
 {
+  "name": "root",
+  "private": true,
   "scripts": {
     "build": "gulp clean && gulp build && rollup -c",
     "test": "jest",

@@ -41,6 +41,11 @@ gulp.task('buildcss', (done) => {
 
 gulp.task('build', gulp.parallel('buildsass', 'buildcss'));
 
+gulp.task('cleanbuild', (done) => {
+  del(['src/Components/build']);
+  done();
+});
+
 gulp.task('cleanstyles', (done) => {
   del(['src/Components/Styles']);
   done();
@@ -51,4 +56,7 @@ gulp.task('cleanreadme', (done) => {
   done();
 });
 
-gulp.task('after', gulp.parallel('cleanstyles', 'cleanreadme'));
+gulp.task(
+  'after',
+  gulp.parallel('cleanbuild', 'cleanstyles', 'cleanreadme'),
+);

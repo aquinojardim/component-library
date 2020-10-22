@@ -10,8 +10,7 @@
     "storybook-docs": "gulp clean && gulp build && start-storybook --docs",
     "deploy-storybook": "gulp clean && gulp build && storybook-to-ghpages",
     "generate": "node ./util/create-component",
-    "version": "npx lerna version --yes",
-    "publish": "gulp clean && gulp build && rollup -c && npx lerna publish from-package && gulp after"
+    "publish": "gulp clean && gulp build && rollup -c && npx lerna version --yes && npx lerna publish from-package && gulp after"
   },
   "repository": {
     "type": "git",
